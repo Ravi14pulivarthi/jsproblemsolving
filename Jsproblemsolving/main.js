@@ -9,8 +9,15 @@
 
 //  add two number by arrawofunction
 
- let sum=(a,b)=>{
-      console.log(a+b)
- }
+//  let sum=(a,b)=>{
+//       console.log(a+b)
+//  }
     
- sum(10,50)
+//  sum(10,50)
+
+// ******** 10to1*******
+
+ let num=10
+  for( let i=num;i>=1;i--){
+     console.log(i)
+  }
