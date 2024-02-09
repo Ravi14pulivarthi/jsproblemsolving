@@ -17,7 +17,22 @@
 
 // ******** 10to1*******
 
- let num=10
-  for( let i=num;i>=1;i--){
-     console.log(i)
+//  let num=10
+//   for( let i=num;i>=1;i--){
+//      console.log(i)
+//   }
+
+
+
+//******** partten**********
+ let num=5
+
+  for( let i=1;i<=num;i++){
+   let num2=" "
+    for( let j=1;j<=i;j++){
+        num2+=j
+
+    }
+    console.log(num2)
   }
+  
