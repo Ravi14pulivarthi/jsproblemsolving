@@ -25,14 +25,32 @@
 
 
 //******** partten**********
- let num=5
+//  let num=5
 
-  for( let i=1;i<=num;i++){
-   let num2=" "
-    for( let j=1;j<=i;j++){
-        num2+=j
+//   for( let i=1;i<=num;i++){
+//    let num2=" "
+//     for( let j=1;j<=i;j++){
+//         num2+=j
 
-    }
-    console.log(num2)
-  }
+//     }
+//     console.log(num2)
+//   }
   
+
+//  print  given number is prime or not
+ let   num=4
+ let count=0
+  for( let i=0;i<num;i++){
+     if(num%i ==0){
+       count+=1
+     }
+  }
+   if( count == 1){
+     console.log("Prime")
+   }
+    else{
+       console.log("Not Prime")
+    }
+ 
+           
+      
