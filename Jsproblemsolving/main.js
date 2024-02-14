@@ -52,18 +52,27 @@
 //        console.log("Not Prime")
 //     }
  
- let num=100
+   //***************** */  1 to 100 prime numbers ***************8
+//  let num=100
 
-  for( let i=0;i<num;i++){
-    let count =0
-     for( let j=0;j<num;j++){
-       if( i%j ==0){
-         count+=1
-       }
+//   for( let i=0;i<num;i++){
+//     let count =0
+//      for( let j=0;j<num;j++){
+//        if( i%j ==0){
+//          count+=1
+//        }
+//      }
+//       if( count ==2){
+//          console.log(i)
+//       }
+//   }
+         
+   
+   //***************** */  factioral number ***************
+
+    let num=5
+     let num2=1
+     for( let i=num;i>=1;i--){
+     num2*=i
      }
-      if( count ==2){
-         console.log(i)
-      }
-  }
-           
-      
+      console.log(num2)
