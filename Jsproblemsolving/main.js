@@ -38,19 +38,32 @@
   
 
 //  print  given number is prime or not
- let   num=4
- let count=0
-  for( let i=0;i<num;i++){
-     if(num%i ==0){
-       count+=1
-     }
-  }
-   if( count == 1){
-     console.log("Prime")
-   }
-    else{
-       console.log("Not Prime")
-    }
+//  let   num=4
+//  let count=0
+//   for( let i=0;i<num;i++){
+//      if(num%i ==0){
+//        count+=1
+//      }
+//   }
+//    if( count == 1){
+//      console.log("Prime")
+//    }
+//     else{
+//        console.log("Not Prime")
+//     }
  
+ let num=100
+
+  for( let i=0;i<num;i++){
+    let count =0
+     for( let j=0;j<num;j++){
+       if( i%j ==0){
+         count+=1
+       }
+     }
+      if( count ==2){
+         console.log(i)
+      }
+  }
            
       
