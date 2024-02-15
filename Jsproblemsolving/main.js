@@ -124,14 +124,30 @@
          //*****************  dupicate values   *******************
 
 
-          let arr=[1,2,3,1,2,3,4,5,1,2,5,63,4,1]
+         //  let arr=[1,2,3,1,2,3,4,5,1,2,5,63,4,1]
 
-           arr.sort(function(a,b){return(a-b)})
-          let arr2=[]
-            for ( let i=0;i<arr.length;i++){
-                if( arr[i] != arr[i+1]){
-                   arr2.push(arr[i])
+         //   arr.sort(function(a,b){return(a-b)})
+         //  let arr2=[]
+         //    for ( let i=0;i<arr.length;i++){
+         //        if( arr[i] != arr[i+1]){
+         //           arr2.push(arr[i])
+         //        }
+         //    }
+         //     console.log(arr2)
+                  
+         //*****************  dupicate values   *******************
+
+
+           let  str="ravi kumar"
+            let  str2="a,e,i,o,u,l,s"
+             let count=0
+            for( let i=0;i<str.length;i++){
+                for( let j=0;j<str2.length;j++){
+                   if(str[i] === str2[j]){
+                      count++
+                   }
                 }
+
             }
-             console.log(arr2)
+             console.log(count)
             
