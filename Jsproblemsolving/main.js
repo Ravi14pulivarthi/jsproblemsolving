@@ -70,9 +70,38 @@
    
    //***************** */  factioral number ***************
 
-    let num=5
-     let num2=1
-     for( let i=num;i>=1;i--){
-     num2*=i
-     }
-      console.log(num2)
+   //  let num=5
+   //   let num2=1
+   //   for( let i=num;i>=1;i--){
+   //   num2*=i
+   //   }
+   //    console.log(num2)
+          //***************** */ largestnumberin array   ***************
+ debugger
+           let num=[1,2,3,4,5,6,10,12,98]
+            let  largestnum=num[0]
+            for( let i=0;i<num.length;i++){
+                if( num[i]> largestnum){
+                   largestnum=num[i]
+                }
+
+            }
+
+             console.log(largestnum)
+
+         //***************** */ largestnumber and smallest number in array   ***************
+            //  let num=[1,2,3,4,5,6,10,12,98]
+            //  let  largestnum=num[0]
+            //  let  smallest=num[0]
+            //  for( let i=0;i<num.length;i++){
+            //      if( num[i]> largestnum){
+            //         largestnum=num[i]
+            //      }
+            //      if( num[i]< smallest){
+            //       smallest=num[i]
+            //    }
+ 
+            //  }
+            //   console.log(largestnum)
+               
+            //   console.log(smallest)
