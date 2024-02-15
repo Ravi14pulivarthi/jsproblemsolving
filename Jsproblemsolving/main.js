@@ -135,19 +135,31 @@
          //    }
          //     console.log(arr2)
                   
-         //*****************  dupicate values   *******************
+         //*****************   voles in  str  *******************
 
 
-           let  str="ravi kumar"
-            let  str2="a,e,i,o,u,l,s"
-             let count=0
-            for( let i=0;i<str.length;i++){
-                for( let j=0;j<str2.length;j++){
-                   if(str[i] === str2[j]){
-                      count++
-                   }
+         //   let  str="ravi kumar"
+         //    let  str2="a,e,i,o,u,l,s"
+         //     let count=0
+         //    for( let i=0;i<str.length;i++){
+         //        for( let j=0;j<str2.length;j++){
+         //           if(str[i] === str2[j]){
+         //              count++
+         //           }
+         //        }
+
+         //    }
+         //     console.log(count)
+
+             //*****************  Captal of  each letter in a string   *******************
+                
+
+              let str='ravi is a good boy'
+
+                let str2=str.split(" ")
+                   let str3=" "
+                for( let i=0;i<str2.length;i++){
+                 str3+=str2[i].replace(str2[i][0],str2[i][0].toUpperCase())+" "
                 }
-
-            }
-             console.log(count)
+                  console.log(str3)
             
