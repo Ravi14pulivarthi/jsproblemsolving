@@ -109,14 +109,29 @@
              
          //***************** given number is polidriem or not   ***************
 
-          let num1="rar"
+         //  let num1="rar"
 
-         let num2=num1.split("").reverse().join("")
+         // let num2=num1.split("").reverse().join("")
 
-         if(num1 === num2 ){
-             console.log("poli")
-         }
-          else{
-             console.log("not poli")
-          }
+         // if(num1 === num2 ){
+         //     console.log("poli")
+         // }
+         //  else{
+         //     console.log("not poli")
+         //  }
+
+                 
+         //*****************  dupicate values   *******************
+
+
+          let arr=[1,2,3,1,2,3,4,5,1,2,5,63,4,1]
+
+           arr.sort(function(a,b){return(a-b)})
+          let arr2=[]
+            for ( let i=0;i<arr.length;i++){
+                if( arr[i] != arr[i+1]){
+                   arr2.push(arr[i])
+                }
+            }
+             console.log(arr2)
             
