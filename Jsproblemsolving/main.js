@@ -90,18 +90,33 @@
 //              console.log(largestnum)
 
          //***************** */ largestnumber and smallest number in array   ***************
-             let num=[1,2,3,4,5,6,10,12,98]
-             let  largestnum=num[0]
-             let  smallest=num[0]
-             for( let i=0;i<num.length;i++){
-                 if( num[i]> largestnum){
-                    largestnum=num[i]
-                 }
-                 if( num[i]< smallest){
-                  smallest=num[i]
-               }
+
+            //  let num=[1,2,3,4,5,6,10,12,98]
+            //  let  largestnum=num[0]
+            //  let  smallest=num[0]
+            //  for( let i=0;i<num.length;i++){
+            //      if( num[i]> largestnum){
+            //         largestnum=num[i]
+            //      }
+            //      if( num[i]< smallest){
+            //       smallest=num[i]
+            //    }
  
-             }
-              console.log(largestnum)
+            //  }
+            //   console.log(largestnum)
                
-              console.log(smallest)
+            //   console.log(smallest)
+             
+         //***************** given number is polidriem or not   ***************
+
+          let num1="rar"
+
+         let num2=num1.split("").reverse().join("")
+
+         if(num1 === num2 ){
+             console.log("poli")
+         }
+          else{
+             console.log("not poli")
+          }
+            
