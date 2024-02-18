@@ -201,3 +201,20 @@
 
               console.log(word)
             
+              //***********************************  unique values    **************************************
+               
+                 let array=[1,1,2,2,3,3,4,4,6,6,5,7,7,8,8,9,9,10]
+                  
+                 let   unquevalues=[]
+                   for( let i=0;i<array.length;i++){
+                     let count=0
+                      for( let j=0;j<array.length;j++){
+                         if( array[i] === array[j]){
+                             count++
+                         }
+                      }
+                       if( count === 1){
+                          unquevalues.push(array[i])
+                       }
+                   }
+       console.log(unquevalues)
