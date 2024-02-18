@@ -256,10 +256,20 @@
 
 
     //***********************************   Revers and string templete **************************************"12.scriptBees 
-let arr= ['e4', '5t', '66', 'ff', '5r']
-// output: [0x5r, 0xff, 0x66, 0x5t, 0xe4]"
+
+    // let arr= ['e4', '5t', '66', 'ff', '5r']
+// // output: [0x5r, 0xff, 0x66, 0x5t, 0xe4]"
+//  let arr2=[]
+//  for( let i=arr.length-1;i>0;i--){
+//     arr2 .push(`0x ${arr[i]}`)
+//  }
+//   console.log(arr2)
+   //***********************************   addind array with out predefind **************************************
+// "15.WAP to Push value based on user in array and mutiple each value two times.
+let arr = [1, 2, 3, 4, 5, 6]
+// output = [1, 4, 9, 25, 36]"
  let arr2=[]
- for( let i=arr.length-1;i>0;i--){
-    arr2 .push(`0x ${arr[i]}`)
- }
-  console.log(arr2)
+  for( let  i=0;i<arr.length;i++){
+       arr2.push(arr[i]*2)
+  }
+   console.log(arr2)
