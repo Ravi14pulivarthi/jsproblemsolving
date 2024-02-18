@@ -266,10 +266,47 @@
 //   console.log(arr2)
    //***********************************   addind array with out predefind **************************************
 // "15.WAP to Push value based on user in array and mutiple each value two times.
-let arr = [1, 2, 3, 4, 5, 6]
-// output = [1, 4, 9, 25, 36]"
- let arr2=[]
-  for( let  i=0;i<arr.length;i++){
-       arr2.push(arr[i]*2)
-  }
-   console.log(arr2)
+// let arr = [1, 2, 3, 4, 5, 6]
+// // output = [1, 4, 9, 25, 36]"
+//  let arr2=[]
+//   for( let  i=0;i<arr.length;i++){
+//        arr2.push(arr[i]*2)
+//   }
+//    console.log(arr2)
+
+   //***********************************   reduce **************************************
+// "16.WAP to Add sum of all positive number in array using reduce method.
+// let arr = [-2, 0, 39, 4, -223, 2, 1, -3]
+// output = 46"
+
+ let arr= [-2, 0, 39, 4, -223, 2, 1, -3]
+ 
+  let arr2=arr.filter((values)=>{
+   return( values>0)
+  })
+ let arr3=arr2.reduce((val1,val2)=>{
+    return(val1+val2)
+ })
+   console.log(arr3)
+
+  //***********************************   adding twoo arrays **************************************
+
+//    let arr1=[1,2,3]
+//     let arr2=[9,8,7]
+
+//     let arr3=[]
+//      for( let i=0;i<arr1.length;i++){
+    
+//           arr3[i]=arr1[i]+arr2[i]
+  
+//      }
+//  console.log(arr3)
+
+
+
+
+//  let num=5
+
+//   for( let i=0;i<num;i++){
+//     console.log("I love  java script")
+//   }
