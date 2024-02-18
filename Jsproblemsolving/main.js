@@ -185,36 +185,62 @@
 
 
               
-              let  str="mahesh kasi ravi tharun sai"
+            //   let  str="mahesh kasi ravi tharun sai"
 
-               let str2=str.split(" ")
+            //    let str2=str.split(" ")
 
-               let  largestword=[0]
-                 let word=" "
+            //    let  largestword=[0]
+            //      let word=" "
 
-                for( let i=0;i<str2.length;i++){
-                   if(  str2[i].length > largestword){
-                     largestword =str2[i].length
-                     word=str2[i]
-                   }
-                }
+            //     for( let i=0;i<str2.length;i++){
+            //        if(  str2[i].length > largestword){
+            //          largestword =str2[i].length
+            //          word=str2[i]
+            //        }
+            //     }
 
-              console.log(word)
+            //   console.log(word)
             
               //***********************************  unique values    **************************************
                
-                 let array=[1,1,2,2,3,3,4,4,6,6,5,7,7,8,8,9,9,10]
-                  
-                 let   unquevalues=[]
-                   for( let i=0;i<array.length;i++){
-                     let count=0
-                      for( let j=0;j<array.length;j++){
-                         if( array[i] === array[j]){
-                             count++
-                         }
+               // let arr=[1,2,3,1,2,3,4,4,5]
+               
+               //   let arr2=[]
+               //  for( let i=0;i<arr.length;i++){
+               //    let count=0
+               //     for( let j=0;j<arr.length;j++){
+               //        if( arr[i]===arr[j]){
+               //           count++
+               //        }
+               //     }
+               //      if( count ===1){
+               //        arr2.push(arr[i])
+               //      }
+               //  }
+               //   console.log(arr2)
+
+   //***********************************    remove duplicates and sort it   **************************************
+                 const arr = [1,9,7,1,2,2,3,6,1,4,5,6,7,9,3,6,7,9]
+                   let arr2=[]
+                        let swap=" "
+                    for( let i=0;i<arr.length;i++){
+                   
+                      for( let j=0;j<arr.length;j++){
+                         if( arr[i] <arr[j]){
+                           swap=arr[i]
+                           arr[i]=arr[j]
+                            arr[j]=swap
+ 
+                         } 
                       }
-                       if( count === 1){
-                          unquevalues.push(array[i])
-                       }
-                   }
-       console.log(unquevalues)
+                    }
+                     
+                    
+                    for( let i=0;i<arr.length;i++){
+                      if( arr[i]!= arr[i+1]){
+                        arr2.push(arr[i])
+
+                      }
+                    }
+                     console.log(arr2)
+               
