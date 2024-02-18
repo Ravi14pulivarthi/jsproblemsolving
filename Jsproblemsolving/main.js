@@ -221,38 +221,45 @@
 
    //***********************************    remove duplicates and sort it   **************************************
  
-   const arr = [1,1,2,3,2,4,3,5,6,5,7,-22,-1,-60]
-                   let arr2=[]
-                        let swap=" "
-                    for( let i=0;i<arr.length;i++){
+   // const arr = [1,1,2,3,2,4,3,5,6,5,7,-22,-1,-60]
+   //                 let arr2=[]
+   //                      let swap=" "
+   //                  for( let i=0;i<arr.length;i++){
                    
-                      for( let j=0;j<arr.length;j++){
-                         if( arr[i] < arr[j]){
-                           swap=arr[i]
-                           arr[i]=arr[j]
-                            arr[j]=swap
+   //                    for( let j=0;j<arr.length;j++){
+   //                       if( arr[i] < arr[j]){
+   //                         swap=arr[i]
+   //                         arr[i]=arr[j]
+   //                          arr[j]=swap
  
-                         } 
-                      }
-                    }
+   //                       } 
+   //                    }
+   //                  }
                      
                     
-                    for( let i=0;i<arr.length;i++){
-                      if( arr[i]!= arr[i+1]){
-                        arr2.push(arr[i])
+   //                  for( let i=0;i<arr.length;i++){
+   //                    if( arr[i]!= arr[i+1]){
+   //                      arr2.push(arr[i])
 
-                      }
-                    }
-                     console.log(arr2)
+   //                    }
+   //                  }
+   //                   console.log(arr2)
 
                 //***********************************    spered opperator **************************************"12.scriptBees 
 
- let list = [{id:1,name:"a",optionList:[1,2,3,4]},
-{id:2,name:"b",optionList:[4,2]},
-{id:3,name:"c",optionList:[1,2,4]}]
+               //  let list = [{id:1,name:"a",optionList:[1,2,3,4]},
+// {id:2,name:"b",optionList:[4,2]},
+// {id:3,name:"c",optionList:[1,2,4]}]
 
- let add =[{ id:99,name:"d",optionList:[5,6,7]}]
-  console.log(...list,...add)
+//  let add =[{ id:99,name:"d",optionList:[5,6,7]}]
+//   console.log(...list,...add)
 
-// 2.let input = ['e4', '5t', '66', 'ff', '5r']
+
+    //***********************************   Revers and string templete **************************************"12.scriptBees 
+let arr= ['e4', '5t', '66', 'ff', '5r']
 // output: [0x5r, 0xff, 0x66, 0x5t, 0xe4]"
+ let arr2=[]
+ for( let i=arr.length-1;i>0;i--){
+    arr2 .push(`0x ${arr[i]}`)
+ }
+  console.log(arr2)
