@@ -291,22 +291,31 @@
 
   //***********************************   adding twoo arrays **************************************
 
-   let arr1=[1,2,3]
-    let arr2=[9,8,7]
+//    let arr1=[1,2,3]
+//     let arr2=[9,8,7]
 
-    let arr3=[]
-     for( let i=0;i<arr1.length;i++){
+//     let arr3=[]
+//      for( let i=0;i<arr1.length;i++){
     
-          arr3[i]=arr1[i]+arr2[i]
+//           arr3[i]=arr1[i]+arr2[i]
   
-     }
- console.log(arr3)
+//      }
+//  console.log(arr3)
 
 
+  //***********************************    arr repeting count **************************************
 
-
-//  let num=5
-
-//   for( let i=0;i<num;i++){
-//     console.log("I love  java script")
-//   }
+    let arr=[1,2,3,4,5,3,4,2,3,5,,5,5,5,4,4]
+ arr.sort()
+  let count=1
+   let arr2=[]
+      for( let i=0;i<arr.length;i++){
+         if( arr[i] == arr[i+1]){
+         count++
+         }
+          else{
+           arr2.push(`${arr[i]} count is : ${count}`)
+            count=1
+          }
+      }
+       console.log( arr2)
