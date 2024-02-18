@@ -167,17 +167,37 @@
              //*****************  asending number withoput predefind  *******************
 
 
-              let num=[9,8,7,6,5,4,3,2,1]
-               let swap=""
+            //   let num=[9,8,7,6,5,4,3,2,1]
+            //    let swap=""
 
-              for( let i=0;i<num.length;i++){
-                for( let j=0;j<num.length;j++){
-                   if( num[i]< num[j]){
-                     swap=num[i]
-                     num[i]=num[j]
-                     num[j]=swap
+            //   for( let i=0;i<num.length;i++){
+            //     for( let j=0;j<num.length;j++){
+            //        if( num[i]< num[j]){
+            //          swap=num[i]
+            //          num[i]=num[j]
+            //          num[j]=swap
+            //        }
+            //     }
+            //   }
+            //    console.log(num)
+             
+             //*****************  find the largest number in an str  *******************
+
+
+              
+              let  str="mahesh kasi ravi tharun sai"
+
+               let str2=str.split(" ")
+
+               let  largestword=[0]
+                 let word=" "
+
+                for( let i=0;i<str2.length;i++){
+                   if(  str2[i].length > largestword){
+                     largestword =str2[i].length
+                     word=str2[i]
                    }
                 }
-              }
-               console.log(num)
+
+              console.log(word)
             
