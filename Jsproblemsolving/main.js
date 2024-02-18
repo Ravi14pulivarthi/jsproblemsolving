@@ -279,28 +279,28 @@
 // let arr = [-2, 0, 39, 4, -223, 2, 1, -3]
 // output = 46"
 
- let arr= [-2, 0, 39, 4, -223, 2, 1, -3]
+//  let arr= [-2, 0, 39, 4, -223, 2, 1, -3]
  
-  let arr2=arr.filter((values)=>{
-   return( values>0)
-  })
- let arr3=arr2.reduce((val1,val2)=>{
-    return(val1+val2)
- })
-   console.log(arr3)
+//   let arr2=arr.filter((values)=>{
+//    return( values>0)
+//   })
+//  let arr3=arr2.reduce((val1,val2)=>{
+//     return(val1+val2)
+//  })
+//    console.log(arr3)
 
   //***********************************   adding twoo arrays **************************************
 
-//    let arr1=[1,2,3]
-//     let arr2=[9,8,7]
+   let arr1=[1,2,3]
+    let arr2=[9,8,7]
 
-//     let arr3=[]
-//      for( let i=0;i<arr1.length;i++){
+    let arr3=[]
+     for( let i=0;i<arr1.length;i++){
     
-//           arr3[i]=arr1[i]+arr2[i]
+          arr3[i]=arr1[i]+arr2[i]
   
-//      }
-//  console.log(arr3)
+     }
+ console.log(arr3)
 
 
 
