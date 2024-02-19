@@ -362,18 +362,39 @@
 //  console.log(arr2)
 
  //***********************************     suppreat array strings and numbers **************************************
- let arr=["a",'b','c',1,2,3]
- let arr2=[]
-  let arr3=[]
-  for( let i=0;i<arr.length;i++){
-     if( typeof  arr[i] === 'string'){
-         arr2.push(arr[i])
-     }
-      else{
-         arr3.push(arr[i])
-      }
-  }
-console.log( " this are strings   : "+arr2)
-console.log( " this are numbers   : "+arr3)
+//  let arr=["a",'b','c',1,2,3]
+//  let arr2=[]
+//   let arr3=[]
+//   for( let i=0;i<arr.length;i++){
+//      if( typeof  arr[i] === 'string'){
+//          arr2.push(arr[i])
+//      }
+//       else{
+//          arr3.push(arr[i])
+//       }
+//   }
+// console.log( " this are strings   : "+arr2)
+// console.log( " this are numbers   : "+arr3)
 
-  //***********************************    revers and adding +5 to array **************************************
+  //***********************************     **************************************
+
+  let str='Ravikumar1234#'
+
+  let count1=0
+  let count2=0
+  let count3=0
+  
+   for( let i=0;i<str.length;i++){
+       if(  str[i]>=0 && str[i]<=9){
+          count1++
+       }
+        else if( str[i].match(/[a-z A-X]/)){
+           count2++
+        }
+         else{
+            count3++
+         }
+   }
+    console.log("numbers"+count1)
+       console.log(count2)
+          console.log(count3)
