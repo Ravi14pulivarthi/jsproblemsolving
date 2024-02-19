@@ -352,11 +352,28 @@
 // console.log(arr2)
 
   //***********************************    revers and adding +5 to array **************************************
-let arr=[1,2,3,4]
-let arr2=[]
-for(let i=arr.length;i>=0;i--){
-  if( arr[i]){
-     arr2.push(arr[i]+5)
+// let arr=[1,2,3,4]
+// let arr2=[]
+// for(let i=arr.length;i>=0;i--){
+//   if( arr[i]){
+//      arr2.push(arr[i]+5)
+//   }
+// }
+//  console.log(arr2)
+
+ //***********************************     suppreat array strings and numbers **************************************
+ let arr=["a",'b','c',1,2,3]
+ let arr2=[]
+  let arr3=[]
+  for( let i=0;i<arr.length;i++){
+     if( typeof  arr[i] === 'string'){
+         arr2.push(arr[i])
+     }
+      else{
+         arr3.push(arr[i])
+      }
   }
-}
- console.log(arr2)
+console.log( " this are strings   : "+arr2)
+console.log( " this are numbers   : "+arr3)
+
+  //***********************************    revers and adding +5 to array **************************************
