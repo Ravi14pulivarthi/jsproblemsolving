@@ -305,17 +305,48 @@
 
   //***********************************    arr repeting count **************************************
 
-    let arr=[1,2,3,4,5,3,4,2,3,5,,5,5,5,4,4]
- arr.sort()
-  let count=1
-   let arr2=[]
-      for( let i=0;i<arr.length;i++){
-         if( arr[i] == arr[i+1]){
+//     let arr=[1,2,3,4,5,3,4,2,3,5,,5,5,5,4,4]
+//  arr.sort()
+//   let count=1
+//    let arr2=[]
+//       for( let i=0;i<arr.length;i++){
+//          if( arr[i] == arr[i+1]){
+//          count++
+//          }
+//           else{
+//            arr2.push(`${arr[i]} count is : ${count}`)
+//             count=1
+//           }
+//       }
+//        console.log( arr2)
+
+  //***********************************   unique and assending **************************************
+
+let arr =[8,9,4,5,6,6,1,1,2,3,3]
+
+let arr2=[]
+for( let i=0;i<arr.length;i++){
+      let count=0
+   for( let j=0;j<arr.length;j++){
+      if( arr[i] == arr[j]){
          count++
-         }
-          else{
-           arr2.push(`${arr[i]} count is : ${count}`)
-            count=1
-          }
       }
-       console.log( arr2)
+   }
+    if( count ===1){
+       arr2.push(arr[i])
+       
+    }
+}
+console.log(arr2)
+let swap=' '
+for( let i=0;i<arr2.length;i++){
+
+ for( let j=0;j<arr2.length;j++){
+    if( arr2[i] < arr2[j]){
+       swap=arr2[i]
+       arr2[i]=arr2[j]
+       arr2[j]=swap
+    }
+ }
+}
+console.log(arr2)
