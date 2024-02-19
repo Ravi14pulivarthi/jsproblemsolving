@@ -322,31 +322,41 @@
 
   //***********************************   unique and assending **************************************
 
-let arr =[8,9,4,5,6,6,1,1,2,3,3]
+// let arr =[8,9,4,5,6,6,1,1,2,3,3]
 
-let arr2=[]
-for( let i=0;i<arr.length;i++){
-      let count=0
-   for( let j=0;j<arr.length;j++){
-      if( arr[i] == arr[j]){
-         count++
-      }
-   }
-    if( count ===1){
-       arr2.push(arr[i])
+// let arr2=[]
+// for( let i=0;i<arr.length;i++){
+//       let count=0
+//    for( let j=0;j<arr.length;j++){
+//       if( arr[i] == arr[j]){
+//          count++
+//       }
+//    }
+//     if( count ===1){
+//        arr2.push(arr[i])
        
-    }
-}
-console.log(arr2)
-let swap=' '
-for( let i=0;i<arr2.length;i++){
+//     }
+// }
+// console.log(arr2)
+// let swap=' '
+// for( let i=0;i<arr2.length;i++){
 
- for( let j=0;j<arr2.length;j++){
-    if( arr2[i] < arr2[j]){
-       swap=arr2[i]
-       arr2[i]=arr2[j]
-       arr2[j]=swap
-    }
- }
+//  for( let j=0;j<arr2.length;j++){
+//     if( arr2[i] < arr2[j]){
+//        swap=arr2[i]
+//        arr2[i]=arr2[j]
+//        arr2[j]=swap
+//     }
+//  }
+// }
+// console.log(arr2)
+
+  //***********************************    revers and adding +5 to array **************************************
+let arr=[1,2,3,4]
+let arr2=[]
+for(let i=arr.length;i>=0;i--){
+  if( arr[i]){
+     arr2.push(arr[i]+5)
+  }
 }
-console.log(arr2)
+ console.log(arr2)
