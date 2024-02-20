@@ -378,23 +378,36 @@
 
   //***********************************     **************************************
 
-  let str='Ravikumar1234#'
+//   let str='Ravikumar1234#'
 
-  let count1=0
-  let count2=0
-  let count3=0
+//   let count1=0
+//   let count2=0
+//   let count3=0
   
-   for( let i=0;i<str.length;i++){
-       if(  str[i]>=0 && str[i]<=9){
-          count1++
-       }
-        else if( str[i].match(/[a-z A-X]/)){
-           count2++
-        }
-         else{
-            count3++
-         }
-   }
-    console.log("numbers"+count1)
-       console.log(count2)
-          console.log(count3)
+//    for( let i=0;i<str.length;i++){
+//        if(  str[i]>=0 && str[i]<=9){
+//           count1++
+//        }
+//         else if( str[i].match(/[a-z A-X]/)){
+//            count2++
+//         }
+//          else{
+//             count3++
+//          }
+//    }
+//     console.log("numbers"+count1)
+//        console.log(count2)
+//           console.log(count3)
+
+  //***********************************sum of duplatect elements     **************************************
+let num=[1,2,3,4,5,6,1,2,5,4]
+num.sort()
+let num2=0
+
+
+for( let i=0;i<num.length;i++){
+  if(  num[i]!= num[i+1]){
+      num2+=num[i]
+  }
+}
+ console.log(num2)
