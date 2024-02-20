@@ -413,14 +413,29 @@
 //  console.log(num2)
 
   //*********************************** convert capital lettersto small   **************************************
- let  name="RaviKumarPulivarthi"
- let name2=" "
- for( let i=0;i<name.length;i++){
-    if( name.charCodeAt(i)>=97){
-        name2+=name[i].toUpperCase()
-    }
-      else{
-         name2+=name[i].toLowerCase()
-      }
- }
-  console.log( name2)
+//  let  name="RaviKumarPulivarthi"
+//  let name2=" "
+//  for( let i=0;i<name.length;i++){
+//     if( name.charCodeAt(i)>=97){
+//         name2+=name[i].toUpperCase()
+//     }
+//       else{
+//          name2+=name[i].toLowerCase()
+//       }
+//  }
+//   console.log( name2)
+
+
+ //***********************************  second largest number  **************************************
+  let num=[10,90,20,40,30,50]
+  let num2=''
+  for( let i=0;i<num.length;i++){
+     for( let j=0;j<num.length;j++){
+          if( num[i] < num[j]){
+             swap=num[i]
+             num[i]=num[j]
+             num[j]=swap
+          }
+     }
+  }
+   console.log(swap)
