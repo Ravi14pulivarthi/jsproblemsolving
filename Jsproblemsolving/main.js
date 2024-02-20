@@ -400,14 +400,27 @@
 //           console.log(count3)
 
   //***********************************sum of duplatect elements     **************************************
-let num=[1,2,3,4,5,6,1,2,5,4]
-num.sort()
-let num2=0
+// let num=[1,2,3,4,5,6,1,2,5,4]
+// num.sort()
+// let num2=0
 
 
-for( let i=0;i<num.length;i++){
-  if(  num[i]!= num[i+1]){
-      num2+=num[i]
-  }
-}
- console.log(num2)
+// for( let i=0;i<num.length;i++){
+//   if(  num[i]!= num[i+1]){
+//       num2+=num[i]
+//   }
+// }
+//  console.log(num2)
+
+  //*********************************** convert capital lettersto small   **************************************
+ let  name="RaviKumarPulivarthi"
+ let name2=" "
+ for( let i=0;i<name.length;i++){
+    if( name.charCodeAt(i)>=97){
+        name2+=name[i].toUpperCase()
+    }
+      else{
+         name2+=name[i].toLowerCase()
+      }
+ }
+  console.log( name2)
