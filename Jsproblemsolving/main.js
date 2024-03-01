@@ -442,5 +442,11 @@
 
     //***********************************   displat date **************************************
 
-    const d = new Date();
-     console.log(d)
+   
+ 
+    const month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+ 
+const m = new Date();
+
+let name = month[m.getMonth()];
+ console.log(name)
