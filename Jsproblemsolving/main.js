@@ -427,15 +427,20 @@
 
 
  //***********************************  second largest number  **************************************
-  let num=[10,90,20,40,30,50]
-  let num2=''
-  for( let i=0;i<num.length;i++){
-     for( let j=0;j<num.length;j++){
-          if( num[i] < num[j]){
-             swap=num[i]
-             num[i]=num[j]
-             num[j]=swap
-          }
-     }
-  }
-   console.log(swap)
+  // let num=[10,90,20,40,30,50]
+  // let num2=''
+  // for( let i=0;i<num.length;i++){
+  //    for( let j=0;j<num.length;j++){
+  //         if( num[i] < num[j]){
+  //            swap=num[i]
+  //            num[i]=num[j]
+  //            num[j]=swap
+  //         }
+  //    }
+  // }
+  //  console.log(swap)
+
+    //***********************************   displat date **************************************
+
+    const d = new Date();
+     console.log(d)
