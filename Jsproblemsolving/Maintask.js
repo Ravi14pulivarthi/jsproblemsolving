@@ -82,8 +82,17 @@
    let  tap=document.getElementById("tapme").addEventListener("click",function(){
     alert(" are yoy ok ")
    })
+ tap.style.width="100px"
+tap.style.height="100px"
 
    let header=document.getElementById("h1")
      header.textContent="Ravikumar Pulivarthi"
 
 
+      let newbox=document.getElementById("newbox")
+
+ newbox.style.border="solid"
+  newbox.style.width="500px"
+   newbox.style.height="100px"
+    newbox.style.backgroundColor="green"
+     newbox.style.color="white"
