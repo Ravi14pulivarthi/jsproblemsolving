@@ -100,4 +100,5 @@
 
        let  text=document.getElementById("text")
         text.innerText="HTML DOM IMPLEMENTATION"
+        text.innerHTML="<h1>HTML DOM IMPLEMENTATION</h1>"
          
