@@ -101,4 +101,25 @@
        let  text=document.getElementById("text")
         text.innerText="HTML DOM IMPLEMENTATION"
         text.innerHTML="<h1>HTML DOM IMPLEMENTATION</h1>"
+               // *************  APIfetch eith javascript ************
+              //  fetch("https://jsonplaceholder.typicode.com/users")
+               // .then(response => response.json())
+               // .then(posts => {
+               //   const postList = document.getElementById('postList');
+               //   posts.forEach(post => {
+               //     postList.innerHTML += `<li>${post.id}</li>`;
+               //   });
+               // })
+               // .catch(error => {
+               //   console.error('Error fetching data:', error);
+               // });
+
+                fetch("https://jsonplaceholder.typicode.com/posts").
+                then( (responce)=> responce.json()).
+                then((posts)=>{
+                  let postlist=document.getElementById("api");
+                  posts.forEach(post=>{postlist.innerHTML+=`<li>${post.id}</li>`})
+                })
+
+
          
