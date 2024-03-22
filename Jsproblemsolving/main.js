@@ -444,9 +444,23 @@
 
    
  
-    const month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+//     const month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
  
-const m = new Date();
+// const m = new Date();
 
-let name = month[m.getMonth()];
- console.log(name)
+// let name = Date.month()
+//  console.log(name)
+
+  // let day=day[]
+
+   //***********************************   pure javascript  **************************************
+   let tap=document.getElementsByClassName("tapme")
+
+   tap.onclick=click
+   
+    function click(){
+       alert("why do you tap")
+    }
+    
+   
+   
