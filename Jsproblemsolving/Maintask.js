@@ -1,125 +1,37 @@
-//***********************************   pure javascript  **************************************
+// let button=document.getElementById("button").addEventListener("click",function(){
+//         alert("porapandhi")
+// })
+//  let names=document.getElementById("name")
 
-// console.log("hellow world ")
-
-
-//       document.getElementById("alert").addEventListener("click", function(){
-//             alert(" this is alert ")
-//       })
- 
-//        let  name=document.getElementById("name")
-
-//         name.textContent='ravikumaPulivarthi'
-
-//          let box=document.getElementById("box")
-
-//          box.style.width="200px"
-//          box.style.height="200px"
-//          box.style.border="solid"
-
-          // ************************ fetchapi*********************
+//   names.innerHTML="<h1>RavikumarPulivarthi</h1>"
 
 
+//  fetch("https://jsonplaceholder.typicode.com/users").
+//  then((responce)=>responce.json()).
+//  then((postes)=>{
+//      let postlist=document.getElementById("api")
+//      postes.forEach((post)=>{postlist.innerHTML+=`<li>${post.id}</li>`})   
+//  })
 
-  //         fetch("https://jsonplaceholder.typicode.com/users")
-  // .then(response => response.json())
-  // .then(posts => {
-  //   const postList = document.getElementById('postList');
-  //   posts.forEach(post => {
-  //     postList.innerHTML += `<li>${post.id}</li>`;
-  //   });
-  // })
-  // .catch(error => {
-  //   console.error('Error fetching data:', error);
-  // });
+
+//   function  text(){
+//   alert("ravi")
+//   }
+//   let clicked=document.getElementById("clicked").addEventListener("click",()=>{
+//   document.getElementById("content").innerHTML="<h1>Ravikumar</h1>"
+//   })
 
    
-          // ************************ fetchapi*********************
-  // let input=document.getElementById("input")
-  //          input.addEventListener("change",function(event){
-  //            let entername=event.target.value
-  //             console.log("yourname"+entername)
-  //          })
-  //          let inputField = document.getElementById("inputField");
 
-           // Add an event listener for the 'change' event
-          //  inputField.addEventListener("change", function(event) {
-          //      // Retrieve the value entered by the user
-          //      let enteredName = event.target.value;
-               
-          //      // Display a message with the entered name
-          //      console.log("You entered: " + enteredName);
-          //  });
-
-          //   let clickme=document.getElementById("clickme").addEventListener("click",function(){
-          //     alert("ravi")
-          //   })
-              
-            //  ************************ h1************************************
-
-//              let h1=document.getElementById("h1")
-//               h1.style.color="red"
-//                h1.style.textDecoration="none"
-                 
-
-//                 let mainbox2=document.getElementById("mainbox2")
-          
-//                 mainbox2.style.height="100px"
-//                 mainbox2.style.width="200px"
-//                 mainbox2.style.border="solid"
-//                        mainbox2.textContent="ravi"
-                        
-//  let click=document.getElementById("h1")
-//  click.style.color="green"
-              
-
-     //  ************************  22/03/2024 ************************************
-
-      // let tapme =document.getElementById("clickme").addEventListener("click",function(){
-      //   alert("are you ok ")
-      // })
-   
-   let  tap=document.getElementById("tapme").addEventListener("click",function(){
-    alert(" are yoy ok ")
-   })
+let details=([
+    {names:"ravi",age:23,salery:2500},
+  {names:"kasi",age:19,salery:15000},
+  {names:"mahesh",age:14,salery:1800},
+    {names:"tharun",age:13,salery:2000}])
 
 
-   let header=document.getElementById("h1")
-     header.textContent="Ravikumar Pulivarthi"
 
-
-      let newbox=document.getElementById("newbox")
- newbox.style.border="solid"
-  newbox.style.width="500px"
-   newbox.style.height="100px"
-    newbox.style.backgroundColor="green"
-     newbox.style.color="white"
-
-      // ************************************ innerhtml,innertext ******************************
-
-
-       let  text=document.getElementById("text")
-        text.innerText="HTML DOM IMPLEMENTATION"
-        text.innerHTML="<h1>HTML DOM IMPLEMENTATION</h1>"
-               // *************  APIfetch eith javascript ************
-              //  fetch("https://jsonplaceholder.typicode.com/users")
-               // .then(response => response.json())
-               // .then(posts => {
-               //   const postList = document.getElementById('postList');
-               //   posts.forEach(post => {
-               //     postList.innerHTML += `<li>${post.id}</li>`;
-               //   });
-               // })
-               // .catch(error => {
-               //   console.error('Error fetching data:', error);
-               // });
-
-                fetch("https://jsonplaceholder.typicode.com/posts").
-                then( (responce)=> responce.json()).
-                then((posts)=>{
-                  let postlist=document.getElementById("api");
-                  posts.forEach(post=>{postlist.innerHTML+=`<li>${post.id}</li>`})
-                })
-
-
-         
+     let  sum=details.reduce((total1,total2)=>{
+        return((total1+total2.salery))
+     },0)
+      console.log(sum)
