@@ -454,13 +454,29 @@
   // let day=day[]
 
    //***********************************   pure javascript  **************************************
-   let tap=document.getElementsByClassName("tapme")
+  //  let tap=document.getElementsByClassName("tapme")
 
-   tap.onclick=click
+  //  tap.onclick=click
    
-    function click(){
-       alert("why do you tap")
-    }
+  //   function click(){
+  //      alert("why do you tap")
+  //   }
     
+
+  //  console.log("Ravi")
+
+   //***********************************  sratparten   *********************************** 
+
+
+     let num=5
+
+      for(let i=1;i<=num;i++){
+         let num2=" "
+         for( let j=1;j<=i;j++){
+            num2+=j
+         }
+         console.log(num2)
+      }
+     
    
    
