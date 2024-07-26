@@ -483,20 +483,33 @@
 
 
 
-        let nums=[10,9,8,7,6,5,4,3,2,1,0]
+  //       let nums=[10,9,8,7,6,5,4,3,2,1,0]
+  //    let swap=" "
+  // for( let i=0;i<nums.length;i++){
 
-  for( let i=0;i<nums.length;i++){
-     let swap=" "
-      for( let j=0;j<nums.length;j++){
-         if( nums[i] < nums[j]){
-            swap=nums[i]
-            nums[i]=nums[j]
-            nums[j]=swap
+  //     for( let j=0;j<nums.length;j++){
+  //        if( nums[i] < nums[j]){
+  //           swap=nums[i]
+  //           nums[i]=nums[j]
+  //           nums[j]=swap
 
-         }
+  //        }
+  //     }
+  // }
+  //         document.write(nums)
+
+
+
+  //  duplatedtelements
+
+
+
+   let nums=[1,2,2,3,4,5,4,5,3,1]
+ nums.sort()
+  let num2=[]
+    for( let i=0;i<nums.length;i++){
+      if(nums[i]!= nums[i+1]){
+         num2.push(nums[i])
       }
-  }
-
-
-
-          document.write(nums)
+    }
+     document.write(num2)
