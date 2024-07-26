@@ -504,12 +504,20 @@
 
 
 
-   let nums=[1,2,2,3,4,5,4,5,3,1]
- nums.sort()
-  let num2=[]
-    for( let i=0;i<nums.length;i++){
-      if(nums[i]!= nums[i+1]){
-         num2.push(nums[i])
-      }
-    }
-     document.write(num2)
+//    let nums=[1,2,2,3,4,5,4,5,3,1]
+//  nums.sort()
+//   let num2=[]
+//     for( let i=0;i<nums.length;i++){
+//       if(nums[i]!= nums[i+1]){
+//          num2.push(nums[i])
+//       }
+//     }
+//      document.write(num2)
+
+ let names="Ravikumar Pulivarthi"
+ let name2=" "
+
+ for( let i=names.length-1;i>0;i--){
+    name2+=names[i]
+ } 
+document.write(name2)
