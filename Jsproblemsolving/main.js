@@ -468,15 +468,35 @@
    //***********************************  sratparten   *********************************** 
 
 
-     let num=5
+    //  let num=5
 
-      for(let i=1;i<=num;i++){
-         let num2=" "
-         for( let j=1;j<=i;j++){
-            num2+=j
-         }
-         console.log(num2)
-      }
+    //   for(let i=1;i<=num;i++){
+    //      let num2=" "
+    //      for( let j=1;j<=i;j++){
+    //         num2+=j
+    //      }
+    //      console.log(num2)
+    //   }
      
    
-   
+      //***********************************  sratparten   *********************************** 
+
+
+
+        let nums=[10,9,8,7,6,5,4,3,2,1,0]
+
+  for( let i=0;i<nums.length;i++){
+     let swap=" "
+      for( let j=0;j<nums.length;j++){
+         if( nums[i] < nums[j]){
+            swap=nums[i]
+            nums[i]=nums[j]
+            nums[j]=swap
+
+         }
+      }
+  }
+
+
+
+          document.write(nums)
