@@ -539,4 +539,4 @@
  let details={name:"Rdghu",age:23,study:"MCA"}
 
  
-  console.log(Object.keys(details))
+  console.log(Object.values(details))
