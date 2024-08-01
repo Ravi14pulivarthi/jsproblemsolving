@@ -546,8 +546,8 @@
 
  let nums=[1,2,3,4,5,5,6,7,8,9,10]
 
-   let num3=nums.filter(element => {
-   return(  element%2 ==0)
+   let num3=nums.reduce((element,element2) => {
+   return(  element+element2)
   });
 
    console.log(num3)
