@@ -554,9 +554,17 @@
 
  //************************set intervel ******************************
 
-  function ravi(){ 
-    
-     setInterval(()=>{
-    console.log("Data")
-   },3000)}
-    ravi()
+ function ravi() {
+  // Store the interval ID
+  const intervalId = setInterval(() => {
+    console.log("Data");
+  }, 3000);
+
+  // Example to stop the interval after 10 seconds
+  setTimeout(() => {
+    clearInterval(intervalId);
+    console.log("Interval stopped");
+  }, 10000); // Stops the interval after 10000 milliseconds (10 seconds)
+}
+
+ravi(); // Calls the function
