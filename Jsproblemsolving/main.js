@@ -514,10 +514,10 @@
 //     }
 //      document.write(num2)
 
- let names="Ravikumar Pulivarthi"
- let name2=" "
+  let nums=[1,2,3,4,5]
 
- for( let i=names.length-1;i>0;i--){
-    name2+=names[i]
- } 
-document.write(name2)
+
+  let num2= nums.map((values)=>{
+     return( values *3)
+   })
+    console.log(num2)
