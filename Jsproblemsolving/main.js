@@ -538,5 +538,5 @@
 
  let details={name:"Rdghu",age:23,study:"MCA"}
 
-  details.City="Vijayawada"
+  delete details.age
   console.log(details)
