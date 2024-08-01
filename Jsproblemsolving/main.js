@@ -538,5 +538,5 @@
 
  let details={name:"Rdghu",age:23,study:"MCA"}
 
-
-  console.log(details)
+ 
+  console.log(Object.keys(details))
