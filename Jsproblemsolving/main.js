@@ -523,11 +523,20 @@
   //   console.log(num2)
 
 // new10
-   let nums=[1,1,2,2,3,3,4,4,5,6,6,7,7,8,9,10,9]
- let nums2=[]
-    for( let i=0;i<nums.length;i++){
-       if( nums[i] != nums[i+1]){
-        nums2.push(nums[i])
-       }
-    }
-     console.log(nums2)
+//    let nums=[1,1,2,2,3,3,4,4,5,6,6,7,7,8,9,10,9]
+//  let nums2=[]
+//     for( let i=0;i<nums.length;i++){
+//        if( nums[i] != nums[i+1]){
+//         nums2.push(nums[i])
+//        }
+//     }
+//      console.log(nums2)
+
+
+ 
+//************************object******************************
+
+ let details={name:"Rdghu",age:23,study:"MCA"}
+
+
+  console.log(details)
