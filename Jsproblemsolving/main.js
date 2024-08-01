@@ -536,7 +536,18 @@
  
 //************************object******************************
 
- let details={name:"Rdghu",age:23,study:"MCA"}
+//  let details={name:"Rdghu",age:23,study:"MCA"}
 
-  delete details.age
-  console.log(details)
+//   delete details.age
+//   console.log(details)
+ 
+//************************new ******************************
+
+
+ let nums=[1,2,3,4,5,5,6,7,8,9,10]
+
+   let num3=nums.map(element => {
+   return(  element*3)
+  });
+
+   console.log(num3)
