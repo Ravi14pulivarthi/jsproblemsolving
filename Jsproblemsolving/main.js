@@ -554,17 +554,38 @@
 
  //************************set intervel ******************************
 
- function ravi() {
+//  function ravi() {
   // Store the interval ID
-  const intervalId = setInterval(() => {
-    console.log("Data");
-  }, 3000);
+//   const intervalId = setInterval(() => {
+//     console.log("Data");
+//   }, 3000);
 
-  // Example to stop the interval after 10 seconds
-  setTimeout(() => {
-    clearInterval(intervalId);
-    console.log("Interval stopped");
-  }, 10000); // Stops the interval after 10000 milliseconds (10 seconds)
-}
+//   // Example to stop the interval after 10 seconds
+//   setTimeout(() => {
+//     clearInterval(intervalId);
+//     console.log("Interval stopped");
+//   }, 10000); // Stops the interval after 10000 milliseconds (10 seconds)
+// }
 
-ravi(); // Calls the function
+// ravi(); // Calls the function
+
+
+
+
+// "Display the all user name  from this array if age is greater than 18"
+const users = [
+  { name: "Jane Doe", id: 2 , age: 19},
+  { name: "Billy Doe", id: 3 , age:25},
+  { name: "Deepak", id: 4 , age:10},
+  { name: "Abhishek", id: 5 , age:19},
+  { name: "Mohan", id: 6 , age:40},
+  { name: "Rohit", id: 7 , age:19}
+];
+
+ let user2=users.filter((data)=>{
+   return( data.age > 18 )
+ })
+console.log(user2)
+
+
+
