@@ -554,7 +554,9 @@
 
  //************************set intervel ******************************
 
-  function ravi(){ setTimeout(()=>{
+  function ravi(){ 
+    
+     setInterval(()=>{
     console.log("Data")
    },3000)}
     ravi()
