@@ -628,11 +628,32 @@
   //************************Cloures ******************************
 
  
-   function name1(n1){
-     return function name2(n2){
-       console.log(n1+n2)
-     }
-   }
+  //  function name1(n1){
+  //    return function name2(n2){
+  //      console.log(n1+n2)
+  //    }
+  //  }
 
-   name1("Ravi")('Kumar')
+  //  name1("Ravi")('Kumar')
 
+  //************************ second largetst ******************************
+
+  // let arr = [12, 45, 6, 7, 8] Find largest Number in this array
+
+   
+
+  let arr = [12, 45, 6, 7, 8] 
+   let swap=""
+
+
+    for( let i=0;i<arr.length;i++){
+       for( let j=0;j<arr.length;j++){
+                  if(  arr[i] > arr[j]){
+                     swap=arr[i]
+                      arr[i]=arr[j]
+                      arr[j]=swap
+                  }
+       }
+    }
+
+     console.log(swap)
