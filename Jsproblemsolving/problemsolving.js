@@ -64,22 +64,98 @@
 
 //8.Create a function that takes two strings as arguments and returns either true or false depending on whether the total number of
 //characters in the first string is equal to the total number of characters in the second string.
-//function pulivarthi(name1,name2){
 
 
- let name1="Rvai"
-  let name2="kuma"
+
+//  let name1="Rvai"
+//   let name2="kuma"
    
 
-     function string(){
-        if(name1.length === name2.length){
-             return true
-        }
-         else{
-             return false
+//      function string(){
+//         if(name1.length === name2.length){
+//              return true
+//         }
+//          else{
+//              return false
+//          }
+//      }
+//       console.log(string())
+
+
+
+
+ //*************************************problem7*****************************************
+
+ //10.Create a function that takes an array of 10 numbers (between 0 and 9) and returns a string of those numbers formatted as a phone number (e.g. (555) 555-5555).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  //*************************************problem7*****************************************
+
+
+
+ // sortByLength(["a", "cc", "dddd", "bbd"]) ➞ ["a", "cc", "bbd", "dddd"]
+
+
+   let alfa=['l',"lc","xyze","boo"]
+
+ let swap=""
+    for( let i=0;i<alfa.length;i++){
+         for( let j=0;j<alfa.length;j++){
+            if( alfa[i].length< alfa[j].length){
+                 swap=alfa[i]
+                  alfa[i]=alfa[j]
+                  alfa[j]=swap
+            }
          }
-     }
-      console.log(string())
+    }
+     console.log(alfa)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
