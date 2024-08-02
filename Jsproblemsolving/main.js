@@ -617,8 +617,10 @@
 
 
 
-   details2.person.apply(details,[25])
+  let detail= details2.person.bind(details,[25])
 
+
+detail()
 
 
 
