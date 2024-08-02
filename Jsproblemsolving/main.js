@@ -642,18 +642,15 @@
 
    
 
-  let arr = [12, 45, 6, 7, 8] 
-   let swap=""
+  let arr = [12, 45, 6, 7, 80] 
+   
+
+   let arr2=arr[0]
 
 
     for( let i=0;i<arr.length;i++){
-       for( let j=0;j<arr.length;j++){
-                  if(  arr[i] > arr[j]){
-                     swap=arr[i]
-                      arr[i]=arr[j]
-                      arr[j]=swap
-                  }
+       if( arr[i] > arr2 ){
+        arr2 = arr[i]
        }
     }
-
-     console.log(swap)
+     console.log(arr2)
