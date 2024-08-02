@@ -664,8 +664,22 @@
 
 
 
-     let array={name:"Rghu",study:"MCA"}
+    //  let array={name:"Rghu",study:"MCA"}
 
-    let {name}=array
+    // let {name}=array
 
-      console.log(name)
+    //   console.log(name)
+
+     
+   //************************ loop  ******************************
+     let num=10
+
+
+      for( let i=1;i<=num;i++){
+         console.log(i)
+      }
+     
+     
+     
+
+     
