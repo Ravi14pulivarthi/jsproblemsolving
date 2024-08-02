@@ -611,16 +611,28 @@
 //callapply bind
 
 
- let details={name:"Ravikumar"}
+//  let details={name:"Ravikumar"}
 
-  let details2={names:"Raghu",person:function(age){console.log(this.name+"Age is "+age)}}
-
-
-
-  let detail= details2.person.bind(details,[25])
+//   let details2={names:"Raghu",person:function(age){console.log(this.name+"Age is "+age)}}
 
 
-detail()
+
+//   let detail= details2.person.bind(details,[25])
 
 
+// detail()
+
+ 
+
+
+  //************************Cloures ******************************
+
+ 
+   function name1(n1){
+     return function name2(n2){
+       console.log(n1+n2)
+     }
+   }
+
+   name1("Ravi")('Kumar')
 
