@@ -642,19 +642,29 @@
 
    
 
-  let arr = [12, 45, 6, 7, 80] 
+//   let arr = [12, 45, 6, 7, 80] 
    
 
-  let arr2=arr[0]
- let arr3=arr[0]
+//   let arr2=arr[0]
+//  let arr3=arr[0]
 
-   for( let i=0;i<arr.length;i++){
-     if( arr[i] < arr2){
-       arr2 = arr[i]
-     }
-     if( arr[i] > arr3){
-      arr3 = arr[i]
-    }
-   }
-    console.log("Smmalest number in the array = "+arr2)
-    console.log("Largest number in the array = "+arr3)
+//    for( let i=0;i<arr.length;i++){
+//      if( arr[i] < arr2){
+//        arr2 = arr[i]
+//      }
+//      if( arr[i] > arr3){
+//       arr3 = arr[i]
+//     }
+//    }
+//     console.log("Smmalest number in the array = "+arr2)
+//     console.log("Largest number in the array = "+arr3)
+
+   //************************ second largetst ******************************
+
+
+
+
+     let array=[1,2,3,4,5,6,7,8,9,10]
+
+    let [one,two]=array
+      console.log(one,two)
