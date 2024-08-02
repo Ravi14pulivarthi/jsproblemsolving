@@ -679,13 +679,22 @@
     //      console.log(i)
     //   }
      
+//  let num=10
+//  let i=1
+//   while( i<=num){
+//      console.log(i) 
+//      i++
+//   }
+     
+     
+//  do wile
+
+
  let num=10
  let i=1
-  while( i<=num){
+do{
      console.log(i) 
      i++
-  }
+  }  while( i<=num)
      
-     
-
      
