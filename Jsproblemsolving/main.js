@@ -666,5 +666,5 @@
 
      let array=[1,2,3,4,5,6,7,8,9,10]
 
-    let [one,two]=array
-      console.log(one,two)
+    let [one,two,...three]=array
+      console.log(one,two,three)
