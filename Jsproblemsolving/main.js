@@ -672,13 +672,19 @@
 
      
    //************************ loop  ******************************
-     let num=10
+    //  let num=10
 
 
-      for( let i=1;i<=num;i++){
-         console.log(i)
-      }
+    //   for( let i=1;i<=num;i++){
+    //      console.log(i)
+    //   }
      
+ let num=10
+ let i=1
+  while( i<=num){
+     console.log(i) 
+     i++
+  }
      
      
 
