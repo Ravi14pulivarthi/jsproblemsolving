@@ -573,19 +573,26 @@
 
 
 // "Display the all user name  from this array if age is greater than 18"
-const users = [
-  { name: "Jane Doe", id: 2 , age: 19},
-  { name: "Billy Doe", id: 3 , age:25},
-  { name: "Deepak", id: 4 , age:10},
-  { name: "Abhishek", id: 5 , age:19},
-  { name: "Mohan", id: 6 , age:40},
-  { name: "Rohit", id: 7 , age:19}
-];
+// const users = [
+//   { name: "Jane Doe", id: 2 , age: 19},
+//   { name: "Billy Doe", id: 3 , age:25},
+//   { name: "Deepak", id: 4 , age:10},
+//   { name: "Abhishek", id: 5 , age:19},
+//   { name: "Mohan", id: 6 , age:40},
+//   { name: "Rohit", id: 7 , age:19}
+// ];
 
- let user2=users.filter((data)=>{
-   return( data.age > 18 )
- })
-console.log(user2)
+//  let user2=users.filter((data)=>{
+//    return( data.age > 18 )
+//  })
+// console.log(user2)
+
+
+ let numbers=[1,2,3,4,10,12,5,6,7,12,3,3,4,5,]
+  const uniquevalues=[...new Set(numbers)]
+
+   console.log(uniquevalues.sort(function(a,b) {return(a-b)}))
+
 
 
 
