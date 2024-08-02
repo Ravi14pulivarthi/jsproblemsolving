@@ -617,7 +617,7 @@
 
 
 
-   details2.person.call(details,29)
+   details2.person.apply(details,[25])
 
 
 
