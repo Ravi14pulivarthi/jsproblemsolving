@@ -39,27 +39,47 @@
 
 //7.Create a function that takes two arguments. Both arguments are integers, a and b. Return true if one of them is 10 or if their sum is 
 
- let a=5
-  let b=5
+//  let a=5
+//   let b=5
 
 
-   function data(){
+//    function data(){
    
-    if( a == 10) {
-        return true
-    }
-    if( b == 10) {
-        return true
-    }
-    if( a+b == 10) {
-        return true
-    }
-    else{
-         return false
-    }
-   }
-   console.log(  data())
+//     if( a == 10) {
+//         return true
+//     }
+//     if( b == 10) {
+//         return true
+//     }
+//     if( a+b == 10) {
+//         return true
+//     }
+//     else{
+//          return false
+//     }
+//    }
+//    console.log(  data())
 
+ //*************************************problem7**************************************************************
+
+//8.Create a function that takes two strings as arguments and returns either true or false depending on whether the total number of
+//characters in the first string is equal to the total number of characters in the second string.
+//function pulivarthi(name1,name2){
+
+
+ let name1="Rvai"
+  let name2="kuma"
+   
+
+     function string(){
+        if(name1.length === name2.length){
+             return true
+        }
+         else{
+             return false
+         }
+     }
+      console.log(string())
 
 
 
