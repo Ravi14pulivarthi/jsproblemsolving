@@ -601,9 +601,24 @@
 
 
  
- (function details(name){
-  console.log(name)
- })("Ravi")
+//  (function details(name){
+//   console.log(name)
+//  })("Ravi")
+
+  //************************IIF ******************************
 
  
+//callapply bind
+
+
+ let details={name:"Ravikumar"}
+
+  let details2={names:"Raghu",person:function(age){console.log(this.name+"Age is "+age)}}
+
+
+
+   details2.person.call(details,29)
+
+
+
 
