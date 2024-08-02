@@ -571,7 +571,7 @@
 
 
 
-
+ //************************set intervel ******************************
 // "Display the all user name  from this array if age is greater than 18"
 // const users = [
 //   { name: "Jane Doe", id: 2 , age: 19},
@@ -582,17 +582,28 @@
 //   { name: "Rohit", id: 7 , age:19}
 // ];
 
+
 //  let user2=users.filter((data)=>{
 //    return( data.age > 18 )
 //  })
 // console.log(user2)
 
+ //************************set intervel ******************************
+//  let numbers=[1,2,3,4,10,12,5,6,7,12,3,3,4,5,]
+//   const uniquevalues=[...new Set(numbers)]
 
- let numbers=[1,2,3,4,10,12,5,6,7,12,3,3,4,5,]
-  const uniquevalues=[...new Set(numbers)]
-
-   console.log(uniquevalues.sort(function(a,b) {return(a-b)}))
+//    console.log(uniquevalues.sort(function(a,b) {return(a-b)}))
 
 
+ //************************IIF ******************************
 
+
+
+
+ 
+ (function details(name){
+  console.log(name)
+ })("Ravi")
+
+ 
 
