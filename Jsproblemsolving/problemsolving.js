@@ -216,26 +216,40 @@
 //*************************************problem10*****************************************
 //removeDups([1, 0, 1, 0]) ➞ [1, 0]
 
-let num=[0,1,1]
- let num2=[]
+// let num=[0,1,1]
+//  let num2=[]
 
-  for( let i=0;i<num.length;i++){
-     let count=0
-     for( let j=0;j<num.length;j++){
-         if( num[i]  === num[j]){
-             count++
-         }
+//   for( let i=0;i<num.length;i++){
+//      let count=0
+//      for( let j=0;j<num.length;j++){
+//          if( num[i]  === num[j]){
+//              count++
+//          }
+//      }
+//       if( count == 1){
+//          num2.push(num[i])
+//       }
+//   }
+
+// console.log(num2)
+
+
+//*************************************problem10*****************************************
+// 16.Create a function that takes two strings as arguments and returns the number of times the first string (the single character) is found in the second string.
+// Example:
+
+// charCount("c", "Chamber of secrets") ➞ 1
+
+
+ let str='Chamber of secrets'
+ let str2='e'
+ let count =0
+  for( let i=0;i<str.length;i++){
+     if( str[i] === str2){
+         count ++
      }
-      if( count == 1){
-         num2.push(num[i])
-      }
   }
-
-console.log(num2)
-
-
-
-
+   console.log( count)
 
 
 
