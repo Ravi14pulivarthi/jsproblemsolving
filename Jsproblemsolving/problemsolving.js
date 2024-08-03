@@ -199,19 +199,41 @@
  //secondLargest([10, 40, 30, 20, 50]) ➞ 40
 
 
-  let nums=[10,20,30,40,50]
-let swap=""
+//   let nums=[10,20,30,40,50]
+// let swap=""
 
-   for (let i=0;i<nums.length;i++){
-     for( let j=0;j<nums.length;j++){
-        if( nums[i] < nums[j]){
-             swap=nums[i]
-             nums[i]=nums[j]
-             nums[j]=swap
-        }
+//    for (let i=0;i<nums.length;i++){
+//      for( let j=0;j<nums.length;j++){
+//         if( nums[i] < nums[j]){
+//              swap=nums[i]
+//              nums[i]=nums[j]
+//              nums[j]=swap
+//         }
+//      }
+//    }
+//     console.log(swap)
+
+//*************************************problem10*****************************************
+//removeDups([1, 0, 1, 0]) ➞ [1, 0]
+
+let num=[0,1,1]
+ let num2=[]
+
+  for( let i=0;i<num.length;i++){
+     let count=0
+     for( let j=0;j<num.length;j++){
+         if( num[i]  === num[j]){
+             count++
+         }
      }
-   }
-    console.log(swap)
+      if( count == 1){
+         num2.push(num[i])
+      }
+  }
+
+console.log(num2)
+
+
 
 
 
