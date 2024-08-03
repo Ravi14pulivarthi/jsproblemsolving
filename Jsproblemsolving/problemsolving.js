@@ -178,22 +178,40 @@
 //secondLargest([10, 40, 30, 20, 50]) ➞ 40
 
 
+//   let nums=[10,20,30,40,50]
+//   let largest=nums[0]
+//   let smallest=nums[0]
+
+
+
+//    for( let i=0;i<nums.length;i++){
+//      if( nums[i] > largest){
+//          largest = nums[i]
+//      }
+//      if( nums[i] < smallest){
+//         smallest = nums[i]
+//     }
+//    }
+//     console.log("The largest number is :"+largest ,"The smallest number"+smallest )
+
+
+//*************************************problem10*****************************************
+ //secondLargest([10, 40, 30, 20, 50]) ➞ 40
+
+
   let nums=[10,20,30,40,50]
-  let largest=nums[0]
-  let smallest=nums[0]
+let swap=""
 
-
-
-   for( let i=0;i<nums.length;i++){
-     if( nums[i] > largest){
-         largest = nums[i]
+   for (let i=0;i<nums.length;i++){
+     for( let j=0;j<nums.length;j++){
+        if( nums[i] < nums[j]){
+             swap=nums[i]
+             nums[i]=nums[j]
+             nums[j]=swap
+        }
      }
-     if( nums[i] < smallest){
-        smallest = nums[i]
-    }
    }
-    console.log("The largest number is :"+largest ,"The smallest number"+smallest )
-
+    console.log(swap)
 
 
 
