@@ -113,21 +113,39 @@
  // sortByLength(["a", "cc", "dddd", "bbd"]) ➞ ["a", "cc", "bbd", "dddd"]
 
 
-   let alfa=['l',"lc","xyze","boo"]
+//    let alfa=['l',"lc","xyze","boo"]
 
- let swap=""
-    for( let i=0;i<alfa.length;i++){
-         for( let j=0;j<alfa.length;j++){
-            if( alfa[i].length< alfa[j].length){
-                 swap=alfa[i]
-                  alfa[i]=alfa[j]
-                  alfa[j]=swap
-            }
-         }
+//  let swap=""
+//     for( let i=0;i<alfa.length;i++){
+//          for( let j=0;j<alfa.length;j++){
+//             if( alfa[i].length< alfa[j].length){
+//                  swap=alfa[i]
+//                   alfa[i]=alfa[j]
+//                   alfa[j]=swap
+//             }
+//          }
+//     }
+//      console.log(alfa)
+
+
+  //*************************************problem7*****************************************
+let numbers=[9,1,8,2,2,3,4,2,7,0]
+ let num1=""
+  let num2=""
+ let num3=""
+for(  let i=0;i<numbers.length;i++){
+     if( i<3){
+         num1+=numbers[i]
+     }
+     else if( i<6){
+        num2+=numbers[i]
     }
-     console.log(alfa)
+    else if( i<10){
+        num3+=numbers[i]
+    }
+}
 
-
+console.log(`((${num1}) ${num2} - ${num3})`)
 
 
 
