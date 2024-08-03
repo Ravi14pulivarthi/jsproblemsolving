@@ -150,31 +150,49 @@
 
 //*************************************problem7*****************************************
 // [[4, 2, 7, 1], [20, 70, 40, 90], [1, 2, 0]]) ➞ [7, 90, 2]
- let nums=[[4, 2, 7, 1], [20,90, 70, 40], [1, 2, 0]]
+//  let nums=[[4, 2, 7, 1], [20,90, 70, 40], [1, 2, 0]]
 
- let num1=0
- let num2=0
-  let num3=0
+//  let num1=0
+//  let num2=0
+//   let num3=0
+
+//    for( let i=0;i<nums.length;i++){
+//     if(nums[0][i] > num1){
+//          num1 = nums[0][i]
+//     }
+//     if(nums[1][i] > num2){
+//         num2 = nums[1][i]
+//    }
+//    if(nums[2][i] > num3){
+//     num3 = nums[2][i]
+// }
+//    }
+// console.log(num1,num2,num3)
+
+
+
+
+//*************************************problem10*****************************************
+
+
+//secondLargest([10, 40, 30, 20, 50]) ➞ 40
+
+
+  let nums=[10,20,30,40,50]
+  let largest=nums[0]
+  let smallest=nums[0]
+
+
 
    for( let i=0;i<nums.length;i++){
-    if(nums[0][i] > num1){
-         num1 = nums[0][i]
+     if( nums[i] > largest){
+         largest = nums[i]
+     }
+     if( nums[i] < smallest){
+        smallest = nums[i]
     }
-    if(nums[1][i] > num2){
-        num2 = nums[1][i]
    }
-   if(nums[2][i] > num3){
-    num3 = nums[2][i]
-}
-   }
-console.log(num1,num2,num3)
-
-
-
-
-
-
-
+    console.log("The largest number is :"+largest ,"The smallest number"+smallest )
 
 
 
