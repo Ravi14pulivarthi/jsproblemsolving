@@ -241,17 +241,32 @@
 // charCount("c", "Chamber of secrets") ➞ 1
 
 
- let str='Chamber of secrets'
- let str2='e'
- let count =0
-  for( let i=0;i<str.length;i++){
-     if( str[i] === str2){
-         count ++
-     }
-  }
-   console.log( count)
+//  let str='Chamber of secrets'
+//  let str2='e'
+//  let count =0
+//   for( let i=0;i<str.length;i++){
+//      if( str[i] === str2){
+//          count ++
+//      }
+//   }
+//    console.log( count)
 
+  let string="Celebration"
 
+   let str2="A,E,I,O,U,a,e,i,o,u"
+
+    let count=0
+
+    for( let i=0;i<string.length;i++){
+         for( let j=0;j<str2.length;j++){
+            if( string[i] === str2[j]){
+                count++
+            }
+         }
+       
+    }
+
+console.log(count)
 
 
 
