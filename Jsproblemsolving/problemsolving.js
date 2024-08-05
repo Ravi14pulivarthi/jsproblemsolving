@@ -251,26 +251,51 @@
 //   }
 //    console.log( count)
 
-  let string="Celebration"
+//   let string="Celebration"
 
-   let str2="A,E,I,O,U,a,e,i,o,u"
+//    let str2="A,E,I,O,U,a,e,i,o,u"
 
-    let count=0
+//     let count=0
 
-    for( let i=0;i<string.length;i++){
-         for( let j=0;j<str2.length;j++){
-            if( string[i] === str2[j]){
-                count++
-            }
-         }
+//     for( let i=0;i<string.length;i++){
+//          for( let j=0;j<str2.length;j++){
+//             if( string[i] === str2[j]){
+//                 count++
+//             }
+//          }
        
-    }
+//     }
 
-console.log(count)
-
-
+// console.log(count)
 
 
+//*************************************problem10*****************************************
+
+//  reverseCase("Happy Birthday") ➞ "hAPPY bIRTHDAY"
+
+//  let  str="Happy Birthday"
+//  let str2=""
+//    for( let i=0;i<str.length;i++){
+//      if( str[i].charCodeAt[i] >97){
+//          str2+=str[i].toUpperCase()
+//      }
+//       else{
+//         str2+=str[i].toLocaleLowerCase()
+//       }
+//    }
+// console.log(str2)
+
+
+
+ let num=5
+ 
+  for( let i=1;i<=num;i++){
+     let num2=""
+     for( let j=1;j<=i;j++){
+        num2+=j
+     }
+      console.log(num2)
+  }
 
 
 
