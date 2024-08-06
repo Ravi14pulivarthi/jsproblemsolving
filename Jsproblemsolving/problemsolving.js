@@ -311,32 +311,31 @@
 //   }
 //    console.log(num2)
 
+// 2menthod
+//  let num = 54321;
 
-// let num = 123;
-// let num2 = 0;
+//   let num2=0
+//    while(num>0){
+//  num2=num2*10 + num %10
+//  num=(num - num %10)/10
+//    }
+//     console.log(num2)
 
-// while (num > 0) {
-
-//   num2 = num2 * 10 + num % 10;
-//   num = (num - num % 10) / 10;
-// }
-
-// console.log(num2);
-
- let num = 54321;
-
-  let num2=0
-   while(num>0){
- num2=num2*10 + num %10
- num=(num - num %10)/10
-   }
-    console.log(num2)
+ //*************************************problem*****************************************
 
 
 
+//  Input: [1,6,3,1,5,9,7,2,1,9,3,7,8,9,10] , no find=7
 
-
-
+  let array=[1,6,3,1,5,9,7,2,1,9,3,7,8,9,10] 
+   let array2=7
+ let count=0
+    for( let i=0;i<array.length;i++){
+       if( array[i] === array2){
+         count++
+       }
+    }
+console.log(count)
 
 
 
