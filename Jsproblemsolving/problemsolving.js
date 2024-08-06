@@ -346,18 +346,26 @@
 //  Input: i am ram
 //  Output: 3 vowels 3 consonants.
 
- let str1="iamram"
-  let str2="aeiou"
-   let count=0
-   for( let i=0;i<str1.length;i++){
-    for( let j=0;j<str2.length;j++){
-              if( str1[i] === str2[j]){
-                 count++
-              }
-    }
-   }
-    console.log(`${count} ${str1.length-count}`)
+//  let str1="iamram"
+//   let str2="aeiou"
+//    let count=0
+//    for( let i=0;i<str1.length;i++){
+//     for( let j=0;j<str2.length;j++){
+//               if( str1[i] === str2[j]){
+//                  count++
+//               }
+//     }
+//    }
+//     console.log(`${count} ${str1.length-count}`)
 
+
+ //*************************************problem*****************************************
+
+let arr=["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
+
+  for(  let i=0;i<arr.length;i++){
+     console.log(i+1+arr[i])
+  }
 
 
 
