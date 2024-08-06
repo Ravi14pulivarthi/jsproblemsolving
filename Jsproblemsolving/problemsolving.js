@@ -379,9 +379,8 @@
 
  let num1=5
 
-  let num2=3
- let result=1
-   for( let i=0;i<num2;i++){
-   result*=num1
-   }
-    console.log(result)
+  let num2=1
+ for( let i=num1;i>0;i--){
+ num2*=i
+ }
+  console.log(num2)
