@@ -327,21 +327,36 @@
 
 //  Input: [1,6,3,1,5,9,7,2,1,9,3,7,8,9,10] , no find=7
 
-  let array=[1,6,3,1,5,9,7,2,1,9,3,7,8,9,10] 
-   let array2=7
- let count=0
-    for( let i=0;i<array.length;i++){
-       if( array[i] === array2){
-         count++
-       }
+  // let array=[1,6,3,1,5,9,7,2,1,9,3,7,8,9,10] 
+//    let array2=7
+//  let count=0
+//     for( let i=0;i<array.length;i++){
+//        if( array[i] === array2){
+//          count++
+//        }
+//     }
+// console.log(count)
+
+ //*************************************problem*****************************************
+
+
+
+//  30. Program to count vowels and consonants in a given String.
+
+//  Input: i am ram
+//  Output: 3 vowels 3 consonants.
+
+ let str1="iamram"
+  let str2="aeiou"
+   let count=0
+   for( let i=0;i<str1.length;i++){
+    for( let j=0;j<str2.length;j++){
+              if( str1[i] === str2[j]){
+                 count++
+              }
     }
-console.log(count)
-
-
-
-
-
-
+   }
+    console.log(`${count} ${str1.length-count}`)
 
 
 
