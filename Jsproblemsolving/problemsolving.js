@@ -424,14 +424,27 @@
 //  Input:       Coding
 //  Output:    String
 
- let  input="ok"
+//  let  input="ok"
 
 
 
-    if(  (typeof input) === "string"){
-       console.log("This is a string")
-    }
-     else{
-      console.log("This is a number")
-     }
+//     if(  (typeof input) === "string"){
+//        console.log("This is a string")
+//     }
+//      else{
+//       console.log("This is a number")
+//      }
   
+    //*************************************problem*****************************************
+// Input:      n=5
+// 			Output:   2 4 6 8 10
+
+
+ let num=5
+
+ let num2=5
+  for( let i=1;i<=num;i++){
+     for(let j=1;j<=num2;j++){
+       console.log(`${i} * ${j} =${i*j}`)
+     }
+  }
