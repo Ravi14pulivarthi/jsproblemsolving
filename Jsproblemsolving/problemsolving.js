@@ -377,10 +377,28 @@
   // Output: 5 ^ 3 = 125
   // Explanation: 5 x 5 x 5 = 125
 
- let num1=5
+//   let num1=5
+//    let num2=3
+//   let result=1
+//    for( let i=0;i<num2;i++){
+//  result*=num1
+//    }
+// console.log(result)
+  // 26. Program to Check Whether a Number is Prime or Not
 
-  let num2=1
- for( let i=num1;i>0;i--){
- num2*=i
- }
-  console.log(num2)
+   let num=6
+
+ let count=0
+    for( let i=0;i<num;i++){
+       if( num%i ==0){
+         count+=1
+       }
+        
+    }
+     if(count == 1){
+       console.log("prime")
+     }
+      else{
+         console.log("not-prime")
+      }
+  
