@@ -280,22 +280,39 @@
 //          str2+=str[i].toUpperCase()
 //      }
 //       else{
-//         str2+=str[i].toLocaleLowerCase()
+//         str2+=str[i].toLowerCase()
 //       }
 //    }
 // console.log(str2)
 
 
 
- let num=5
+//  let num=5
  
-  for( let i=1;i<=num;i++){
-     let num2=""
-     for( let j=1;j<=i;j++){
-        num2+=j
-     }
-      console.log(num2)
+//   for( let i=1;i<=num;i++){
+//      let num2=""
+//      for( let j=1;j<=i;j++){
+//         num2+=j
+//      }
+//       console.log(num2)
+//   }
+
+ //*************************************problem*****************************************
+
+//  32. Reverse a number using while Loop
+
+//  Input: 123
+//  Output: 321
+
+ let num="123"
+ let num2=""
+  for( let i=num.length-1;i>=0;i--){
+   num2+=num[i]
   }
+   console.log(num2)
+
+
+
 
 
 
