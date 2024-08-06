@@ -304,13 +304,33 @@
 //  Input: 123
 //  Output: 321
 
- let num="123"
- let num2=""
-  for( let i=num.length-1;i>=0;i--){
-   num2+=num[i]
-  }
-   console.log(num2)
+//  let num="123"
+//  let num2=""
+//   for( let i=num.length-1;i>=0;i--){
+//    num2+=num[i]
+//   }
+//    console.log(num2)
 
+
+// let num = 123;
+// let num2 = 0;
+
+// while (num > 0) {
+
+//   num2 = num2 * 10 + num % 10;
+//   num = (num - num % 10) / 10;
+// }
+
+// console.log(num2);
+
+ let num = 54321;
+
+  let num2=0
+   while(num>0){
+ num2=num2*10 + num %10
+ num=(num - num %10)/10
+   }
+    console.log(num2)
 
 
 
