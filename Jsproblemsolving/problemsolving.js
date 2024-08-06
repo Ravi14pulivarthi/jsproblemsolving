@@ -361,13 +361,27 @@
 
  //*************************************problem*****************************************
 
-let arr=["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
+// let arr=["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
 
-  for(  let i=0;i<arr.length;i++){
-     console.log(i+1+arr[i])
-  }
+//   for(  let i=0;i<arr.length;i++){
+//      console.log(i+1+arr[i])
+//   }
+
+  //*************************************problem*****************************************
 
 
 
+  // 25. C Program to Calculate the Power of a Number(using loop only).
 
+  // Input: n=5, p=3
+  // Output: 5 ^ 3 = 125
+  // Explanation: 5 x 5 x 5 = 125
 
+ let num1=5
+
+  let num2=3
+ let result=1
+   for( let i=0;i<num2;i++){
+   result*=num1
+   }
+    console.log(result)
