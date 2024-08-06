@@ -440,11 +440,25 @@
 // 			Output:   2 4 6 8 10
 
 
- let num=5
+//  let num=5
 
- let num2=5
-  for( let i=1;i<=num;i++){
-     for(let j=1;j<=num2;j++){
-       console.log(`${i} * ${j} =${i*j}`)
-     }
-  }
+//  let num2=5
+//   for( let i=1;i<=num;i++){
+//      for(let j=1;j<=num2;j++){
+//        console.log(`${i} * ${j} =${i*j}`)
+//      }
+//   }
+
+     //*************************************problem*****************************************
+
+ let names="ravi kumar pulivarthi mca"
+
+
+  let str2=names.split(" ")
+  let str3=""
+
+   for( let i=0;i<str2.length;i++){
+      str3+=str2[i].replace(str2[i][0],str2[i][0].toUpperCase())+" "
+   }
+       console.log(str3)
+
