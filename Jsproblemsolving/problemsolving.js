@@ -386,19 +386,52 @@
 // console.log(result)
   // 26. Program to Check Whether a Number is Prime or Not
 
-   let num=6
+//    let num=6
 
- let count=0
-    for( let i=0;i<num;i++){
-       if( num%i ==0){
-         count+=1
-       }
+//  let count=0
+//     for( let i=0;i<num;i++){
+//        if( num%i ==0){
+//          count+=1
+//        }
         
+//     }
+//      if(count == 1){
+//        console.log("prime")
+//      }
+//       else{
+//          console.log("not-prime")
+//       }
+  
+
+ 
+  //*************************************problem*****************************************
+
+  //  let a=8
+  //   let b=2
+  //   let c=10
+
+  //     let largest=(a>b)?a:(b>c)?b:c
+  //      console.log(largest)
+
+    //*************************************problem*****************************************
+  
+
+//  20. Create Function that will take one parameter and return type of the data.
+			
+//  Input:       500
+//  Output:     Integer
+
+//  Input:       Coding
+//  Output:    String
+
+ let  input="ok"
+
+
+
+    if(  (typeof input) === "string"){
+       console.log("This is a string")
     }
-     if(count == 1){
-       console.log("prime")
+     else{
+      console.log("This is a number")
      }
-      else{
-         console.log("not-prime")
-      }
   
