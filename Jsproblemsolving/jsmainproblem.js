@@ -34,32 +34,38 @@
 //   console.log(radius(10))
 
  //************************** problem ***********************************
-//  function isLeapYear(year) {
-//     // Check if the year is divisible by 400, or divisible by 4 but not by 100
-//     return (year % 400 === 0) || (year % 100 !== 0 && year % 4 === 0);
-// }
 
-// // Example usage
-// const year = 2028;
-// if (isLeapYear(year)) {
-//     console.log(`${year} is a leap year.`);
-// } else {
-//     console.log(`${year} is not a leap year.`);
-// }
 
- function isleapyear(year){
+//  function isleapyear(year){
 
-       return( year % 4000 ===0)|| ( year %100 !==0 && year %4 ===0)
+
+//  return( year % 400 ===0) ||( year % 100 !==0 && year % 4 === 0)
+//  }
+
+//   let year=2024
+
+//    if( isleapyear(year)){
+//      console.log("THis is  leap year" +year)
+//    }
+//    else{
+//     console.log("THis is not  leap year" +year)
+//   }
+
+
+ //************************** problem **********************************
+// Write a program to determine if a number is positive, negative, or zero.
+
+ let i= 0
+
+ if(i > 0){
+    console.log("This number is Positive")
  }
-
-  let year=2024
-
-   if( isleapyear(year)){
-     console.log("THis is  leap year" +year)
-   }
-   else{
-    console.log("THis is not  leap year" +year)
+  else if( i < 0){
+    console.log("This number is Nagitive")
+ 
   }
-
+else{
+    console.log("This number is zero")
+}
 
   
