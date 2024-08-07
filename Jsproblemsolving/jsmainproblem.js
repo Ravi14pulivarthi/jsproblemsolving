@@ -1,20 +1,25 @@
-//  let num1=prompt("enter a frist number")
-//   let num2= prompt("enter a second number ")
+
+ //************************** problem ***********************************
+
+//  let num1=prompt("enter  frinst number")
+//   let num2=prompt("enter  sencond number")
 
 
-//   let num3=parseInt(num1)
+//    let num3=parseInt(num1)
+   
 //    let num4=parseInt(num2)
 
-//     console.log(num3+num4)
+//  document.write(` this is total num = ${num3+num4}`)
+
+ //************************** problem ***********************************
+//  Create a program that converts temperature from Celsius to Fahrenheit.
 
 
 
- //************************** foren heat ***********************************
-
-
-
-
- function circle(radius){
-     return ( 22/7 * radius* radius)
+ function temp(value){
+ return( (value * 9/5)+32)
  }
-  console.log( circle(4))
+
+ let value=25
+   let  newtem= temp(value)
+ console.log(newtem)
