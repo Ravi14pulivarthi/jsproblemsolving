@@ -16,10 +16,21 @@
 
 
 
- function temp(value){
- return( (value * 9/5)+32)
- }
+//  function temp(value){
+//  return( (value * 9/5)+32)
+//  }
 
- let value=25
-   let  newtem= temp(value)
- console.log(newtem)
+//  let value=25
+//    let  newtem= temp(value)
+//  console.log(newtem)
+
+ //************************** problem ***********************************
+//  Calculate the area of a circle given its radius.
+
+
+ function radius(circle){
+   return( (22/7*circle *circle) )
+ }
+  console.log(radius(10))
+
+  
