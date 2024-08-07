@@ -28,9 +28,38 @@
 //  Calculate the area of a circle given its radius.
 
 
- function radius(circle){
-   return( (22/7*circle *circle) )
+//  function radius(circle){
+//    return( (22/7*circle *circle) )
+//  }
+//   console.log(radius(10))
+
+ //************************** problem ***********************************
+//  function isLeapYear(year) {
+//     // Check if the year is divisible by 400, or divisible by 4 but not by 100
+//     return (year % 400 === 0) || (year % 100 !== 0 && year % 4 === 0);
+// }
+
+// // Example usage
+// const year = 2028;
+// if (isLeapYear(year)) {
+//     console.log(`${year} is a leap year.`);
+// } else {
+//     console.log(`${year} is not a leap year.`);
+// }
+
+ function isleapyear(year){
+
+       return( year % 4000 ===0)|| ( year %100 !==0 && year %4 ===0)
  }
-  console.log(radius(10))
+
+  let year=2024
+
+   if( isleapyear(year)){
+     console.log("THis is  leap year" +year)
+   }
+   else{
+    console.log("THis is not  leap year" +year)
+  }
+
 
   
