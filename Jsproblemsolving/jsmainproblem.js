@@ -128,10 +128,11 @@
 //  stringrevers
 
 
- let names="Ravi kumar Pulivarthi"
 
- let name2=""
-  for( let i=names.length-1;i>=0;i--){
-     name2+=names[i]
-  }
-   console.log(name2)
+let names="Ravi kumar Pulivarthi"
+
+let name2=""
+ for( let i=names.length-1;i>=0;i--){
+    name2+=names[i]
+ }
+  console.log(name2)
