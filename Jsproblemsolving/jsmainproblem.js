@@ -104,20 +104,40 @@
 
   
 
-  let  char="A"
+  // let  char="A"
 
-    let voles="AEIOUaeiou"
+  //   let voles="AEIOUaeiou"
  
-     let char2=[]
+  //    let char2=[]
 
-      for( let i=0;i<voles.length;i++){
-        if( voles[i] === char){
-            char2++
-        }
-      }
-       if(char2 === 1){
-         console.log("vowels")
+  //     for( let i=0;i<voles.length;i++){
+  //       if( voles[i] === char){
+  //           char2++
+  //       }
+  //     }
+  //      if(char2 === 1){
+  //        console.log("vowels")
+  //      }
+  //       else{
+  //          console.log("Consonent")
+  //       }
+
+
+   
+ //************************** problem **********************************
+ //Write a function that calculates the sum of all prime numbers in a given range.
+
+  let num=10
+ let num2=0
+ 
+   for( let i=0;i<num;i++){
+    let count=0
+     for( let j=0;j<i;j++){
+       if( i%j ==0){
+         count+=1
        }
-        else{
-           console.log("Consonent")
-        }
+     }
+      if( count == 1){
+         console.log(i)
+      }
+   }
