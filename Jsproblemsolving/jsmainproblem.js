@@ -55,17 +55,44 @@
  //************************** problem **********************************
 // Write a program to determine if a number is positive, negative, or zero.
 
- let i= 0
+//  let i= 0
 
- if(i > 0){
-    console.log("This number is Positive")
- }
-  else if( i < 0){
-    console.log("This number is Nagitive")
+//  if(i > 0){
+//     console.log("This number is Positive")
+//  }
+//   else if( i < 0){
+//     console.log("This number is Nagitive")
  
+//   }
+// else{
+//     console.log("This number is zero")
+// }
+
+ 
+ //************************** problem **********************************
+// Implement a switch statement that converts a numerical grade into a letter grade (e.g., A, B, C).
+ let marks=90
+
+
+  switch(true){
+     case( marks >= 90):
+     console.log(" A Grade")
+    break
+    case( marks >= 80):
+    console.log(" A Grade")
+   break
+   case( marks >= 70):
+   console.log(" B Grade")
+  break
+  case( marks >= 60):
+  console.log(" C Grade")
+ break
+ case( marks >= 50):
+ console.log(" D Grade")
+break
+
+ default:
+  console.log("THis is fail")
   }
-else{
-    console.log("This number is zero")
-}
 
   
