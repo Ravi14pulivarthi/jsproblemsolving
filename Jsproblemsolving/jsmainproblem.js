@@ -1,20 +1,16 @@
-
- //************************** problem ***********************************
+//************************** problem ***********************************
 
 //  let num1=prompt("enter  frinst number")
 //   let num2=prompt("enter  sencond number")
 
-
 //    let num3=parseInt(num1)
-   
+
 //    let num4=parseInt(num2)
 
 //  document.write(` this is total num = ${num3+num4}`)
 
- //************************** problem ***********************************
+//************************** problem ***********************************
 //  Create a program that converts temperature from Celsius to Fahrenheit.
-
-
 
 //  function temp(value){
 //  return( (value * 9/5)+32)
@@ -24,20 +20,17 @@
 //    let  newtem= temp(value)
 //  console.log(newtem)
 
- //************************** problem ***********************************
+//************************** problem ***********************************
 //  Calculate the area of a circle given its radius.
-
 
 //  function radius(circle){
 //    return( (22/7*circle *circle) )
 //  }
 //   console.log(radius(10))
 
- //************************** problem ***********************************
-
+//************************** problem ***********************************
 
 //  function isleapyear(year){
-
 
 //  return( year % 400 ===0) ||( year % 100 !==0 && year % 4 === 0)
 //  }
@@ -51,8 +44,7 @@
 //     console.log("THis is not  leap year" +year)
 //   }
 
-
- //************************** problem **********************************
+//************************** problem **********************************
 // Write a program to determine if a number is positive, negative, or zero.
 
 //  let i= 0
@@ -62,17 +54,15 @@
 //  }
 //   else if( i < 0){
 //     console.log("This number is Nagitive")
- 
+
 //   }
 // else{
 //     console.log("This number is zero")
 // }
 
- 
- //************************** problem **********************************
+//************************** problem **********************************
 // Implement a switch statement that converts a numerical grade into a letter grade (e.g., A, B, C).
 //  let marks=90
-
 
 //   switch(true){
 //      case( marks >= 90):
@@ -95,49 +85,41 @@
 //   console.log("THis is fail")
 //   }
 
-  
+//************************** problem **********************************
 
- 
- //************************** problem **********************************
+//Create a program to determine if a given character is a vowel or consonant.
 
- //Create a program to determine if a given character is a vowel or consonant.
+// let  char="A"
 
-  
+//   let voles="AEIOUaeiou"
 
-  // let  char="A"
+//    let char2=[]
 
-  //   let voles="AEIOUaeiou"
- 
-  //    let char2=[]
+//     for( let i=0;i<voles.length;i++){
+//       if( voles[i] === char){
+//           char2++
+//       }
+//     }
+//      if(char2 === 1){
+//        console.log("vowels")
+//      }
+//       else{
+//          console.log("Consonent")
+//       }
 
-  //     for( let i=0;i<voles.length;i++){
-  //       if( voles[i] === char){
-  //           char2++
-  //       }
-  //     }
-  //      if(char2 === 1){
-  //        console.log("vowels")
-  //      }
-  //       else{
-  //          console.log("Consonent")
-  //       }
-
-
-   
- //************************** problem **********************************
- //Write a function that calculates the sum of all prime numbers in a given range.
-
-  let num=10
- let num2=0
- 
-   for( let i=0;i<num;i++){
-    let count=0
-     for( let j=0;j<i;j++){
-       if( i%j ==0){
-         count+=1
-       }
-     }
-      if( count == 1){
-         console.log(i)
-      }
-   }
+//************************** problem **********************************
+//Write a function that calculates the sum of all prime numbers in a given range.
+let num = 10;
+let num2=0
+for (let i = 0; i < num; i++) {
+  let count = 0;
+  for (let j = 0; j < i; j++) {
+    if (i % j === 0) {
+      count += 1;
+    }
+  }
+  if (count == 1) {
+    num2+=i
+  }
+}
+ console.log('total  sum of the Prime'+num2)
