@@ -129,10 +129,25 @@
 
 
 
-let names="Ravi kumar Pulivarthi"
+// let names="Ravi kumar Pulivarthi"
 
-let name2=""
- for( let i=names.length-1;i>=0;i--){
-    name2+=names[i]
- }
-  console.log(name2)
+// let name2=""
+//  for( let i=names.length-1;i>=0;i--){
+//     name2+=names[i]
+//  }
+//   console.log(name2)
+
+//************************** problem **********************************
+
+//Implement a function that converts a string to title case (capitalize the first letter of each word).
+
+
+let str="ravi kumar pulivarthi mca"
+
+ let str2=str.split(" ")
+  let str3=""
+
+  for( let i=0;i<str2.length;i++){
+ str3+=str2[i].replace(str2[i][0],str2[i][0].toUpperCase())+" "
+  }
+   console.log(str3)
