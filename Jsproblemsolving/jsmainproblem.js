@@ -71,28 +71,53 @@
  
  //************************** problem **********************************
 // Implement a switch statement that converts a numerical grade into a letter grade (e.g., A, B, C).
- let marks=90
+//  let marks=90
 
 
-  switch(true){
-     case( marks >= 90):
-     console.log(" A Grade")
-    break
-    case( marks >= 80):
-    console.log(" A Grade")
-   break
-   case( marks >= 70):
-   console.log(" B Grade")
-  break
-  case( marks >= 60):
-  console.log(" C Grade")
- break
- case( marks >= 50):
- console.log(" D Grade")
-break
+//   switch(true){
+//      case( marks >= 90):
+//      console.log(" A Grade")
+//     break
+//     case( marks >= 80):
+//     console.log(" A Grade")
+//    break
+//    case( marks >= 70):
+//    console.log(" B Grade")
+//   break
+//   case( marks >= 60):
+//   console.log(" C Grade")
+//  break
+//  case( marks >= 50):
+//  console.log(" D Grade")
+// break
 
- default:
-  console.log("THis is fail")
-  }
+//  default:
+//   console.log("THis is fail")
+//   }
 
   
+
+ 
+ //************************** problem **********************************
+
+ //Create a program to determine if a given character is a vowel or consonant.
+
+  
+
+  let  char="A"
+
+    let voles="AEIOUaeiou"
+ 
+     let char2=[]
+
+      for( let i=0;i<voles.length;i++){
+        if( voles[i] === char){
+            char2++
+        }
+      }
+       if(char2 === 1){
+         console.log("vowels")
+       }
+        else{
+           console.log("Consonent")
+        }
