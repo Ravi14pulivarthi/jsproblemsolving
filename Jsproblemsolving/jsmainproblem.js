@@ -109,17 +109,29 @@
 
 //************************** problem **********************************
 //Write a function that calculates the sum of all prime numbers in a given range.
-let num = 10;
-let num2=0
-for (let i = 0; i < num; i++) {
-  let count = 0;
-  for (let j = 0; j < i; j++) {
-    if (i % j === 0) {
-      count += 1;
-    }
+// let num = 10;
+// let num2=0
+// for (let i = 0; i < num; i++) {
+//   let count = 0;
+//   for (let j = 0; j < i; j++) {
+//     if (i % j === 0) {
+//       count += 1;
+//     }
+//   }
+//   if (count == 1) {
+//     num2+=i
+//   }
+// }
+//  console.log('total  sum of the Prime'+num2)
+ 
+//************************** problem **********************************
+//  stringrevers
+
+
+ let names="Ravi kumar Pulivarthi"
+
+ let name2=""
+  for( let i=names.length-1;i>=0;i--){
+     name2+=names[i]
   }
-  if (count == 1) {
-    num2+=i
-  }
-}
- console.log('total  sum of the Prime'+num2)
+   console.log(name2)
