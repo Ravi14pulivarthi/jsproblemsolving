@@ -195,18 +195,27 @@
  //************************** problem ********************************** 
 //  Create a JavaScript function that returns the frequency of a specific character in a string.
 
- let str="pulivarthi"
- let str2='i'
-  let count=0
+//  let str="pulivarthi"
+//  let str2='i'
+//   let count=0
 
-  for( let i=0;i<str.length;i++){
- if( str[i] == str2){
-     count++
- }
-  }
-   console.log(count)
-
-
+//   for( let i=0;i<str.length;i++){
+//  if( str[i] == str2){
+//      count++
+//  }
+//   }
+//    console.log(count)
+ 
+ //************************** problem ********************************** 
+  let num=[1,2,3,4,5,6,7,8,9,10]
+ let num2=0
+    for( let i=0;i<num.length;i++){
+         if( num[i]%2 == 0){
+             num2+=num[i]
+         }
+      
+    }
+ console.log(num2)
 
 
 
