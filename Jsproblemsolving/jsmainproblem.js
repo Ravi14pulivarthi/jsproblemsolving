@@ -142,12 +142,46 @@
 //Implement a function that converts a string to title case (capitalize the first letter of each word).
 
 
-let str="ravi kumar pulivarthi mca"
+// let str="ravi kumar pulivarthi mca"
 
- let str2=str.split(" ")
-  let str3=""
+//  let str2=str.split(" ")
+//   let str3=""
 
-  for( let i=0;i<str2.length;i++){
- str3+=str2[i].replace(str2[i][0],str2[i][0].toUpperCase())+" "
-  }
-   console.log(str3)
+//   for( let i=0;i<str2.length;i++){
+//  str3+=str2[i].replace(str2[i][0],str2[i][0].toUpperCase())+" "
+//   }
+//    console.log(str3)
+
+ 
+//************************** problem **********************************
+// Write a function that counts the number of words in a sentence.
+
+ let  string="Ravi kumar pulivarthi mca"
+
+  let str2=string.split(" ")
+
+   console.log(str2.length)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
