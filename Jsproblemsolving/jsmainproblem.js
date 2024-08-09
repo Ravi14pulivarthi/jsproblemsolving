@@ -207,18 +207,31 @@
 //    console.log(count)
  
  //************************** problem ********************************** 
-  let num=[1,2,3,4,5,6,7,8,9,10]
- let num2=0
-    for( let i=0;i<num.length;i++){
-         if( num[i]%2 == 0){
-             num2+=num[i]
-         }
+//   let num=[1,2,3,4,5,6,7,8,9,10]
+//  let num2=0
+//     for( let i=0;i<num.length;i++){
+//          if( num[i]%2 == 0){
+//              num2+=num[i]
+//          }
       
-    }
+//     }
+//  console.log(num2)
+
+//  secondmethod
+
+  let num=[1,2,3,4,5,6,7,8,9,10]
+
+    let num2=num.reduce((vaue1,value2)=>{
+      
+         if( value2 %2 ==0){
+              return(vaue1+value2)
+         }
+         return vaue1
+    },0)
  console.log(num2)
 
-
-
+ 
+ 
 
 
 
