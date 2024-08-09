@@ -165,24 +165,32 @@
 
  
 //************************** problem ********************************** 
- let num=6
- let count=0
-  for( let i=0;i<num;i++){
-      if( num%i ==0 ){
-         count+=1
-      }
+//  let num=6
+//  let count=0
+//   for( let i=0;i<num;i++){
+//       if( num%i ==0 ){
+//          count+=1
+//       }
+//   }
+// if( count ==1){
+//      console.log("Prime number")
+// }
+// else{
+//      console.log('Not Prime')
+// }
+
+ //************************** problem ********************************** 
+
+ let  string="Ravi kumar is agood boy pulivarthi"
+ let  string2=string.split(" ")
+  let largestword=string2[0]
+
+  for( let i=0;i<string2.length;i++){
+    if(  string2[i].length > largestword.length ){
+         largestword = string2[i]
+    }
   }
-if( count ==1){
-     console.log("Prime number")
-}
-else{
-     console.log('Not Prime')
-}
-
-
-
-
-
+ console.log(largestword)
 
 
 
