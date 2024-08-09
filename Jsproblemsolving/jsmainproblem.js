@@ -156,16 +156,28 @@
 //************************** problem **********************************
 // Write a function that counts the number of words in a sentence.
 
- let  string="Ravi kumar pulivarthi mca"
+//  let  string="Ravi kumar pulivarthi mca"
 
-  let str2=string.split(" ")
+//   let str2=string.split(" ")
 
-   console.log(str2.length)
-
-
+//    console.log(str2.length)
 
 
-
+ 
+//************************** problem ********************************** 
+ let num=6
+ let count=0
+  for( let i=0;i<num;i++){
+      if( num%i ==0 ){
+         count+=1
+      }
+  }
+if( count ==1){
+     console.log("Prime number")
+}
+else{
+     console.log('Not Prime')
+}
 
 
 
