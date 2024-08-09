@@ -181,16 +181,30 @@
 
  //************************** problem ********************************** 
 
- let  string="Ravi kumar is agood boy pulivarthi"
- let  string2=string.split(" ")
-  let largestword=string2[0]
+//  let  string="Ravi kumar is agood boy pulivarthi"
+//  let  string2=string.split(" ")
+//   let largestword=string2[0]
 
-  for( let i=0;i<string2.length;i++){
-    if(  string2[i].length > largestword.length ){
-         largestword = string2[i]
-    }
+//   for( let i=0;i<string2.length;i++){
+//     if(  string2[i].length > largestword.length ){
+//          largestword = string2[i]
+//     }
+//   }
+//  console.log(largestword)
+ 
+ //************************** problem ********************************** 
+//  Create a JavaScript function that returns the frequency of a specific character in a string.
+
+ let str="pulivarthi"
+ let str2='i'
+  let count=0
+
+  for( let i=0;i<str.length;i++){
+ if( str[i] == str2){
+     count++
+ }
   }
- console.log(largestword)
+   console.log(count)
 
 
 
