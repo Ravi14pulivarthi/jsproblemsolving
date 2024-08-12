@@ -260,7 +260,24 @@
 
 
    console.log(arr2)
- 
+ //************************** problem **********************************
+
+  let nums=[1,2,3,4,5]
+ let swap=""
+
+
+   for( let i=0;i<nums.length;i++){
+     
+      for( let j=0;j<nums.length;j++){
+       if( nums[i] < nums[j]){
+          swap=nums[i]
+          nums[i]=nums[j]
+          nums[j]=swap
+       }
+      }
+   }
+
+ console.log(swap)
 
 
 
