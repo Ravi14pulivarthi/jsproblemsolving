@@ -248,41 +248,47 @@
  //************************** problem **********************************
 //  remove duplecates in the 
 
- let array=[1,2,3,4,5,6,7,8,1,2,3,4,5,6,7,8]
-  array.sort()
- let arr2=[]
+//  let array=[1,2,3,4,5,6,7,8,1,2,3,4,5,6,7,8]
+//   array.sort()
+//  let arr2=[]
 
-  for( let i=0;i<array.length;i++){
-       if( array[i] != array[i+1]){
-          arr2.push(array[i])
-       }
-  }
+//   for( let i=0;i<array.length;i++){
+//        if( array[i] != array[i+1]){
+//           arr2.push(array[i])
+//        }
+//   }
 
 
-   console.log(arr2)
+//    console.log(arr2)
  //************************** problem **********************************
 
-  let nums=[1,2,3,4,5]
- let swap=""
+//   let nums=[1,2,3,4,5]
+//  let swap=""
 
 
-   for( let i=0;i<nums.length;i++){
+//    for( let i=0;i<nums.length;i++){
      
-      for( let j=0;j<nums.length;j++){
-       if( nums[i] < nums[j]){
-          swap=nums[i]
-          nums[i]=nums[j]
-          nums[j]=swap
-       }
-      }
-   }
+//       for( let j=0;j<nums.length;j++){
+//        if( nums[i] < nums[j]){
+//           swap=nums[i]
+//           nums[i]=nums[j]
+//           nums[j]=swap
+//        }
+//       }
+//    }
 
- console.log(swap)
+//  console.log(swap)
+
+//************************** problem **********************************
 
 
+ let arr1=[1,2,3,4,5]
 
 
+  let arr2=[6,7,8,9,10]
 
+
+   console.log(...arr1,...arr2)
 
 
 
