@@ -219,18 +219,32 @@
 
 //  secondmethod
 
-  let num=[1,2,3,4,5,6,7,8,9,10]
+//   let num=[1,2,3,4,5,6,7,8,9,10]
 
-    let num2=num.reduce((vaue1,value2)=>{
+//     let num2=num.reduce((vaue1,value2)=>{
       
-         if( value2 %2 ==0){
-              return(vaue1+value2)
-         }
-         return vaue1
-    },0)
- console.log(num2)
+//          if( value2 %2 ==0){
+//               return(vaue1+value2)
+//          }
+//          return vaue1
+//     },0)
+//  console.log(num2)
 
  
+  
+ //************************** problem **********************************
+
+
+  let num=5
+
+   for( let i=num;i>=1;i--){
+     let num2=""
+ for( let j=1;j<=i;j++){
+ num2+="*"
+ }
+ console.log(num2)
+   }
+
  
 
 
