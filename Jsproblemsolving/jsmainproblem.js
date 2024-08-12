@@ -235,16 +235,31 @@
  //************************** problem **********************************
 
 
-  let num=5
+//   let num=5
 
-   for( let i=num;i>=1;i--){
-     let num2=""
- for( let j=1;j<=i;j++){
- num2+="*"
- }
- console.log(num2)
-   }
+//    for( let i=num;i>=1;i--){
+//      let num2=""
+//  for( let j=1;j<=i;j++){
+//  num2+="*"
+//  }
+//  console.log(num2)
+//    }
 
+ //************************** problem **********************************
+//  remove duplecates in the 
+
+ let array=[1,2,3,4,5,6,7,8,1,2,3,4,5,6,7,8]
+  array.sort()
+ let arr2=[]
+
+  for( let i=0;i<array.length;i++){
+       if( array[i] != array[i+1]){
+          arr2.push(array[i])
+       }
+  }
+
+
+   console.log(arr2)
  
 
 
