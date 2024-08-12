@@ -282,14 +282,26 @@
 //************************** problem **********************************
 
 
- let arr1=[1,2,3,4,5]
+//  let arr1=[1,2,3,4,5]
 
 
-  let arr2=[6,7,8,9,10]
+//   let arr2=[6,7,8,9,10]
 
 
-   console.log(...arr1,...arr2)
+//    console.log(...arr1,...arr2)
+//************************** problem **********************************
 
+
+
+ let evennumbers=[1,2,3,4,5,6,7,8,9,10]
+ let num2=0
+
+    for( let i=0;i<evennumbers.length;i++){
+      if( evennumbers[i] %2 ==0){
+           num2+=evennumbers[i]
+      }
+    }
+     console.log(num2)
 
 
 
