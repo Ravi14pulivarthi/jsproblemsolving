@@ -345,4 +345,4 @@
   author:"Sudha",
   pubilications:2024
  }
-  console.log(Object.keys(book))
+  console.log(Object.values(book))
