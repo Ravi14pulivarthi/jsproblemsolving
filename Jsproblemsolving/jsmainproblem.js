@@ -328,14 +328,21 @@
 
   //   console.log(array2)
       //************************** problem **********************************
-     let nums=[1,2,3,4,5]
+//      let nums=[1,2,3,4,5]
 
- let num2=0
-      for( let i=0;i<nums.length;i++){
-          num2+=nums[i]
+//  let num2=0
+//       for( let i=0;i<nums.length;i++){
+//           num2+=nums[i]
         
         
-        }
-         let num3=num2/nums.length
-         console.log(num3)
-    
+//         }
+//          let num3=num2/nums.length
+//          console.log(num3)
+      //************************** problem **********************************
+// Create an object representing a book with properties like title, author, and publication year.
+
+ let book={title:"Sudhamurthi",
+  author:"Sudha",
+  pubilications:2024
+ }
+  console.log(Object.keys(book))
