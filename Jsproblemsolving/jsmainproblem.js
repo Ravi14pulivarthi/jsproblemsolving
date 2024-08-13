@@ -322,8 +322,20 @@
 
 
   //************************** problem **********************************
-  const nestedArray = [1, [2, [3, 4], 5], 6];
+  // const nestedArray = [1, [2, [3, 4], 5], 6];
 
-   const array2=nestedArray.flat(Infinity)
+  //  const array2=nestedArray.flat(Infinity)
 
-    console.log(array2)
+  //   console.log(array2)
+      //************************** problem **********************************
+     let nums=[1,2,3,4,5]
+
+ let num2=0
+      for( let i=0;i<nums.length;i++){
+          num2+=nums[i]
+        
+        
+        }
+         let num3=num2/nums.length
+         console.log(num3)
+    
