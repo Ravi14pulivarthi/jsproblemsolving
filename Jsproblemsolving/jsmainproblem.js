@@ -293,15 +293,29 @@
 
 
 
- let evennumbers=[1,2,3,4,5,6,7,8,9,10]
- let num2=0
+//  let evennumbers=[1,2,3,4,5,6,7,8,9,10]
+//  let num2=0
 
-    for( let i=0;i<evennumbers.length;i++){
-      if( evennumbers[i] %2 ==0){
-           num2+=evennumbers[i]
-      }
-    }
-     console.log(num2)
+//     for( let i=0;i<evennumbers.length;i++){
+//       if( evennumbers[i] %2 ==0){
+//            num2+=evennumbers[i]
+//       }
+//     }
+//      console.log(num2)
 
 
+//************************** problem **********************************
 
+ let nums=[9,8,7,6,5,4,3,2,1]
+
+  for( let i=0;i<nums.length;i++){
+     let swap=''
+     for( let j=0;j<nums.length;j++){
+       if(  nums[i] < nums[j]){
+         swap=nums[i]
+          nums[i]=nums[j]
+          nums[j]=swap
+       }
+     }
+  }
+    console.log(nums)
