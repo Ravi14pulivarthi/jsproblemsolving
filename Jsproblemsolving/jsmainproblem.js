@@ -341,8 +341,16 @@
       //************************** problem **********************************
 // Create an object representing a book with properties like title, author, and publication year.
 
- let book={title:"Sudhamurthi",
-  author:"Sudha",
-  pubilications:2024
- }
-  console.log(Object.values(book))
+//  let book={title:"Sudhamurthi",
+//   author:"Sudha",
+//   pubilications:2024
+//  }
+//   console.log(Object.values(book))
+  let obj={name:"Ravi"}
+
+  if( Object.keys(obj).length === 0){
+     console.log( 'The obj is Empty')
+  }
+   else{
+     console.log("The object is not empty ")
+   }
