@@ -358,6 +358,6 @@
          //************************** problem **********************************
           let obj1={name:"Ravi"}
            let obj2={age:25}
- let obj3=Object.assign({},obj1,obj2)
+ let obj3={...obj1,...obj2}
 
             console.log(obj3)
