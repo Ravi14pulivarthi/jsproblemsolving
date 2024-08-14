@@ -346,11 +346,18 @@
 //   pubilications:2024
 //  }
 //   console.log(Object.values(book))
-  let obj={name:"Ravi"}
+  // let obj={name:"Ravi"}
 
-  if( Object.keys(obj).length === 0){
-     console.log( 'The obj is Empty')
-  }
-   else{
-     console.log("The object is not empty ")
-   }
+  // if( Object.keys(obj).length === 0){
+  //    console.log( 'The obj is Empty')
+  // }
+  //  else{
+  //    console.log("The object is not empty ")
+  //  }
+
+         //************************** problem **********************************
+          let obj1={name:"Ravi"}
+           let obj2={age:25}
+ let obj3=Object.assign({},obj1,obj2)
+
+            console.log(obj3)
