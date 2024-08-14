@@ -385,7 +385,14 @@ const people = [
   { name: 'Tharun', age: 20 },
   { name: 'Raghu', age: 28 }
 ];
-
- let people2=people.sort((a,b)=>{return(a.age -b.age)})
-
-  console.log(people2)
+  for( let i=0;i<people.length;i++){
+     let swap=""
+     for( let j=0;j<people.length;j++){
+      if( people[i].age< people[j].age){
+         swap=people[i]
+         people[i]=people[j]
+         people[j]=swap
+      }
+     }
+  }
+   console.log(people)
