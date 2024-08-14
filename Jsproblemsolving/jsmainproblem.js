@@ -356,8 +356,36 @@
   //  }
 
          //************************** problem **********************************
-          let obj1={name:"Ravi"}
-           let obj2={age:25}
- let obj3={...obj1,...obj2}
+//           let obj1={name:"Ravi"}
+//            let obj2={age:25}
+//  let obj3={...obj1,...obj2}
 
-            console.log(obj3)
+//             console.log(obj3)
+
+ 
+         //************************** problem **********************************
+
+
+//            let object=[{name:"ravi"},{name:"kumar"},{name:"ravi"},{name:"tharun"},{name:"raghu"}]
+//  let count=0
+
+//  for( let i=0;i<object.length;i++){
+//   if( Object.keys(object)){
+//      count++
+//   }
+//  }
+//   console.log(count)
+
+
+          //************************** problem **********************************
+
+const people = [
+  { name: 'Ravi', age: 25 },
+  { name: 'Kumar', age: 30 },
+  { name: 'Tharun', age: 20 },
+  { name: 'Raghu', age: 28 }
+];
+
+ let people2=people.sort((a,b)=>{return(a.age -b.age)})
+
+  console.log(people2)
