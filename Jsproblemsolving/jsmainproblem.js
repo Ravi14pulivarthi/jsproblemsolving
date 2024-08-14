@@ -379,20 +379,29 @@
 
           //************************** problem **********************************
 
-const people = [
-  { name: 'Ravi', age: 25 },
-  { name: 'Kumar', age: 30 },
-  { name: 'Tharun', age: 20 },
-  { name: 'Raghu', age: 28 }
-];
-  for( let i=0;i<people.length;i++){
-     let swap=""
-     for( let j=0;j<people.length;j++){
-      if( people[i].age< people[j].age){
-         swap=people[i]
-         people[i]=people[j]
-         people[j]=swap
-      }
-     }
-  }
-   console.log(people)
+// const people = [
+//   { name: 'Ravi', age: 25 },
+//   { name: 'Kumar', age: 30 },
+//   { name: 'Tharun', age: 20 },
+//   { name: 'Raghu', age: 28 }
+// ];
+//   for( let i=0;i<people.length;i++){
+//      let swap=""
+//      for( let j=0;j<people.length;j++){
+//       if( people[i].age< people[j].age){
+//          swap=people[i]
+//          people[i]=people[j]
+//          people[j]=swap
+//       }
+//      }
+//   }
+//    console.log(people)
+
+ 
+          //************************** problem **********************************
+
+           let num=5
+
+            for( let i=1;i<=10;i++){
+                console.log(`${i} * ${num} =${i*num}`)
+            }
