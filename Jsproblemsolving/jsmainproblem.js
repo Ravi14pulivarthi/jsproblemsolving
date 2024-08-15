@@ -447,19 +447,32 @@
             // Write a function that takes a string and returns an object 
             // with the count of each character in the string.
 
-             let string="Rvaikumat Pulivarthi"
+            //  let string="Rvaikumat Pulivarthi"
 
-              let charcount={}
-              for(  let i=0;i<string.length;i++){
-                 let char=string[i]
+            //   let charcount={}
+            //   for(  let i=0;i<string.length;i++){
+            //      let char=string[i]
 
-                  if( charcount[char]){
-                     charcount[char]++
-                  }
-                   else{
-                     charcount[char]=1
-                   }
-              }
-               console.log(charcount)
+            //       if( charcount[char]){
+            //          charcount[char]++
+            //       }
+            //        else{
+            //          charcount[char]=1
+            //        }
+            //   }
+            //    console.log(charcount)
 
-          
+
+   //************************** problem **********************************
+
+                  //  Remove duplicts
+
+                   let num=[1,2,3,4,5,1,2,3,4,5]
+                   num.sort()
+                       let num2=[]
+                    for( let i=0;i<num.length;i++){
+                       if(num[i] != num[i+1]){
+                         num2.push(num[i])
+                       }
+                    }
+                     console.log(num2)
