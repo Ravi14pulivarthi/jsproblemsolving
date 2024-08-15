@@ -410,13 +410,37 @@
      
      
 
- let nums=[10,40,60,20,30]
+//  let nums=[10,40,60,20,30]
 
-let num2=nums[0]
-  for(let i=0;i<nums.length;i++){
-    if( nums[i] < num2){
-        num2 = nums[i]
-    }
-  }
-   console.log(num2)
+// let num2=nums[0]
+//   for(let i=0;i<nums.length;i++){
+//     if( nums[i] < num2){
+//         num2 = nums[i]
+//     }
+//   }
+//    console.log(num2)
 
+
+      //************************** problem ********************************** 
+      // Write a function that prints numbers from 1 to 100. For multiples of 3, print "Fizz" instead 
+      // of the number, and for multiples of 5, print "Buzz". For numbers which are multiples of both 3 and 5,
+      //  print "FizzBuzz".
+
+
+       let num=100
+        
+        for( let i=1;i<=num;i++){
+           if( i % 3 ==0 ){
+             console.log("Fizz")
+           }
+           if( i % 5 ==0 ){
+            console.log("Buzz")
+          }
+          if( i % 3 && i%5 ==0 ){
+            console.log("FizzBuzz")
+          }
+            else{
+               console.log(i)
+            }
+        }
+         
