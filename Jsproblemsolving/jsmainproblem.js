@@ -400,8 +400,23 @@
  
           //************************** problem **********************************
 
-           let num=5
+          //  let num=5
 
-            for( let i=1;i<=10;i++){
-                console.log(`${i} * ${num} =${i*num}`)
-            }
+          //   for( let i=1;i<=10;i++){
+          //       console.log(`${i} * ${num} =${i*num}`)
+          //   }
+
+     //************************** problem **********************************        
+     
+     
+
+ let nums=[10,40,60,20,30]
+
+let num2=nums[0]
+  for(let i=0;i<nums.length;i++){
+    if( nums[i] > num2){
+        num2 = nums[i]
+    }
+  }
+   console.log(num2)
+
