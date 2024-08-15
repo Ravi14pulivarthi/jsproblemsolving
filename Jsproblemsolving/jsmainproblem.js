@@ -465,14 +465,27 @@
 
    //************************** problem **********************************
 
-                  //  Remove duplicts
+                  // //  Remove duplicts
 
-                   let num=[1,2,3,4,5,1,2,3,4,5]
-                   num.sort()
-                       let num2=[]
-                    for( let i=0;i<num.length;i++){
-                       if(num[i] != num[i+1]){
-                         num2.push(num[i])
-                       }
-                    }
-                     console.log(num2)
+                  //  let num=[1,2,3,4,5,1,2,3,4,5]
+                  //  num.sort()
+                  //      let num2=[]
+                  //   for( let i=0;i<num.length;i++){
+                  //      if(num[i] != num[i+1]){
+                  //        num2.push(num[i])
+                  //      }
+                  //   }
+                  //    console.log(num2)
+
+ //************************** problem **********************************
+  let string="ravi"
+   let string2=""
+   for( let i=string.length-1;i>=0;i--){
+     string2+=string[i]
+   }
+  if( string2 === string){
+     console.log("Polinderam")
+  }
+   else{
+    console.log("not Polinderam")
+   }
