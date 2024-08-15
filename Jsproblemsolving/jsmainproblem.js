@@ -427,20 +427,39 @@
       //  print "FizzBuzz".
 
 
-       let num=100
+      //  let num=100
         
-        for( let i=1;i<=num;i++){
-           if( i % 3 ==0 ){
-             console.log("Fizz")
-           }
-           if( i % 5 ==0 ){
-            console.log("Buzz")
-          }
-          if( i % 3 && i%5 ==0 ){
-            console.log("FizzBuzz")
-          }
-            else{
-               console.log(i)
-            }
-        }
-         
+      //   for( let i=1;i<=num;i++){
+      //      if( i % 3 ==0 ){
+      //        console.log("Fizz")
+      //      }
+      //      if( i % 5 ==0 ){
+      //       console.log("Buzz")
+      //     }
+      //     if( i % 3 && i%5 ==0 ){
+      //       console.log("FizzBuzz")
+      //     }
+      //       else{
+      //          console.log(i)
+      //       }
+      //   }
+            //************************** problem ********************************** 
+            // Write a function that takes a string and returns an object 
+            // with the count of each character in the string.
+
+             let string="Rvaikumat Pulivarthi"
+
+              let charcount={}
+              for(  let i=0;i<string.length;i++){
+                 let char=string[i]
+
+                  if( charcount[char]){
+                     charcount[char]++
+                  }
+                   else{
+                     charcount[char]=1
+                   }
+              }
+               console.log(charcount)
+
+          
