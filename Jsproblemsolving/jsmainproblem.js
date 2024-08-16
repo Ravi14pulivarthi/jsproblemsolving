@@ -538,12 +538,20 @@
 
    //************************** problem **********************************
 
-    let num=[1,2,3,4,5]
- let num2=0
+//    let num=[1,2,3,4,5]
+//    let num2=0
+  
+//        for( let i=0;i<num.length; i++){
+//          num2+=num[i]
+//        }
+//         console.log(num2)
 
-     for( let i=0;i<num.length; i++){
-       num2+=num[i]
-     }
-      console.log(num2)
+let num=[1,2,3,4,5,6]
+let num2=0
+
+    for( let i=0;i<num.length-1; i++){
+      num2++
+    }
+     console.log(num2)
 
 
