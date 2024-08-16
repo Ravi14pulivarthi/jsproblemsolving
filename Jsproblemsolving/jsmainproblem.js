@@ -493,21 +493,29 @@
 
   //************************** problem **********************************
 
-   let  num=[1,2,3,4,5,2,3,4]
-  let num2=1
- let conunt=0
-    for( let i=0;i<num.length;i++){
-       if(num[i] === num2){
-            conunt++
-       }
+//    let  num=[1,2,3,4,5,2,3,4]
+//   let num2=1
+//  let conunt=0
+//     for( let i=0;i<num.length;i++){
+//        if(num[i] === num2){
+//             conunt++
+//        }
        
-    }
-     if( conunt === 1){
-      console.log('true')
-  }
-   else{
-       console.log("false")
-   }
+//     }
+//      if( conunt === 1){
+//       console.log('true')
+//   }
+//    else{
+//        console.log("false")
+//    }
 
+  //************************** problem **********************************
+ let  obj1=[{ a: 10, b: 20, c: 5 }]
+
+//  console.log(Object.keys(obj1))
+ let obj2=obj1.map((item)=>{
+       return( Object.values(obj1) <  item)
+  })
+   console.log(obj2)
 
 
