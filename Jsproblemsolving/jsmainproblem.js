@@ -510,12 +510,30 @@
 //    }
 
   //************************** problem **********************************
- let  obj1=[{ a: 10, b: 20, c: 5 }]
+//  let  obj1=[{ a: 10, b: 20, c: 5 }]
 
-//  console.log(Object.keys(obj1))
- let obj2=obj1.map((item)=>{
-       return( Object.values(obj1) <  item)
-  })
-   console.log(obj2)
+// //  console.log(Object.keys(obj1))
+//  let obj2=obj1.map((item)=>{
+//        return( Object.values(obj1) <  item)
+//   })
+//    console.log(obj2)
+
+
+  //************************** problem **********************************
+
+   let num=123
+ let reversed=0
+  let orginalnum=num
+
+
+    while(num>0){
+      let lastdegit=num%10
+       reversed = reversed * 10 + lastdegit
+
+        num=(num -  lastdegit)/10
+
+    }
+     console.log(reversed)
+
 
 
