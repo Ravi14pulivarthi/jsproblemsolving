@@ -521,19 +521,29 @@
 
   //************************** problem **********************************
 
-   let num=123
- let reversed=0
-  let orginalnum=num
+//    let num=123
+//  let reversed=0
+//   let orginalnum=num
 
 
-    while(num>0){
-      let lastdegit=num%10
-       reversed = reversed * 10 + lastdegit
+//     while(num>0){
+//       let lastdegit=num%10
+//        reversed = reversed * 10 + lastdegit
 
-        num=(num -  lastdegit)/10
+//         num=(num -  lastdegit)/10
 
-    }
-     console.log(reversed)
+//     }
+//      console.log(reversed)
 
+
+   //************************** problem **********************************
+
+    let num=[1,2,3,4,5]
+ let num2=0
+
+     for( let i=0;i<num.length; i++){
+       num2+=num[i]
+     }
+      console.log(num2)
 
 
