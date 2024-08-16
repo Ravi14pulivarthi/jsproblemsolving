@@ -478,14 +478,36 @@
                   //    console.log(num2)
 
  //************************** problem **********************************
-  let string="ravi"
-   let string2=""
-   for( let i=string.length-1;i>=0;i--){
-     string2+=string[i]
-   }
-  if( string2 === string){
-     console.log("Polinderam")
+//   let string="ravi"
+//    let string2=""
+//    for( let i=string.length-1;i>=0;i--){
+//      string2+=string[i]
+//    }
+//   if( string2 === string){
+//      console.log("Polinderam")
+//   }
+//    else{
+//     console.log("not Polinderam")
+//    }
+
+
+  //************************** problem **********************************
+
+   let  num=[1,2,3,4,5,2,3,4]
+  let num2=1
+ let conunt=0
+    for( let i=0;i<num.length;i++){
+       if(num[i] === num2){
+            conunt++
+       }
+       
+    }
+     if( conunt === 1){
+      console.log('true')
   }
    else{
-    console.log("not Polinderam")
+       console.log("false")
    }
+
+
+
