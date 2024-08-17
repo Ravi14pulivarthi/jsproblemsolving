@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="number" placeholder="Enter number"/>
+    <button onclick="largestnum()">Enter</button>
+    <h5 id="result"></h5>
+
+     <script>
+          function largestnum(){
+             let largestnum=document.getElementById("number").value
+               let numarray=largestnum.split(",").map(Number)
+               
+              let num2=largestnum[0]
+               for( let i=0;i<largestnum.length;i++){
+                if( largestnum[i] > num2){
+                     num2 = largestnum[i]
+                }
+               }
+
+                let result=document.getElementById("result").textContent=num2
+
+          }
+     </script>
+</body>
+</html>
