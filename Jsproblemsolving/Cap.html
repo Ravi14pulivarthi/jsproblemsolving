@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Captilaze-Text</h1>
+    <input type="text" id="commingtext" placeholder="Enter  some text"/>
+     <button  onclick="captext()">Clickme</button>
+     <h5 id="result"></h5>
+
+      <script>
+        function captext(){
+             let  commingtext=document.getElementById("commingtext").value
+
+              let mystring=commingtext.toUpperCase()
+               let result=document.getElementById('result').textContent=mystring
+        }
+      </script>
+</body>
+</html>
