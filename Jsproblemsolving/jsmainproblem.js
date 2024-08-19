@@ -555,3 +555,18 @@
 //      console.log(num2)
 
    //************************** problem **********************************
+
+    let num=123
+ let revers=0
+
+
+
+
+  while( num > 0){
+     let lastdigit=num%10
+
+      revers=revers*10 + lastdigit
+
+       num=(num - lastdigit)/10
+  }
+   console.log(revers)

@@ -465,13 +465,15 @@
 
      //*************************************problem*****************************************
 
-       let alfa=5
+      //  let alfa=5
 
 
-        for( let i=0;i<=alfa;i++){
-           let num2=' '
-           for(  let j=0;j<i;j++){
-             num2+=String.fromCharCode(65 + j)
-           }
-            console.log(num2)
-        }
+      //   for( let i=0;i<=alfa;i++){
+      //      let num2=' '
+      //      for(  let j=0;j<i;j++){
+      //        num2+=String.fromCharCode(65 + j)
+      //      }
+      //       console.log(num2)
+      //   }
+
+            //*************************************problem***************************************
