@@ -573,14 +573,33 @@
 
 
       //************************** problem **********************************
-       let num=5
+      //  let num=5
 
-        for( let i=0;i<num;i++ ){
-           let num2=" "
-           for( let j=0;j<i;j++){
-             num2+=String.fromCharCode(65 + j)
-           }
-           console.log(num2)
-        }
+      //   for( let i=0;i<num;i++ ){
+      //      let num2=" "
+      //      for( let j=0;j<i;j++){
+      //        num2+=String.fromCharCode(65 + j)
+      //      }
+      //      console.log(num2)
+      //   }
    
+      //************************** problem **********************************
+ let string="ravi"
+
+
+  let stringcont={}
+
+   for( let i=0;i<string.length;i++){
+      let char=string[i]
+
+ if(  stringcont[char]){
+ stringcont[char]++
+ }
+  else{
+     stringcont[char]=1
+  }
+
+   }
+    console.log(stringcont)
+
 
