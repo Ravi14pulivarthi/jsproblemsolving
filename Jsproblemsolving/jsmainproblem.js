@@ -556,17 +556,31 @@
 
    //************************** problem **********************************
 
-    let num=123
- let revers=0
+//     let num=123
+//  let revers=0
 
 
 
 
-  while( num > 0){
-     let lastdigit=num%10
+  // while( num > 0){
+  //    let lastdigit=num%10
 
-      revers=revers*10 + lastdigit
+  //     revers=revers*10 + lastdigit
 
-       num=(num - lastdigit)/10
-  }
-   console.log(revers)
+  //      num=(num - lastdigit)/10
+  // }
+  //  console.log(revers)
+
+
+      //************************** problem **********************************
+       let num=5
+
+        for( let i=0;i<num;i++ ){
+           let num2=" "
+           for( let j=0;j<i;j++){
+             num2+=String.fromCharCode(65 + j)
+           }
+           console.log(num2)
+        }
+   
+
