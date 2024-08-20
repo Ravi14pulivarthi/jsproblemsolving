@@ -606,18 +606,41 @@
 
 
 
-         let  nums=[3,0,1]
+    //      let  nums=[3,0,1]
 
-     let expetedsum=0
+    //  let expetedsum=0
 
-    let actualsum=0
+    // let actualsum=0
 
-     for( let i=0;i<=nums.length;i++){
-      expetedsum+=i
-     }
-      for(let i=0;i<nums.length;i++){
-        actualsum+=nums[i]
-      }
+    //  for( let i=0;i<=nums.length;i++){
+    //   expetedsum+=i
+    //  }
+    //   for(let i=0;i<nums.length;i++){
+    //     actualsum+=nums[i]
+    //   }
 
-    let missingnum=expetedsum-actualsum
-     console.log(missingnum)
+    // let missingnum=expetedsum-actualsum
+    //  console.log(missingnum)
+
+
+     //************************** problem **********************************
+
+     let nums =[1, 2, 3, 4, 1, 2, 3, 4, 5];
+
+  let count={}
+
+   let count2=[]
+
+   for( let i=0;i<nums.length;i++){
+      let totalnum=nums[i]
+
+       if( count[totalnum]){
+         count[totalnum]++
+       }
+        else{
+           count[totalnum]=1
+        }
+   }
+    console.log(count)
+
+    
