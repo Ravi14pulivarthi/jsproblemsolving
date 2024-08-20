@@ -584,22 +584,40 @@
       //   }
    
       //************************** problem **********************************
- let string="ravi"
+//  let string="ravi"
 
 
-  let stringcont={}
+//   let stringcont={}
 
-   for( let i=0;i<string.length;i++){
-      let char=string[i]
+//    for( let i=0;i<string.length;i++){
+//       let char=string[i]
 
- if(  stringcont[char]){
- stringcont[char]++
- }
-  else{
-     stringcont[char]=1
-  }
+//  if(  stringcont[char]){
+//  stringcont[char]++
+//  }
+//   else{
+//      stringcont[char]=1
+//   }
 
-   }
-    console.log(stringcont)
+//    }
+//     console.log(stringcont)
+
+       //************************** problem **********************************
 
 
+
+         let  nums=[3,0,1]
+
+     let expetedsum=0
+
+    let actualsum=0
+
+     for( let i=0;i<=nums.length;i++){
+      expetedsum+=i
+     }
+      for(let i=0;i<nums.length;i++){
+        actualsum+=nums[i]
+      }
+
+    let missingnum=expetedsum-actualsum
+     console.log(missingnum)
