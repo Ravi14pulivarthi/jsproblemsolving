@@ -643,4 +643,9 @@
    }
     console.log(count)
 
-    
+     for( let i=0;i<nums.length;i++){
+      let totalnum=nums[i]
+       if(i === nums.indexOf(totalnum)){
+         console.log(`${totalnum} ${count[totalnum]}`)
+       }
+     }
