@@ -674,18 +674,39 @@
           //************************** problem ***************************************
 
 
-           let num=123
+          //  let num=123
 
 
-            let revers=0
+            // let revers=0
 
 
-             while(num >0){
-                 let  lastdigt = num%10
+            //  while(num >0){
+            //      let  lastdigt = num%10
 
-                   revers= revers*10 + lastdigt
+            //        revers= revers*10 + lastdigt
 
-                    num=(num - lastdigt)/10
-             }
+            //         num=(num - lastdigt)/10
+            //  }
 
-              console.log(revers)
+            //   console.log(revers)
+
+               
+
+          //************************** problem ***************************************
+
+
+          // "Display the all user name  from this array if age is greater than 18
+const users = [
+  { name: "Jane Doe", id: 2 , age: 19},
+  { name: "Billy Doe", id: 3 , age:25},
+  { name: "Deepak", id: 4 , age:10},
+  { name: "Abhishek", id: 5 , age:19},
+  { name: "Mohan", id: 6 , age:40},
+  { name: "Rohit", id: 7 , age:19}
+];
+
+
+let usre2=users.filter((item)=>{
+   return( item.age == 10)
+ })
+  console.log(usre2)
