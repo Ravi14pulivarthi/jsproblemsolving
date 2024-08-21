@@ -711,8 +711,22 @@
 //  })
 //   console.log(usre2)
 
- let data={name:'ravi',age:25}
+//  let data={name:'ravi',age:25}
 
 
-    let {name,age}=data
-     console.log(name,age)
+    // let {name,age}=data
+    //  console.log(name,age)
+
+    //************************** problem ***************************************
+
+     class Cars{
+      constructor(brand,model,year){
+        this.brand=brand,
+        this.model=model,
+        this.year=year
+      }
+     }
+
+
+      let car1=new Cars("maruthi","f24",'2024')
+       console.log(car1)
