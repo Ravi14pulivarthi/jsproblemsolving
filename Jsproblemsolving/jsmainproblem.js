@@ -653,19 +653,39 @@
       //************************** problem **************************
 
 
-       let nums="raavi"
-        let  count={}
+      //  let nums="raavi"
+      //   let  count={}
 
 
-        for(let i=0;i<nums.length;i++){
-            let numscount=nums[i]
+      //   for(let i=0;i<nums.length;i++){
+      //       let numscount=nums[i]
 
-             if( count[numscount]){
-               count[numscount]++
+      //        if( count[numscount]){
+      //          count[numscount]++
+      //        }
+      //         else{
+      //            count[numscount]=1
+      //         }
+      //   }
+
+      //    console.log(count)
+
+
+          //************************** problem ***************************************
+
+
+           let num=123
+
+
+            let revers=0
+
+
+             while(num >0){
+                 let  lastdigt = num%10
+
+                   revers= revers*10 + lastdigt
+
+                    num=(num - lastdigt)/10
              }
-              else{
-                 count[numscount]=1
-              }
-        }
 
-         console.log(count)
+              console.log(revers)
