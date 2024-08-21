@@ -625,27 +625,47 @@
 
      //************************** problem **********************************
 
-     let nums =[1, 2, 3, 4, 1, 2, 3, 4, 5];
+    // let nums =[1, 2, 3, 4, 1, 2, 3, 4, 5];
 
-  let count={}
+  // let count={}
 
-   let count2=[]
+  //  let count2=[]
 
-   for( let i=0;i<nums.length;i++){
-      let totalnum=nums[i]
+  //  for( let i=0;i<nums.length;i++){
+  //     let totalnum=nums[i]
 
-       if( count[totalnum]){
-         count[totalnum]++
-       }
-        else{
-           count[totalnum]=1
+  //      if( count[totalnum]){
+  //        count[totalnum]++
+  //      }
+  //       else{
+  //          count[totalnum]=1
+  //       }
+  //  }
+  //   console.log(count)
+
+  //    for( let i=0;i<nums.length;i++){
+  //     let totalnum=nums[i]
+  //      if(i === nums.indexOf(totalnum)){
+  //        console.log(`${totalnum} ${count[totalnum]}`)
+  //      }
+  //    }
+
+      //************************** problem **************************
+
+
+       let nums="raavi"
+        let  count={}
+
+
+        for(let i=0;i<nums.length;i++){
+            let numscount=nums[i]
+
+             if( count[numscount]){
+               count[numscount]++
+             }
+              else{
+                 count[numscount]=1
+              }
         }
-   }
-    console.log(count)
 
-     for( let i=0;i<nums.length;i++){
-      let totalnum=nums[i]
-       if(i === nums.indexOf(totalnum)){
-         console.log(`${totalnum} ${count[totalnum]}`)
-       }
-     }
+         console.log(count)
