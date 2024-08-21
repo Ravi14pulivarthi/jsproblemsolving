@@ -718,15 +718,25 @@
     //  console.log(name,age)
 
     //************************** problem ***************************************
+//  class cars{
+//   constructor(na,mo){
+//  this.na= na
+//   this.mo=mo
+//   }
+//  }
+//   let car1=new cars("ravi",1998)
 
-     class Cars{
-      constructor(brand,model,year){
-        this.brand=brand,
-        this.model=model,
-        this.year=year
+//    console.log(car1)
+    //************************** problem ***************************************
+   // Find largest Number in this array
+
+   let arr = [12, 45, 6, 7, 8] 
+    let arr2=arr[0]
+
+     for( let i=0;i<arr.length;i++){
+      if( arr[i] > arr2){
+         arr2 = arr[i]
       }
+       
      }
-
-
-      let car1=new Cars("maruthi","f24",'2024')
-       console.log(car1)
+      console.log(arr2)
