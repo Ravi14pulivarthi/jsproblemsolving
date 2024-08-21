@@ -711,8 +711,8 @@
 //  })
 //   console.log(usre2)
 
- let data=["a","b"]
+ let data={name:'ravi',age:25}
 
 
-    let [one,two]=data
-     console.log(two,one)
+    let {name,age}=data
+     console.log(name,age)
