@@ -730,13 +730,33 @@
     //************************** problem ***************************************
    // Find largest Number in this array
 
-   let arr = [12, 45, 6, 7, 8] 
-    let arr2=arr[0]
+  //  let arr = [12, 45, 6, 7, 8] 
+  //   let arr2=arr[0]
 
-     for( let i=0;i<arr.length;i++){
-      if( arr[i] > arr2){
-         arr2 = arr[i]
-      }
+  //    for( let i=0;i<arr.length;i++){
+  //     if( arr[i] > arr2){
+  //        arr2 = arr[i]
+  //     }
        
-     }
-      console.log(arr2)
+  //    }
+  //     console.log(arr2)
+
+     //************************** problem ***************************************
+
+
+    //  sorting the array
+
+     let num=[9,8,7,6,5,4,3,2,1]
+ 
+      let swap=""
+    for(  let i=0;i<num.length;i++){
+ 
+       for( let j=0;j<num.length;j++){
+         if( num[i] < num[j]){
+           swap=num[i]
+           num[i]=num[j]
+           num[j]=swap
+         }
+       }
+    }
+     console.log(num)
