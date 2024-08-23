@@ -762,9 +762,9 @@
 
       
      //************************** problem ***************************************
-     let a = [20, 3,  5, 11, 7, 90]
-
-      let b=a.reduce((item1,item2)=>{
-   return( item1 + item2)
-      })
+     let a = [21, 3,  5, 11, 7, 90]
+ let b=0
+      for( let i=0;i<a.length;i++){
+         b+=a[i]
+      }
        console.log(b)
