@@ -745,18 +745,26 @@
 
 
     //  sorting the array
+    //  let num=[9,8,7,6,5,4,3,2,1]
+ 
+    //   let swap=""
+    // for(  let i=0;i<num.length;i++){
+ 
+    //    for( let j=0;j<num.length;j++){
+    //      if( num[i] < num[j]){
+    //        swap=num[i]
+    //        num[i]=num[j]
+    //        num[j]=swap
+    //      }
+    //    }
+    // }
+    //  console.log(num)
 
-     let num=[9,8,7,6,5,4,3,2,1]
- 
-      let swap=""
-    for(  let i=0;i<num.length;i++){
- 
-       for( let j=0;j<num.length;j++){
-         if( num[i] < num[j]){
-           swap=num[i]
-           num[i]=num[j]
-           num[j]=swap
-         }
-       }
-    }
-     console.log(num)
+      
+     //************************** problem ***************************************
+     let a = [20, 3,  5, 11, 7, 90]
+
+      let b=a.reduce((item1,item2)=>{
+   return( item1 + item2)
+      })
+       console.log(b)
