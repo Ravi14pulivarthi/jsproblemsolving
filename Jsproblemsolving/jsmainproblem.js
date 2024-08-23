@@ -770,10 +770,18 @@
 //       }
 //        console.log(b)
      //************************** problem ***************************************
-     let a = [21, 3,  5, 11, 7, 90]
+    //  let a = [21, 3,  5, 11, 7, 90]
 
 
-      let b=a.map((item)=>{
-          return( item*3)
-      })
-       console.log(b)
+    //   let b=a.map((item)=>{
+    //       return( item*3)
+    //   })
+    //    console.log(b)
+             //************************** problem ***************************************
+
+             let details = [{name:'Raja', age: 10}, {name:'Sanny', age: 20}, {name:'Roushan', age: 30}]
+             
+             let details2=details.filter((item)=>{
+               return( item.age > 10)
+             })
+              console.log(details2)
