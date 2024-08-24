@@ -779,9 +779,19 @@
     //    console.log(b)
              //************************** problem ***************************************
 
-             let details = [{name:'Raja', age: 10}, {name:'Sanny', age: 20}, {name:'Roushan', age: 30}]
+            //  let details = [{name:'Raja', age: 10}, {name:'Sanny', age: 20}, {name:'Roushan', age: 30}]
              
-             let details2=details.filter((item)=>{
-               return( item.age > 10)
-             })
-              console.log(details2)
+            //  let details2=details.filter((item)=>{
+            //    return( item.age > 10)
+            //  })
+            //   console.log(details2)
+
+ //************************** problem ***************************************
+
+//  Display the today date in js ?
+
+ let displaydate= new Date()
+
+
+
+  console.log(displaydate)
