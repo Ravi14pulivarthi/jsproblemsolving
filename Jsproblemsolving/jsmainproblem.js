@@ -790,11 +790,24 @@
 
 //  Display the today date in js ?
 
- let displaydate= new Date()
+//  let displaydate= new Date()
 
-  let  day=displaydate.getDay()
-  let  month=displaydate.getMonth()
-   let year=displaydate.getUTCFullYear()
+//   let  day=displaydate.getDay()
+//   let  month=displaydate.getMonth()
+//    let year=displaydate.getUTCFullYear()
 
 
-  console.log(year)
+//   console.log(year)
+
+ //************************** problem ***************************************
+
+//  Show me random number in js between 1 - 20 any number.
+
+ let num=20
+ let num2=[]
+  for( let i=1;i<=num;i++){
+     if(  i  % 2 ==0){
+       num2.push(i)
+     }
+  }
+   console.log(num2)
