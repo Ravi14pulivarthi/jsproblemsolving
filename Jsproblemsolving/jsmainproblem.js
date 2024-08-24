@@ -852,5 +852,7 @@
 //  console.log(unique)
    //************************** problem ***************************************
   //  How to delete the object property ?
+
    let obj={name:"Ravi",age:25,"study":"MCA","phone":987765432}
-    console.log(obj)
+     delete obj.age
+      console.log(obj)
