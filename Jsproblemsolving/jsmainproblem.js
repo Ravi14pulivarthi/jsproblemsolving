@@ -815,22 +815,39 @@
  //************************** problem ***************************************
 
 //  Break and continue, Explain me though an example
- let grade=80
+//  let grade=80
 
- switch(true){
+//  switch(true){
 
- case (grade > 90):
-   console.log("He got A grade")
-    break;
+//  case (grade > 90):
+//    console.log("He got A grade")
+//     break;
 
-     case (grade > 80):
-      console.log("He got B grade")
-      break;
+//      case (grade > 80):
+//       console.log("He got B grade")
+//       break;
 
-      case (grade >70):
-        console.log("He got C grade")
-        break;
-         default:
-          console.log("He got fail grade")
+//       case (grade >70):
+//         console.log("He got C grade")
+//         break;
+//          default:
+//           console.log("He got fail grade")
 
+//  }
+  //************************** problem ***************************************
+// How to collect only unique value ?
+ let nums=[1,2,3,4,5,1,2,3,4,6]
+ let unique=[]
+
+  for( let i=0;i<nums.length;i++){
+     let count=0
+     for( let j=0;j<nums.length;j++){
+ if( nums[i] == nums[j]){
+   count++
  }
+     }
+      if( count == 1){
+          unique.push(nums[i])
+      }
+  }
+   console.log(unique)
