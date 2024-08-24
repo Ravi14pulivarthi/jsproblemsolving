@@ -803,11 +803,34 @@
 
 //  Show me random number in js between 1 - 20 any number.
 
- let num=20
- let num2=[]
-  for( let i=1;i<=num;i++){
-     if(  i  % 2 ==0){
-       num2.push(i)
-     }
-  }
-   console.log(num2)
+//  let num=20
+//  let num2=[]
+//   for( let i=1;i<=num;i++){
+//      if(  i  % 2 ==0){
+//        num2.push(i)
+//      }
+//   }
+//    console.log(num2)
+ 
+ //************************** problem ***************************************
+
+//  Break and continue, Explain me though an example
+ let grade=80
+
+ switch(true){
+
+ case (grade > 90):
+   console.log("He got A grade")
+    break;
+
+     case (grade > 80):
+      console.log("He got B grade")
+      break;
+
+      case (grade >70):
+        console.log("He got C grade")
+        break;
+         default:
+          console.log("He got fail grade")
+
+ }
