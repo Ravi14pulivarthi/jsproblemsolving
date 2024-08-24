@@ -792,6 +792,7 @@
 
  let displaydate= new Date()
 
+  let  day=displaydate.getDay()
 
 
-  console.log(displaydate)
+  console.log(day)
