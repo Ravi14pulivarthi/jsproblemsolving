@@ -793,6 +793,8 @@
  let displaydate= new Date()
 
   let  day=displaydate.getDay()
+  let  month=displaydate.getMonth()
+   let year=displaydate.getUTCFullYear()
 
 
-  console.log(day)
+  console.log(year)
