@@ -836,18 +836,21 @@
 //  }
   //************************** problem ***************************************
 // How to collect only unique value ?
- let nums=[1,2,3,4,5,1,2,3,4,6]
- let unique=[]
-
-  for( let i=0;i<nums.length;i++){
-     let count=0
-     for( let j=0;j<nums.length;j++){
- if( nums[i] == nums[j]){
-   count++
- }
-     }
-      if( count == 1){
-          unique.push(nums[i])
-      }
-  }
-   console.log(unique)
+//  let nums=[1,2,3,4,5,1,2,3,4,6]
+//   let  unique=[]
+//  for( let i=0;i<nums.length;i++){
+//    let count=0
+//    for( let  j=0;j<nums.length;j++){
+//      if( nums[i] == nums[j]){
+//        count++
+//      }
+//    }
+//     if( count== 1){
+//        unique.push(nums[i])
+//     }
+//  }
+//  console.log(unique)
+   //************************** problem ***************************************
+  //  How to delete the object property ?
+   let obj={name:"Ravi",age:25,"study":"MCA","phone":987765432}
+    console.log(obj)
