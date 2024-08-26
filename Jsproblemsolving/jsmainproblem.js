@@ -857,18 +857,35 @@
   //    delete obj.age
   //     console.log(obj)
 
+
+
+
       //************************** problem ***************************************
- let nums=[1,2,4,5,6]
+                          //  revision startsfrom here
+      //************************** problem ***************************************
 
-  let missingnum=0
 
-   for( let i=1;i<=nums.length;i++){
-    missingnum +=i
 
-    missingnum -=nums[i-1]
-   }
-    missingnum+=nums.length+1
-     console.log(missingnum)
+
+
+
+//   let nums=[1,2,3,5,6]
+//   let missingnum=0
+//    for( let i=1;i<=nums.length;i++){
+// missingnum+=i
+// missingnum -=nums[i-1]
+//    }
+//     missingnum+=nums.length+1
+//     console.log(missingnum)
+
+
+     //************************** problem ***************************************
        
-           
+            function ravi(){
+               console.log("Ravikumar Pulivarthi")
+            }
+             
+             setTimeout(()=>{
+              ravi()
+             },3000)
       
