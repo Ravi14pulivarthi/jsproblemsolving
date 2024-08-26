@@ -905,16 +905,30 @@
 
     //  let arr = [12, 45, 6, 7, 8] Find largest Number in this array
 
-    let arr = [12, 45, 6, 7, 8] 
+    // let arr = [12, 45, 6, 7, 8] 
 
-      let latgestnum=arr[0]
+    //   let latgestnum=arr[0]
 
-       for( let i=0;i<arr.length;i++){
-         if( arr[i] > latgestnum){
-           latgestnum =arr[i]
-         }
+    //    for( let i=0;i<arr.length;i++){
+    //      if( arr[i] > latgestnum){
+    //        latgestnum =arr[i]
+    //      }
       
+    //    }
+    //    console.log(latgestnum)
+    //************************** problem ***************************************
+
+     let num=[1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8]
+
+      num.sort()
+      let num2=[]
+
+       for( let i=0;i<num.length;i++){
+        if( num[i] != num[i+1]){
+           num2.push(num[i])
+        }
        }
-       console.log(latgestnum)
+        console.log(num2)
+    
       
   
