@@ -880,9 +880,9 @@
 
 
      //************************** problem ***************************************
-     function ravi() {
-      console.log("Ravikumar Pulivarthi");
-  }
+  //    function ravi() {
+  //     console.log("Ravikumar Pulivarthi");
+  // }
   
   // let intervalId = setInterval(() => {
   //     ravi();
@@ -893,12 +893,28 @@
   // }, 3000);
 
 
-   let contuning =setInterval(()=>{
-    ravi()
-   },1000)
+  //  let contuning =setInterval(()=>{
+  //   ravi()
+  //  },1000)
     
-     setTimeout(()=>{
-      clearInterval(contuning)
-     },2000)
+  //    setTimeout(()=>{
+  //     clearInterval(contuning)
+  //    },2000)
+
+     //************************** problem ***************************************
+
+    //  let arr = [12, 45, 6, 7, 8] Find largest Number in this array
+
+    let arr = [12, 45, 6, 7, 8] 
+
+      let latgestnum=arr[0]
+
+       for( let i=0;i<arr.length;i++){
+         if( arr[i] > latgestnum){
+           latgestnum =arr[i]
+         }
+      
+       }
+       console.log(latgestnum)
       
   
