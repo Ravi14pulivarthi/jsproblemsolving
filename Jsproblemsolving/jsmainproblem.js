@@ -853,6 +853,22 @@
    //************************** problem ***************************************
   //  How to delete the object property ?
 
-   let obj={name:"Ravi",age:25,"study":"MCA","phone":987765432}
-     delete obj.age
-      console.log(obj)
+  //  let obj={name:"Ravi",age:25,"study":"MCA","phone":987765432}
+  //    delete obj.age
+  //     console.log(obj)
+
+      //************************** problem ***************************************
+ let nums=[1,2,4,5,6]
+
+  let missingnum=0
+
+   for( let i=1;i<=nums.length;i++){
+    missingnum +=i
+
+    missingnum -=nums[i-1]
+   }
+    missingnum+=nums.length+1
+     console.log(missingnum)
+       
+           
+      
