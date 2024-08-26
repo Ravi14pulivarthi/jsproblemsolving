@@ -896,5 +896,9 @@
    let contuning =setInterval(()=>{
     ravi()
    },1000)
+    
+     setTimeout(()=>{
+      clearInterval(contuning)
+     },2000)
       
   
