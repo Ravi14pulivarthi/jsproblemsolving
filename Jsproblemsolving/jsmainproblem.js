@@ -880,12 +880,21 @@
 
 
      //************************** problem ***************************************
-       
-            function ravi(){
-               console.log("Ravikumar Pulivarthi")
-            }
-             
-             setTimeout(()=>{
-              ravi()
-             },3000)
+     function ravi() {
+      console.log("Ravikumar Pulivarthi");
+  }
+  
+  // let intervalId = setInterval(() => {
+  //     ravi();
+  // }, 1000);  // Calls ravi() every 1 second
+  
+  // setTimeout(() => {
+  //     clearInterval(intervalId);  // Stops the interval after 3 seconds
+  // }, 3000);
+
+
+   let contuning =setInterval(()=>{
+    ravi()
+   },1000)
       
+  
