@@ -966,21 +966,35 @@
 
   //***************************************** problem ***************************************************
 
- let string="ravia"
+//  let string="ravia"
 
-  let stringcount={}
+//   let stringcount={}
 
 
-   for( let i=0;i<string.length;i++){
-     let count=string[i]
-       if( stringcount[count]){
-        stringcount[count]++
-       }
-        else{
-            stringcount[count]=1
-        }
-   }
- console.log(stringcount)
+//    for( let i=0;i<string.length;i++){
+//      let count=string[i]
+//        if( stringcount[count]){
+//         stringcount[count]++
+//        }
+//         else{
+//             stringcount[count]=1
+//         }
+//    }
+//  console.log(stringcount)
+   //***************************************** problem ***************************************************
+  //  Alternate string in uppercase
+
+   let string='ravi kumar is a good boy'
+
+
+
+   let string2=string.split(" ")
+ let string3=''
+
+    for( let i=0;i<string2.length;i++){
+      string3+=string2[i].replace(string2[i][0] , string2[i][0].toLocaleUpperCase())+ " "
+    }
+     console.log(string3)
 
 
 
