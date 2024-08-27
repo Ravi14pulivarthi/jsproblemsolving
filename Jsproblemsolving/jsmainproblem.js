@@ -934,19 +934,54 @@
   //***************************************** problem ***************************************************
 
    
-  let nums=[1,2,3,5,6]
+//   let nums=[1,2,3,5,6]
+//  let missing=0
 
-    let missingnum=0
-
-
-     for( let i=1;i<=nums.length;i++){
-       missingnum+=i
-       missingnum-=nums[i-1]
-     }
-    missingnum+=nums.length+1
-
-     console.log(missingnum)
+//   for( let i=1;i<=nums.length;i++){
+//      missing+=i
+//      missing-=nums[i-1]
+//   }
+//    missing+=nums.length+1
+//     console.log(missing)
 
 
-      
+
+  //***************************************** problem ***************************************************
+
+//  let string="ravi"
+//   let stringcont={}
+
+//    for( let i=0;i<string.length;i++){
+//       let char=string[i]
+
+//  if(  stringcont[char]){
+//  stringcont[char]++
+//  }
+//   else{
+//      stringcont[char]=1
+//   }
+
+//    }
+//     console.log(stringcont)
+
+  //***************************************** problem ***************************************************
+
+ let string="ravia"
+
+  let stringcount={}
+
+
+   for( let i=0;i<string.length;i++){
+     let count=string[i]
+       if( stringcount[count]){
+        stringcount[count]++
+       }
+        else{
+            stringcount[count]=1
+        }
+   }
+ console.log(stringcount)
+
+
+
   
