@@ -918,17 +918,35 @@
     //    console.log(latgestnum)
     //************************** problem ***************************************
 
-     let num=[1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8]
+    //  let num=[1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8]
 
-      num.sort()
-      let num2=[]
+    //   num.sort()
+    //   let num2=[]
 
-       for( let i=0;i<num.length;i++){
-        if( num[i] != num[i+1]){
-           num2.push(num[i])
-        }
-       }
-        console.log(num2)
-    
+    //    for( let i=0;i<num.length;i++){
+    //     if( num[i] != num[i+1]){
+    //        num2.push(num[i])
+    //     }
+    //    }
+    //     console.log(num2)
+
+
+  //***************************************** problem ***************************************************
+
+   
+  let nums=[1,2,3,5,6]
+
+    let missingnum=0
+
+
+     for( let i=1;i<=nums.length;i++){
+       missingnum+=i
+       missingnum-=nums[i-1]
+     }
+    missingnum+=nums.length+1
+
+     console.log(missingnum)
+
+
       
   
