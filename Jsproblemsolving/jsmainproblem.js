@@ -998,23 +998,40 @@
 
    //***************************************** problem ***************************************************
 
-    let string="raavi"
+    // let string="raavi"
 
 
-     let charcount={}
+    //  let charcount={}
 
-      for( let i=0;i<string.length;i++){
-         let count=string[i]
+    //   for( let i=0;i<string.length;i++){
+    //      let count=string[i]
 
 
-           if(charcount[count]){
-            charcount[count]++
-           }
-            else{
-               charcount[count]=1
-            }
-      }
-       console.log(charcount)
+    //        if(charcount[count]){
+    //         charcount[count]++
+    //        }
+    //         else{
+    //            charcount[count]=1
+    //         }
+    //   }
+    //    console.log(charcount)
+
+       //***************************************** problem ***************************************************    
+ let nums=[1,2,3,5,6]
+
+ let missingnum=0
+
+  for( let i=1;i<=nums.length;i++){
+    missingnum+=i
+     
+     missingnum-=nums[i-1]
+
+
+  }
+   missingnum+=nums.length+1
+
+
+    console.log(missingnum)
 
 
 
