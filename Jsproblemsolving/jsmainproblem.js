@@ -1047,17 +1047,37 @@
 //    console.log(missingnum)
        //***************************************** problem **************************************************
 
-        let num=4
-         let count=0
+        // let num=4
+        //  let count=0
 
-         for( let i=0;i<num;i++){
-           if( num%i == 0){
-              count+=1
-           }
-         }
-           if( count == 1){
-             console.log("prime number")
-           }
-            else{
-               console.log("not prime")
-            }
+        //  for( let i=0;i<num;i++){
+        //    if( num%i == 0){
+        //       count+=1
+        //    }
+        //  }
+        //    if( count == 1){
+        //      console.log("prime number")
+        //    }
+        //     else{
+        //        console.log("not prime")
+        //     }
+                //***************************************** problem **************************************************
+
+
+                  let num= 3
+                   let num2=1
+                   for( let i=num;i>=1;i--){
+                     num2*=i
+                   }
+                 console.log(num2)
+
+
+
+
+
+
+
+
+
+
+
