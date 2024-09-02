@@ -1017,23 +1017,31 @@
     //    console.log(charcount)
 
        //***************************************** problem ***************************************************    
- let nums=[1,2,3,5,6]
+//  let nums=[1,2,3,5,6]
 
- let missingnum=0
+//  let missingnum=0
 
-  for( let i=1;i<=nums.length;i++){
-    missingnum+=i
+//   for( let i=1;i<=nums.length;i++){
+//     missingnum+=i
      
+//      missingnum-=nums[i-1]
+
+
+//   }
+//    missingnum+=nums.length+1
+
+
+//     console.log(missingnum)
+
+
+        //***************************************** problem **************************************************
+
+         let nums=[1,2,3,4,6]
+
+          let missingnum=0
+ for( let i=1;i<=nums.length;i++){
+    missingnum+=i
      missingnum-=nums[i-1]
-
-
-  }
-   missingnum+=nums.length+1
-
-
-    console.log(missingnum)
-
-
-
-
-  
+ }
+  missingnum+=nums.length+1
+   console.log(missingnum)
