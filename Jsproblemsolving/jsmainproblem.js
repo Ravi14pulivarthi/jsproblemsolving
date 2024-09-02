@@ -1036,12 +1036,28 @@
 
         //***************************************** problem **************************************************
 
-         let nums=[1,2,3,4,6]
+//          let nums=[1,2,3,4,6]
 
-          let missingnum=0
- for( let i=1;i<=nums.length;i++){
-    missingnum+=i
-     missingnum-=nums[i-1]
- }
-  missingnum+=nums.length+1
-   console.log(missingnum)
+//           let missingnum=0
+//  for( let i=1;i<=nums.length;i++){
+//     missingnum+=i
+//      missingnum-=nums[i-1]
+//  }
+//   missingnum+=nums.length+1
+//    console.log(missingnum)
+       //***************************************** problem **************************************************
+
+        let num=4
+         let count=0
+
+         for( let i=0;i<num;i++){
+           if( num%i == 0){
+              count+=1
+           }
+         }
+           if( count == 1){
+             console.log("prime number")
+           }
+            else{
+               console.log("not prime")
+            }
