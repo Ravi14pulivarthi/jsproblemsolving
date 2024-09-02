@@ -1005,16 +1005,31 @@
 //   }
 //***************************************** problem **************************************************
 
-let num = 5;
- for( let i=0;i<num;i++){
-   let parteen =" "
-    for( let j=0;j<num-1-i;j++){
-             parteen+=" "
+//  let num=5
+
+//   for( let i=0;i<num;i++){
+//      let parteen=" "
+//      for( let j=0;j<num -1-i;j++ ){
+//       parteen+=" "
+//      }
+//       for( let j=0;j<=i;j++){
+//          parteen+='* '
+//       }
+//        console.log(parteen)
+//   }
+   //***************************************** problem **************************************************
+
+ let num=5
+
+ for( let i=num;i>=0;i--){
+    let parteen=" "
+    for( let j=0;j<num -1-i;j++ ){
+     parteen+=" "
     }
      for( let j=0;j<=i;j++){
-       parteen+="* "
+        parteen+='* '
      }
       console.log(parteen)
  }
 
- 
+
