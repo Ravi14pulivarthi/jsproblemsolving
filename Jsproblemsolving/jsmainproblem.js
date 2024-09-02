@@ -123,11 +123,9 @@
 //   }
 // }
 //  console.log('total  sum of the Prime'+num2)
- 
+
 //************************** problem **********************************
 //  stringrevers
-
-
 
 // let names="Ravi kumar Pulivarthi"
 
@@ -141,7 +139,6 @@
 
 //Implement a function that converts a string to title case (capitalize the first letter of each word).
 
-
 // let str="ravi kumar pulivarthi mca"
 
 //  let str2=str.split(" ")
@@ -152,7 +149,6 @@
 //   }
 //    console.log(str3)
 
- 
 //************************** problem **********************************
 // Write a function that counts the number of words in a sentence.
 
@@ -162,9 +158,7 @@
 
 //    console.log(str2.length)
 
-
- 
-//************************** problem ********************************** 
+//************************** problem **********************************
 //  let num=6
 //  let count=0
 //   for( let i=0;i<num;i++){
@@ -179,7 +173,7 @@
 //      console.log('Not Prime')
 // }
 
- //************************** problem ********************************** 
+//************************** problem **********************************
 
 //  let  string="Ravi kumar is agood boy pulivarthi"
 //  let  string2=string.split(" ")
@@ -191,8 +185,8 @@
 //     }
 //   }
 //  console.log(largestword)
- 
- //************************** problem ********************************** 
+
+//************************** problem **********************************
 //  Create a JavaScript function that returns the frequency of a specific character in a string.
 
 //  let str="pulivarthi"
@@ -205,15 +199,15 @@
 //  }
 //   }
 //    console.log(count)
- 
- //************************** problem ********************************** 
+
+//************************** problem **********************************
 //   let num=[1,2,3,4,5,6,7,8,9,10]
 //  let num2=0
 //     for( let i=0;i<num.length;i++){
 //          if( num[i]%2 == 0){
 //              num2+=num[i]
 //          }
-      
+
 //     }
 //  console.log(num2)
 
@@ -222,7 +216,7 @@
 //   let num=[1,2,3,4,5,6,7,8,9,10]
 
 //     let num2=num.reduce((vaue1,value2)=>{
-      
+
 //          if( value2 %2 ==0){
 //               return(vaue1+value2)
 //          }
@@ -230,10 +224,7 @@
 //     },0)
 //  console.log(num2)
 
- 
-  
- //************************** problem **********************************
-
+//************************** problem **********************************
 
 //   let num=5
 
@@ -245,8 +236,8 @@
 //  console.log(num2)
 //    }
 
- //************************** problem **********************************
-//  remove duplecates in the 
+//************************** problem **********************************
+//  remove duplecates in the
 
 //  let array=[1,2,3,4,5,6,7,8,1,2,3,4,5,6,7,8]
 //   array.sort()
@@ -258,16 +249,14 @@
 //        }
 //   }
 
-
 //    console.log(arr2)
- //************************** problem **********************************
+//************************** problem **********************************
 
 //   let nums=[1,2,3,4,5]
 //  let swap=""
 
-
 //    for( let i=0;i<nums.length;i++){
-     
+
 //       for( let j=0;j<nums.length;j++){
 //        if( nums[i] < nums[j]){
 //           swap=nums[i]
@@ -281,17 +270,12 @@
 
 //************************** problem **********************************
 
-
 //  let arr1=[1,2,3,4,5]
-
 
 //   let arr2=[6,7,8,9,10]
 
-
 //    console.log(...arr1,...arr2)
 //************************** problem **********************************
-
-
 
 //  let evennumbers=[1,2,3,4,5,6,7,8,9,10]
 //  let num2=0
@@ -302,7 +286,6 @@
 //       }
 //     }
 //      console.log(num2)
-
 
 //************************** problem **********************************
 
@@ -320,25 +303,23 @@
 //   }
 //     console.log(nums)
 
+//************************** problem **********************************
+// const nestedArray = [1, [2, [3, 4], 5], 6];
 
-  //************************** problem **********************************
-  // const nestedArray = [1, [2, [3, 4], 5], 6];
+//  const array2=nestedArray.flat(Infinity)
 
-  //  const array2=nestedArray.flat(Infinity)
-
-  //   console.log(array2)
-      //************************** problem **********************************
+//   console.log(array2)
+//************************** problem **********************************
 //      let nums=[1,2,3,4,5]
 
 //  let num2=0
 //       for( let i=0;i<nums.length;i++){
 //           num2+=nums[i]
-        
-        
+
 //         }
 //          let num3=num2/nums.length
 //          console.log(num3)
-      //************************** problem **********************************
+//************************** problem **********************************
 // Create an object representing a book with properties like title, author, and publication year.
 
 //  let book={title:"Sudhamurthi",
@@ -346,25 +327,23 @@
 //   pubilications:2024
 //  }
 //   console.log(Object.values(book))
-  // let obj={name:"Ravi"}
+// let obj={name:"Ravi"}
 
-  // if( Object.keys(obj).length === 0){
-  //    console.log( 'The obj is Empty')
-  // }
-  //  else{
-  //    console.log("The object is not empty ")
-  //  }
+// if( Object.keys(obj).length === 0){
+//    console.log( 'The obj is Empty')
+// }
+//  else{
+//    console.log("The object is not empty ")
+//  }
 
-         //************************** problem **********************************
+//************************** problem **********************************
 //           let obj1={name:"Ravi"}
 //            let obj2={age:25}
 //  let obj3={...obj1,...obj2}
 
 //             console.log(obj3)
 
- 
-         //************************** problem **********************************
-
+//************************** problem **********************************
 
 //            let object=[{name:"ravi"},{name:"kumar"},{name:"ravi"},{name:"tharun"},{name:"raghu"}]
 //  let count=0
@@ -376,8 +355,7 @@
 //  }
 //   console.log(count)
 
-
-          //************************** problem **********************************
+//************************** problem **********************************
 
 // const people = [
 //   { name: 'Ravi', age: 25 },
@@ -397,18 +375,15 @@
 //   }
 //    console.log(people)
 
- 
-          //************************** problem **********************************
+//************************** problem **********************************
 
-          //  let num=5
+//  let num=5
 
-          //   for( let i=1;i<=10;i++){
-          //       console.log(`${i} * ${num} =${i*num}`)
-          //   }
+//   for( let i=1;i<=10;i++){
+//       console.log(`${i} * ${num} =${i*num}`)
+//   }
 
-     //************************** problem **********************************        
-     
-     
+//************************** problem **********************************
 
 //  let nums=[10,40,60,20,30]
 
@@ -420,64 +395,61 @@
 //   }
 //    console.log(num2)
 
+//************************** problem **********************************
+// Write a function that prints numbers from 1 to 100. For multiples of 3, print "Fizz" instead
+// of the number, and for multiples of 5, print "Buzz". For numbers which are multiples of both 3 and 5,
+//  print "FizzBuzz".
 
-      //************************** problem ********************************** 
-      // Write a function that prints numbers from 1 to 100. For multiples of 3, print "Fizz" instead 
-      // of the number, and for multiples of 5, print "Buzz". For numbers which are multiples of both 3 and 5,
-      //  print "FizzBuzz".
+//  let num=100
 
+//   for( let i=1;i<=num;i++){
+//      if( i % 3 ==0 ){
+//        console.log("Fizz")
+//      }
+//      if( i % 5 ==0 ){
+//       console.log("Buzz")
+//     }
+//     if( i % 3 && i%5 ==0 ){
+//       console.log("FizzBuzz")
+//     }
+//       else{
+//          console.log(i)
+//       }
+//   }
+//************************** problem **********************************
+// Write a function that takes a string and returns an object
+// with the count of each character in the string.
 
-      //  let num=100
-        
-      //   for( let i=1;i<=num;i++){
-      //      if( i % 3 ==0 ){
-      //        console.log("Fizz")
-      //      }
-      //      if( i % 5 ==0 ){
-      //       console.log("Buzz")
-      //     }
-      //     if( i % 3 && i%5 ==0 ){
-      //       console.log("FizzBuzz")
-      //     }
-      //       else{
-      //          console.log(i)
-      //       }
-      //   }
-            //************************** problem ********************************** 
-            // Write a function that takes a string and returns an object 
-            // with the count of each character in the string.
+//  let string="Rvaikumat Pulivarthi"
 
-            //  let string="Rvaikumat Pulivarthi"
+//   let charcount={}
+//   for(  let i=0;i<string.length;i++){
+//      let char=string[i]
 
-            //   let charcount={}
-            //   for(  let i=0;i<string.length;i++){
-            //      let char=string[i]
+//       if( charcount[char]){
+//          charcount[char]++
+//       }
+//        else{
+//          charcount[char]=1
+//        }
+//   }
+//    console.log(charcount)
 
-            //       if( charcount[char]){
-            //          charcount[char]++
-            //       }
-            //        else{
-            //          charcount[char]=1
-            //        }
-            //   }
-            //    console.log(charcount)
+//************************** problem **********************************
 
+// //  Remove duplicts
 
-   //************************** problem **********************************
+//  let num=[1,2,3,4,5,1,2,3,4,5]
+//  num.sort()
+//      let num2=[]
+//   for( let i=0;i<num.length;i++){
+//      if(num[i] != num[i+1]){
+//        num2.push(num[i])
+//      }
+//   }
+//    console.log(num2)
 
-                  // //  Remove duplicts
-
-                  //  let num=[1,2,3,4,5,1,2,3,4,5]
-                  //  num.sort()
-                  //      let num2=[]
-                  //   for( let i=0;i<num.length;i++){
-                  //      if(num[i] != num[i+1]){
-                  //        num2.push(num[i])
-                  //      }
-                  //   }
-                  //    console.log(num2)
-
- //************************** problem **********************************
+//************************** problem **********************************
 //   let string="ravi"
 //    let string2=""
 //    for( let i=string.length-1;i>=0;i--){
@@ -490,8 +462,7 @@
 //     console.log("not Polinderam")
 //    }
 
-
-  //************************** problem **********************************
+//************************** problem **********************************
 
 //    let  num=[1,2,3,4,5,2,3,4]
 //   let num2=1
@@ -500,7 +471,7 @@
 //        if(num[i] === num2){
 //             conunt++
 //        }
-       
+
 //     }
 //      if( conunt === 1){
 //       console.log('true')
@@ -509,7 +480,7 @@
 //        console.log("false")
 //    }
 
-  //************************** problem **********************************
+//************************** problem **********************************
 //  let  obj1=[{ a: 10, b: 20, c: 5 }]
 
 // //  console.log(Object.keys(obj1))
@@ -518,13 +489,11 @@
 //   })
 //    console.log(obj2)
 
-
-  //************************** problem **********************************
+//************************** problem **********************************
 
 //    let num=123
 //  let reversed=0
 //   let orginalnum=num
-
 
 //     while(num>0){
 //       let lastdegit=num%10
@@ -535,12 +504,11 @@
 //     }
 //      console.log(reversed)
 
-
-   //************************** problem **********************************
+//************************** problem **********************************
 
 //    let num=[1,2,3,4,5]
 //    let num2=0
-  
+
 //        for( let i=0;i<num.length; i++){
 //          num2+=num[i]
 //        }
@@ -554,38 +522,33 @@
 //     }
 //      console.log(num2)
 
-   //************************** problem **********************************
+//************************** problem **********************************
 
 //     let num=123
 //  let revers=0
 
+// while( num > 0){
+//    let lastdigit=num%10
 
+//     revers=revers*10 + lastdigit
 
+//      num=(num - lastdigit)/10
+// }
+//  console.log(revers)
 
-  // while( num > 0){
-  //    let lastdigit=num%10
+//************************** problem **********************************
+//  let num=5
 
-  //     revers=revers*10 + lastdigit
+//   for( let i=0;i<num;i++ ){
+//      let num2=" "
+//      for( let j=0;j<i;j++){
+//        num2+=String.fromCharCode(65 + j)
+//      }
+//      console.log(num2)
+//   }
 
-  //      num=(num - lastdigit)/10
-  // }
-  //  console.log(revers)
-
-
-      //************************** problem **********************************
-      //  let num=5
-
-      //   for( let i=0;i<num;i++ ){
-      //      let num2=" "
-      //      for( let j=0;j<i;j++){
-      //        num2+=String.fromCharCode(65 + j)
-      //      }
-      //      console.log(num2)
-      //   }
-   
-      //************************** problem **********************************
+//************************** problem **********************************
 //  let string="ravi"
-
 
 //   let stringcont={}
 
@@ -602,100 +565,88 @@
 //    }
 //     console.log(stringcont)
 
-       //************************** problem **********************************
+//************************** problem **********************************
 
+//      let  nums=[3,0,1]
 
+//  let expetedsum=0
 
-    //      let  nums=[3,0,1]
+// let actualsum=0
 
-    //  let expetedsum=0
+//  for( let i=0;i<=nums.length;i++){
+//   expetedsum+=i
+//  }
+//   for(let i=0;i<nums.length;i++){
+//     actualsum+=nums[i]
+//   }
 
-    // let actualsum=0
+// let missingnum=expetedsum-actualsum
+//  console.log(missingnum)
 
-    //  for( let i=0;i<=nums.length;i++){
-    //   expetedsum+=i
-    //  }
-    //   for(let i=0;i<nums.length;i++){
-    //     actualsum+=nums[i]
-    //   }
+//************************** problem **********************************
 
-    // let missingnum=expetedsum-actualsum
-    //  console.log(missingnum)
+// let nums =[1, 2, 3, 4, 1, 2, 3, 4, 5];
 
+// let count={}
 
-     //************************** problem **********************************
+//  let count2=[]
 
-    // let nums =[1, 2, 3, 4, 1, 2, 3, 4, 5];
+//  for( let i=0;i<nums.length;i++){
+//     let totalnum=nums[i]
 
-  // let count={}
+//      if( count[totalnum]){
+//        count[totalnum]++
+//      }
+//       else{
+//          count[totalnum]=1
+//       }
+//  }
+//   console.log(count)
 
-  //  let count2=[]
+//    for( let i=0;i<nums.length;i++){
+//     let totalnum=nums[i]
+//      if(i === nums.indexOf(totalnum)){
+//        console.log(`${totalnum} ${count[totalnum]}`)
+//      }
+//    }
 
-  //  for( let i=0;i<nums.length;i++){
-  //     let totalnum=nums[i]
+//************************** problem **************************
 
-  //      if( count[totalnum]){
-  //        count[totalnum]++
-  //      }
-  //       else{
-  //          count[totalnum]=1
-  //       }
-  //  }
-  //   console.log(count)
+//  let nums="raavi"
+//   let  count={}
 
-  //    for( let i=0;i<nums.length;i++){
-  //     let totalnum=nums[i]
-  //      if(i === nums.indexOf(totalnum)){
-  //        console.log(`${totalnum} ${count[totalnum]}`)
-  //      }
-  //    }
+//   for(let i=0;i<nums.length;i++){
+//       let numscount=nums[i]
 
-      //************************** problem **************************
+//        if( count[numscount]){
+//          count[numscount]++
+//        }
+//         else{
+//            count[numscount]=1
+//         }
+//   }
 
+//    console.log(count)
 
-      //  let nums="raavi"
-      //   let  count={}
+//************************** problem ***************************************
 
+//  let num=123
 
-      //   for(let i=0;i<nums.length;i++){
-      //       let numscount=nums[i]
+// let revers=0
 
-      //        if( count[numscount]){
-      //          count[numscount]++
-      //        }
-      //         else{
-      //            count[numscount]=1
-      //         }
-      //   }
+//  while(num >0){
+//      let  lastdigt = num%10
 
-      //    console.log(count)
+//        revers= revers*10 + lastdigt
 
+//         num=(num - lastdigt)/10
+//  }
 
-          //************************** problem ***************************************
+//   console.log(revers)
 
+//************************** problem ***************************************
 
-          //  let num=123
-
-
-            // let revers=0
-
-
-            //  while(num >0){
-            //      let  lastdigt = num%10
-
-            //        revers= revers*10 + lastdigt
-
-            //         num=(num - lastdigt)/10
-            //  }
-
-            //   console.log(revers)
-
-               
-
-          //************************** problem ***************************************
-
-
-          // "Display the all user name  from this array if age is greater than 18
+// "Display the all user name  from this array if age is greater than 18
 // const users = [
 //   { name: "Jane Doe", id: 2 , age: 19},
 //   { name: "Billy Doe", id: 3 , age:25},
@@ -705,7 +656,6 @@
 //   { name: "Rohit", id: 7 , age:19}
 // ];
 
-
 // let usre2=users.filter((item)=>{
 //    return( item.age == 10)
 //  })
@@ -713,11 +663,10 @@
 
 //  let data={name:'ravi',age:25}
 
+// let {name,age}=data
+//  console.log(name,age)
 
-    // let {name,age}=data
-    //  console.log(name,age)
-
-    //************************** problem ***************************************
+//************************** problem ***************************************
 //  class cars{
 //   constructor(na,mo){
 //  this.na= na
@@ -727,41 +676,39 @@
 //   let car1=new cars("ravi",1998)
 
 //    console.log(car1)
-    //************************** problem ***************************************
-   // Find largest Number in this array
+//************************** problem ***************************************
+// Find largest Number in this array
 
-  //  let arr = [12, 45, 6, 7, 8] 
-  //   let arr2=arr[0]
+//  let arr = [12, 45, 6, 7, 8]
+//   let arr2=arr[0]
 
-  //    for( let i=0;i<arr.length;i++){
-  //     if( arr[i] > arr2){
-  //        arr2 = arr[i]
-  //     }
-       
-  //    }
-  //     console.log(arr2)
+//    for( let i=0;i<arr.length;i++){
+//     if( arr[i] > arr2){
+//        arr2 = arr[i]
+//     }
 
-     //************************** problem ***************************************
+//    }
+//     console.log(arr2)
 
+//************************** problem ***************************************
 
-    //  sorting the array
-    //  let num=[9,8,7,6,5,4,3,2,1]
- 
-    //   let swap=""
-    // for(  let i=0;i<num.length;i++){
- 
-    //    for( let j=0;j<num.length;j++){
-    //      if( num[i] < num[j]){
-    //        swap=num[i]
-    //        num[i]=num[j]
-    //        num[j]=swap
-    //      }
-    //    }
-    // }
-    //  console.log(num)
+//  sorting the array
+//  let num=[9,8,7,6,5,4,3,2,1]
 
-      
-     //************************** problem ***************************************
+//   let swap=""
+// for(  let i=0;i<num.length;i++){
+
+//    for( let j=0;j<num.length;j++){
+//      if( num[i] < num[j]){
+//        swap=num[i]
+//        num[i]=num[j]
+//        num[j]=swap
+//      }
+//    }
+// }
+//  console.log(num)
+
+//************************** problem ***************************************
 
 //      let a = [21, 3,  5, 11, 7, 90]
 //       let b=0
@@ -769,24 +716,23 @@
 //          b+=a[i]
 //       }
 //        console.log(b)
-     //************************** problem ***************************************
-    //  let a = [21, 3,  5, 11, 7, 90]
+//************************** problem ***************************************
+//  let a = [21, 3,  5, 11, 7, 90]
 
+//   let b=a.map((item)=>{
+//       return( item*3)
+//   })
+//    console.log(b)
+//************************** problem ***************************************
 
-    //   let b=a.map((item)=>{
-    //       return( item*3)
-    //   })
-    //    console.log(b)
-             //************************** problem ***************************************
+//  let details = [{name:'Raja', age: 10}, {name:'Sanny', age: 20}, {name:'Roushan', age: 30}]
 
-            //  let details = [{name:'Raja', age: 10}, {name:'Sanny', age: 20}, {name:'Roushan', age: 30}]
-             
-            //  let details2=details.filter((item)=>{
-            //    return( item.age > 10)
-            //  })
-            //   console.log(details2)
+//  let details2=details.filter((item)=>{
+//    return( item.age > 10)
+//  })
+//   console.log(details2)
 
- //************************** problem ***************************************
+//************************** problem ***************************************
 
 //  Display the today date in js ?
 
@@ -796,10 +742,9 @@
 //   let  month=displaydate.getMonth()
 //    let year=displaydate.getUTCFullYear()
 
-
 //   console.log(year)
 
- //************************** problem ***************************************
+//************************** problem ***************************************
 
 //  Show me random number in js between 1 - 20 any number.
 
@@ -811,8 +756,8 @@
 //      }
 //   }
 //    console.log(num2)
- 
- //************************** problem ***************************************
+
+//************************** problem ***************************************
 
 //  Break and continue, Explain me though an example
 //  let grade=80
@@ -834,7 +779,7 @@
 //           console.log("He got fail grade")
 
 //  }
-  //************************** problem ***************************************
+//************************** problem ***************************************
 // How to collect only unique value ?
 //  let nums=[1,2,3,4,5,1,2,3,4,6]
 //   let  unique=[]
@@ -850,24 +795,16 @@
 //     }
 //  }
 //  console.log(unique)
-   //************************** problem ***************************************
-  //  How to delete the object property ?
+//************************** problem ***************************************
+//  How to delete the object property ?
 
-  //  let obj={name:"Ravi",age:25,"study":"MCA","phone":987765432}
-  //    delete obj.age
-  //     console.log(obj)
+//  let obj={name:"Ravi",age:25,"study":"MCA","phone":987765432}
+//    delete obj.age
+//     console.log(obj)
 
-
-
-
-      //************************** problem ***************************************
-                          //  revision startsfrom here
-      //************************** problem ***************************************
-
-
-
-
-
+//************************** problem ***************************************
+//  revision startsfrom here
+//************************** problem ***************************************
 
 //   let nums=[1,2,3,5,6]
 //   let missingnum=0
@@ -878,62 +815,58 @@
 //     missingnum+=nums.length+1
 //     console.log(missingnum)
 
+//************************** problem ***************************************
+//    function ravi() {
+//     console.log("Ravikumar Pulivarthi");
+// }
 
-     //************************** problem ***************************************
-  //    function ravi() {
-  //     console.log("Ravikumar Pulivarthi");
-  // }
-  
-  // let intervalId = setInterval(() => {
-  //     ravi();
-  // }, 1000);  // Calls ravi() every 1 second
-  
-  // setTimeout(() => {
-  //     clearInterval(intervalId);  // Stops the interval after 3 seconds
-  // }, 3000);
+// let intervalId = setInterval(() => {
+//     ravi();
+// }, 1000);  // Calls ravi() every 1 second
 
+// setTimeout(() => {
+//     clearInterval(intervalId);  // Stops the interval after 3 seconds
+// }, 3000);
 
-  //  let contuning =setInterval(()=>{
-  //   ravi()
-  //  },1000)
-    
-  //    setTimeout(()=>{
-  //     clearInterval(contuning)
-  //    },2000)
+//  let contuning =setInterval(()=>{
+//   ravi()
+//  },1000)
 
-     //************************** problem ***************************************
+//    setTimeout(()=>{
+//     clearInterval(contuning)
+//    },2000)
 
-    //  let arr = [12, 45, 6, 7, 8] Find largest Number in this array
+//************************** problem ***************************************
 
-    // let arr = [12, 45, 6, 7, 8] 
+//  let arr = [12, 45, 6, 7, 8] Find largest Number in this array
 
-    //   let latgestnum=arr[0]
+// let arr = [12, 45, 6, 7, 8]
 
-    //    for( let i=0;i<arr.length;i++){
-    //      if( arr[i] > latgestnum){
-    //        latgestnum =arr[i]
-    //      }
-      
-    //    }
-    //    console.log(latgestnum)
-    //************************** problem ***************************************
+//   let latgestnum=arr[0]
 
-    //  let num=[1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8]
+//    for( let i=0;i<arr.length;i++){
+//      if( arr[i] > latgestnum){
+//        latgestnum =arr[i]
+//      }
 
-    //   num.sort()
-    //   let num2=[]
+//    }
+//    console.log(latgestnum)
+//************************** problem ***************************************
 
-    //    for( let i=0;i<num.length;i++){
-    //     if( num[i] != num[i+1]){
-    //        num2.push(num[i])
-    //     }
-    //    }
-    //     console.log(num2)
+//  let num=[1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8]
 
+//   num.sort()
+//   let num2=[]
 
-  //***************************************** problem ***************************************************
+//    for( let i=0;i<num.length;i++){
+//     if( num[i] != num[i+1]){
+//        num2.push(num[i])
+//     }
+//    }
+//     console.log(num2)
 
-   
+//***************************************** problem ***************************************************
+
 //   let nums=[1,2,3,5,6]
 //  let missing=0
 
@@ -944,9 +877,7 @@
 //    missing+=nums.length+1
 //     console.log(missing)
 
-
-
-  //***************************************** problem ***************************************************
+//***************************************** problem ***************************************************
 
 //  let string="ravi"
 //   let stringcont={}
@@ -964,12 +895,11 @@
 //    }
 //     console.log(stringcont)
 
-  //***************************************** problem ***************************************************
+//***************************************** problem ***************************************************
 
 //  let string="ravia"
 
 //   let stringcount={}
-
 
 //    for( let i=0;i<string.length;i++){
 //      let count=string[i]
@@ -981,12 +911,10 @@
 //         }
 //    }
 //  console.log(stringcount)
-   //***************************************** problem ***************************************************
-  //  Alternate string in uppercase
+//***************************************** problem ***************************************************
+//  Alternate string in uppercase
 
 //    let string='ravi kumar is a good boy'
-
-
 
 //    let string2=string.split(" ")
 //  let string3=''
@@ -996,45 +924,40 @@
 //     }
 //      console.log(string3)
 
-   //***************************************** problem ***************************************************
+//***************************************** problem ***************************************************
 
-    // let string="raavi"
+// let string="raavi"
 
+//  let charcount={}
 
-    //  let charcount={}
+//   for( let i=0;i<string.length;i++){
+//      let count=string[i]
 
-    //   for( let i=0;i<string.length;i++){
-    //      let count=string[i]
+//        if(charcount[count]){
+//         charcount[count]++
+//        }
+//         else{
+//            charcount[count]=1
+//         }
+//   }
+//    console.log(charcount)
 
-
-    //        if(charcount[count]){
-    //         charcount[count]++
-    //        }
-    //         else{
-    //            charcount[count]=1
-    //         }
-    //   }
-    //    console.log(charcount)
-
-       //***************************************** problem ***************************************************    
+//***************************************** problem ***************************************************
 //  let nums=[1,2,3,5,6]
 
 //  let missingnum=0
 
 //   for( let i=1;i<=nums.length;i++){
 //     missingnum+=i
-     
-//      missingnum-=nums[i-1]
 
+//      missingnum-=nums[i-1]
 
 //   }
 //    missingnum+=nums.length+1
 
-
 //     console.log(missingnum)
 
-
-        //***************************************** problem **************************************************
+//***************************************** problem **************************************************
 
 //          let nums=[1,2,3,4,6]
 
@@ -1045,39 +968,53 @@
 //  }
 //   missingnum+=nums.length+1
 //    console.log(missingnum)
-       //***************************************** problem **************************************************
+//***************************************** problem **************************************************
 
-        // let num=4
-        //  let count=0
+// let num=4
+//  let count=0
 
-        //  for( let i=0;i<num;i++){
-        //    if( num%i == 0){
-        //       count+=1
-        //    }
-        //  }
-        //    if( count == 1){
-        //      console.log("prime number")
-        //    }
-        //     else{
-        //        console.log("not prime")
-        //     }
-                //***************************************** problem **************************************************
+//  for( let i=0;i<num;i++){
+//    if( num%i == 0){
+//       count+=1
+//    }
+//  }
+//    if( count == 1){
+//      console.log("prime number")
+//    }
+//     else{
+//        console.log("not prime")
+//     }
+//***************************************** problem **************************************************
 
+//   let num= 3
+//    let num2=1
+//    for( let i=num;i>=1;i--){
+//      num2*=i
+//    }
+//  console.log(num2)
 
-                  let num= 3
-                   let num2=1
-                   for( let i=num;i>=1;i--){
-                     num2*=i
-                   }
-                 console.log(num2)
+//***************************************** problem **************************************************
 
+//  let num=5
+//   for( let i=0 ;i<num;i++){
+//      let parteen=" "
+//      for( let j=0;j<i;j++){
+//       parteen+="*"
+//      }
+//       console.log(parteen)
+//   }
+//***************************************** problem **************************************************
 
+let num = 5;
+ for( let i=0;i<num;i++){
+   let parteen =" "
+    for( let j=0;j<num-1-i;j++){
+             parteen+=" "
+    }
+     for( let j=0;j<=i;j++){
+       parteen+="* "
+     }
+      console.log(parteen)
+ }
 
-
-
-
-
-
-
-
-
+ 
