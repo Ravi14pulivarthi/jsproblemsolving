@@ -1092,18 +1092,41 @@
          //   }
           
        //***************************************** problem **************************************************
- let  nums=[9,8,7,6,5,4,3,2,1]
-    let swap=""
+//  let  nums=[9,8,7,6,5,4,3,2,1]
+//     let swap=""
 
-  for( let i=0;i<nums.length;i++){ 
+//   for( let i=0;i<nums.length;i++){ 
    
-    for( let j=0;j<nums.length;j++){
- if( nums[i] < nums[j]){
- swap=nums[i]
- nums[i]=nums[j]
- nums[j]=swap
- }
-    }
-  }
-   console.log(swap)
+//     for( let j=0;j<nums.length;j++){
+//  if( nums[i] < nums[j]){
+//  swap=nums[i]
+//  nums[i]=nums[j]
+//  nums[j]=swap
+//  }
+//     }
+//   }
+//    console.log(swap)
 
+      //***************************************** problem **************************************************
+
+      //  let namedetails="ravi kumar is good boy mca"
+
+      //    let names=namedetails.split(" ")
+
+      //        let name2=" "
+
+      //    for( let i=0;i<=names.length;i++){
+          
+      //        name2+=names[i].replace(names[i][0],names[i][0].toUpperCase())+" "
+      //    }
+      //             console.log(name2)
+      let names = "ravi kumar is good boy mca";
+       let name3=names.split(" ")
+      let name2 = "";
+      
+      for (let i = 0; i < name3.length; i++) {
+          name2 += name3[i].replace(name3[i][0], name3[i][0].toUpperCase()) + " ";
+      }
+      
+      console.log(name2);
+      
