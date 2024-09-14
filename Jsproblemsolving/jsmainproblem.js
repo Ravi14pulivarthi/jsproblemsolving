@@ -1105,5 +1105,5 @@
  }
     }
   }
-   console.log(nums)
+   console.log(swap)
 
