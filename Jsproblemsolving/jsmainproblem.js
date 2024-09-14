@@ -1035,25 +1035,43 @@
 
    //   given num is prime  or not 
 
-    let num=5
+//     let num=5
 
-      let count =0
-       for( let i=0;i<num;i++){
+//       let count =0
+//        for( let i=0;i<num;i++){
           
-          if( num%i == 0){
-              count+=1
-          }
-       }
- if( count === 1){
-    console.log("prime")
- }
-  else{
-    console.log( "not prime")
-  }
+//           if( num%i == 0){
+//               count+=1
+//           }
+//        }
+//  if( count === 1){
+//     console.log("prime")
+//  }
+//   else{
+//     console.log( "not prime")
+//   }
 
     //***************************************** problem **************************************************
 
    //    print 1 to 50 prime
 
+   
+
+
+   let num=50
+
+
+
+   for( let i=0;i<num;i++){
+      let count=1
+       for( let j=0;j<i;j++){
+          if( i%j == 0){
+             count+=1
+          }
+       }
+        if( count === 2){
+          console.log(i)
+        }
+   }
 
 
