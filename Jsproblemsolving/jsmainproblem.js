@@ -1058,20 +1058,36 @@
    
 
 
-   let num=50
+   // let num=50
 
 
 
-   for( let i=0;i<num;i++){
-      let count=1
-       for( let j=0;j<i;j++){
-          if( i%j == 0){
-             count+=1
-          }
-       }
-        if( count === 2){
-          console.log(i)
-        }
-   }
+   // for( let i=0;i<num;i++){
+   //    let count=1
+   //     for( let j=0;j<i;j++){
+   //        if( i%j == 0){
+   //           count+=1
+   //        }
+   //     }
+   //      if( count === 2){
+   //        console.log(i)
+   //      }
+   // }
 
+
+       //***************************************** problem **************************************************
+
+         // // parteen 
+          let num=5
+
+           for( let i=0;i<=num;i++){
+             let parteen=" "
+              for( let  j=0;j<num -1-i;j++){
+               parteen+="  "
+              }
+             for( let j=0;j<i;j++){
+                   parteen+="*  "
+             }
+              console.log(parteen)
+           }
 
