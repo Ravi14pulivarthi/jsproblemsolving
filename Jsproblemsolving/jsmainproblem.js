@@ -1019,17 +1019,41 @@
 //   }
    //***************************************** problem **************************************************
 
- let num=5
+//  let num=5
 
- for( let i=num;i>=0;i--){
-    let parteen=" "
-    for( let j=0;j<num -1-i;j++ ){
-     parteen+=" "
-    }
-     for( let j=0;j<=i;j++){
-        parteen+='* '
-     }
-      console.log(parteen)
+//  for( let i=num;i>=0;i--){
+//     let parteen=" "
+//     for( let j=0;j<num -1-i;j++ ){
+//      parteen+=" "
+//     }
+//      for( let j=0;j<=i;j++){
+//         parteen+='* '
+//      }
+//       console.log(parteen)
+//  }
+    //***************************************** problem **************************************************
+
+   //   given num is prime  or not 
+
+    let num=5
+
+      let count =0
+       for( let i=0;i<num;i++){
+          
+          if( num%i == 0){
+              count+=1
+          }
+       }
+ if( count === 1){
+    console.log("prime")
  }
+  else{
+    console.log( "not prime")
+  }
+
+    //***************************************** problem **************************************************
+
+   //    print 1 to 50 prime
+
 
 
