@@ -1078,16 +1078,32 @@
        //***************************************** problem **************************************************
 
          // // parteen 
-          let num=5
+         //  let num=5
 
-           for( let i=0;i<=num;i++){
-             let parteen=" "
-              for( let  j=0;j<num -1-i;j++){
-               parteen+="  "
-              }
-             for( let j=0;j<i;j++){
-                   parteen+="*  "
-             }
-              console.log(parteen)
-           }
+         //   for( let i=0;i<=num;i++){
+         //     let parteen=" "
+         //      for( let  j=0;j<num -1-i;j++){
+         //       parteen+="  "
+         //      }
+         //     for( let j=0;j<i;j++){
+         //           parteen+="*  "
+         //     }
+         //      console.log(parteen)
+         //   }
+          
+       //***************************************** problem **************************************************
+ let  nums=[9,8,7,6,5,4,3,2,1]
+    let swap=""
+
+  for( let i=0;i<nums.length;i++){ 
+   
+    for( let j=0;j<nums.length;j++){
+ if( nums[i] < nums[j]){
+ swap=nums[i]
+ nums[i]=nums[j]
+ nums[j]=swap
+ }
+    }
+  }
+   console.log(nums)
 
