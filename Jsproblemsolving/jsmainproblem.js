@@ -1109,24 +1109,23 @@
 
       //***************************************** problem **************************************************
 
-      //  let namedetails="ravi kumar is good boy mca"
+//       let names = "ravi kumar is good boy mca";
+//    let name2=names.split(" ")
 
-      //    let names=namedetails.split(" ")
+//  let name3=" "
+//     for( let i=0;i<name2.length;i++){
+//         name3+=name2[i].replace(name2[i][0],name2[i][0].toLocaleUpperCase())+" "
+//     }
+//      console.log( name3)
 
-      //        let name2=" "
 
-      //    for( let i=0;i<=names.length;i++){
-          
-      //        name2+=names[i].replace(names[i][0],names[i][0].toUpperCase())+" "
-      //    }
-      //             console.log(name2)
-      let names = "ravi kumar is good boy mca";
-       let name3=names.split(" ")
-      let name2 = "";
-      
-      for (let i = 0; i < name3.length; i++) {
-          name2 += name3[i].replace(name3[i][0], name3[i][0].toUpperCase()) + " ";
-      }
-      
-      console.log(name2);
-      
+            //***************************************** problem **************************************************
+
+             let array=[1,2,3,4,5,-1,-2,-3,-4,-5,9]
+                  let arr2=[]
+              for( let i=0;i<array.length;i++){
+                if( array[i] < 0){
+                   arr2.push(array[i])
+                }
+              }
+               console.log(arr2)
