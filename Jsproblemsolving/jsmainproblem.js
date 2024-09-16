@@ -1121,11 +1121,24 @@
 
             //***************************************** problem **************************************************
 
-             let array=[1,2,3,4,5,-1,-2,-3,-4,-5,9]
-                  let arr2=[]
-              for( let i=0;i<array.length;i++){
-                if( array[i] > 0){
-                   arr2.push(array[i])
-                }
-              }
-               console.log(arr2)
+            //  let array=[1,2,3,4,5,-1,-2,-3,-4,-5,9]
+            //       let arr2=[]
+            //   for( let i=0;i<array.length;i++){
+            //     if( array[i] > 0){
+            //        arr2.push(array[i])
+            //     }
+            //   }
+            //    console.log(arr2)
+                     //***************************************** problem **************************************************
+
+
+
+                      let nums=[1,1,2,3,3,3,2,4,4,5,5,6,6,6,7,7,8,8]
+                       nums.sort()
+                         let nums2=[]
+                        for( let i=0;i<nums.length;i++){
+                         if( nums[i]!=nums[i+1]) {
+                                nums2.push(nums[i])
+                         } 
+                        }
+                         console.log(nums2)
