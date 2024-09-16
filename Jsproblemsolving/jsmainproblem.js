@@ -1124,7 +1124,7 @@
              let array=[1,2,3,4,5,-1,-2,-3,-4,-5,9]
                   let arr2=[]
               for( let i=0;i<array.length;i++){
-                if( array[i] < 0){
+                if( array[i] > 0){
                    arr2.push(array[i])
                 }
               }
