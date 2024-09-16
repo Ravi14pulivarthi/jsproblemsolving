@@ -1146,10 +1146,21 @@
 
    //***************************************** problem **************************************************
 
-     let  string="ravikumar Pulivarthi"
- let str2=""
-      for( let i=string.length-1;i>0;i--){
-    str2+=string[i]
-      }
-       console.log(str2)
+//      let  string="ravikumar Pulivarthi"
+//  let str2=""
+//       for( let i=string.length-1;i>0;i--){
+//     str2+=string[i]
+//       }
+//        console.log(str2)
+
+   //***************************************** problem **************************************************
+ 
+   let  nums=[1,20,3,4,5]
+ let  largestnum=nums[0]
+     for( let i=0;i<nums.length;i++){
+   if(nums[i] > largestnum){
+      largestnum =nums[i]
+   }
+     }
+      console.log(largestnum)
 
