@@ -1180,11 +1180,22 @@
    //     console.log(names,age)
 
  //***************************************** problem ***************************************
-  let num=5
- let num2=1
-   for( let i=num;i>=1;i--){
-      num2*=i
+//   let num=5
+//  let num2=1
+//    for( let i=num;i>=1;i--){
+//       num2*=i
+//    }
+//     console.log(num2)
+ //***************************************** problem ***************************************
+ 
+ let string="non"
+ let str2=""
+  for( let i=string.length-1;i>=0;i--){
+    str2+=string[i]
+  } 
+   if( str2 === string){
+       console.log('Poli')
    }
-    console.log(num2)
-
-
+    else{
+       console.log("non Poli")
+    }
