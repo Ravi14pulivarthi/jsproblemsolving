@@ -1174,10 +1174,10 @@
 
 
 
-    let  array=[1,2,3,3,4,5,6,6,7,8,8,8,9]
+    let  array={names:"Ravikumar",age:25}
 
-      let[one,two]=array
-       console.log(one,two)
+      let{names,age}=array
+       console.log(names,age)
 
 
 
