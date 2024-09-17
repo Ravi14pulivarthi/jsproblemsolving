@@ -1155,18 +1155,29 @@
 
    //***************************************** problem **************************************************
  
-   let  nums=[1,20,3,4,5]
- let  largestnum=nums[0]
- let  smallestnum=nums[0]
+//    let  nums=[1,20,3,4,5]
+//  let  largestnum=nums[0]
+//  let  smallestnum=nums[0]
 
-     for( let i=0;i<nums.length;i++){
-   if(nums[i] > largestnum){
-      largestnum =nums[i]
-   }
-   if(nums[i] < smallestnum){
-      smallestnum =nums[i]
-   }
-     }
-      console.log(largestnum)
-      console.log(smallestnum)
+//      for( let i=0;i<nums.length;i++){
+//    if(nums[i] > largestnum){
+//       largestnum =nums[i]
+//    }
+//    if(nums[i] < smallestnum){
+//       smallestnum =nums[i]
+//    }
+//      }
+//       console.log(largestnum)
+//       console.log(smallestnum)
+
+   //***************************************** problem ********************************************
+
+
+
+    let  array=[1,2,3,3,4,5,6,6,7,8,8,8,9]
+
+      let[one,two]=array
+       console.log(one,two)
+
+
 
