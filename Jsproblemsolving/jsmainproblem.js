@@ -1188,14 +1188,24 @@
 //     console.log(num2)
  //***************************************** problem ***************************************
  
- let string="non"
- let str2=""
-  for( let i=string.length-1;i>=0;i--){
-    str2+=string[i]
-  } 
-   if( str2 === string){
-       console.log('Poli')
-   }
-    else{
-       console.log("non Poli")
+//  let string="non"
+//  let str2=""
+//   for( let i=string.length-1;i>=0;i--){
+//     str2+=string[i]
+//   } 
+//    if( str2 === string){
+//        console.log('Poli')
+//    }
+//     else{
+//        console.log("non Poli")
+//     }
+
+ //***************************************** problem ***************************************
+  let num1=5
+   let num2=5
+
+    for( let i=1;i<=num1;i++){
+      for( let j=1;j<=num2;j++){
+           console.log(`${i}*${j}=${i*j}`)
+      }
     }
