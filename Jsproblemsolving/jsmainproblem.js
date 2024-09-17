@@ -1174,10 +1174,17 @@
 
 
 
-    let  array={names:"Ravikumar",age:25}
+   //  let  array={names:"Ravikumar",age:25}
 
-      let{names,age}=array
-       console.log(names,age)
+   //    let{names,age}=array
+   //     console.log(names,age)
 
+ //***************************************** problem ***************************************
+  let num=5
+ let num2=1
+   for( let i=num;i>=1;i--){
+      num2*=i
+   }
+    console.log(num2)
 
 
