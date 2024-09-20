@@ -1210,7 +1210,9 @@
 //       }
 //     }
       //***************************************** problem ***************************************
-       function total(a,b){
-          return( a+b)
+       function total(a){
+          return(  function( b){
+           console.log(a+b)
+          })
        }
-         console.log( total(10,20))
+       total(10)(20)
