@@ -1201,11 +1201,16 @@
 //     }
 
  //***************************************** problem ***************************************
-  let num1=5
-   let num2=5
+//   let num1=5
+//    let num2=5
 
-    for( let i=1;i<=num1;i++){
-      for( let j=1;j<=num2;j++){
-           console.log(`${i}*${j}=${i*j}`)
-      }
-    }
+//     for( let i=1;i<=num1;i++){
+//       for( let j=1;j<=num2;j++){
+//            console.log(`${i}*${j}=${i*j}`)
+//       }
+//     }
+      //***************************************** problem ***************************************
+       function total(a,b){
+          return( a+b)
+       }
+         console.log( total(10,20))
