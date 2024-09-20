@@ -1217,4 +1217,4 @@
       //  }
       //  total(10)(20)
          //***************************************** problem **************
-       const total=()=>{console.log(a+b)}
+       const total=()=>{console.log(a-b)}
