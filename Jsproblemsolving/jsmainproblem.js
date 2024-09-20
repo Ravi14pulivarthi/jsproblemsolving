@@ -1210,9 +1210,11 @@
 //       }
 //     }
       //***************************************** problem ***************************************
-       function total(a){
-          return(  function( b){
-           console.log(a+b)
-          })
-       }
-       total(10)(20)
+      //  function total(a){
+      //     return(  function( b){
+      //      console.log(a+b)
+      //     })
+      //  }
+      //  total(10)(20)
+         //***************************************** problem **************
+       const total=()=>{console.log(a+b)}
