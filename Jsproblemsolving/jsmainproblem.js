@@ -1215,6 +1215,23 @@
       //      console.log(a+b)
       //     })
       //  }
-      //  total(10)(20)
-         //***************************************** problem **************
-       const total=()=>{console.log(a-b)}
+      //  total(10)(20) 
+      //  const total=()=>{console.log(a-b)}
+         //***************************************** problem *************************************
+
+          let num=4
+            let count=1
+           for( let i=0;i<num;i++){
+             if( num%i ==0){
+                count+=1
+             }
+           }
+             if( count === 2){
+                console.log("Number  is Prime")
+             }
+              else{
+                 console.log("Not  prime ")
+              }
+
+
+     
