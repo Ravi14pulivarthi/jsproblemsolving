@@ -1219,19 +1219,32 @@
       //  const total=()=>{console.log(a-b)}
          //***************************************** problem *************************************
 
-          let num=4
-            let count=1
-           for( let i=0;i<num;i++){
-             if( num%i ==0){
-                count+=1
-             }
-           }
-             if( count === 2){
-                console.log("Number  is Prime")
-             }
-              else{
-                 console.log("Not  prime ")
-              }
+         //  let num=4
+         //    let count=1
+         //   for( let i=0;i<num;i++){
+         //     if( num%i ==0){
+         //        count+=1
+         //     }
+         //   }
+         //     if( count === 2){
+         //        console.log("Number  is Prime")
+         //     }
+         //      else{
+         //         console.log("Not  prime ")
+         //      }
+              //***************************************** problem *************************************
+               let num=5
+
+                for(  let i=0;i<=num;i++){
+                   let num3=""
+                   for( let j=0;j< num -1-i;j++){
+                     num3+=" "
+                  }
+                   for( let j=0;j<i;j++){
+                     num3+=" *"
+                  }
+                    console.log(num3)
+                }
 
 
      
