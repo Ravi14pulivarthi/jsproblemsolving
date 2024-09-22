@@ -1233,18 +1233,20 @@
          //         console.log("Not  prime ")
          //      }
               //***************************************** problem *************************************
-               let num=5
+               // let num=5
 
-                for(  let i=0;i<=num;i++){
-                   let num3=""
-                   for( let j=0;j< num -1-i;j++){
-                     num3+=" "
-                  }
-                   for( let j=0;j<i;j++){
-                     num3+=" *"
-                  }
-                    console.log(num3)
-                }
+               //  for(  let i=0;i<=num;i++){
+               //     let num3=""
+               //     for( let j=0;j< num -1-i;j++){
+               //       num3+=" "
+               //    }
+               //     for( let j=0;j<i;j++){
+               //       num3+=" *"
+               //    }
+               //      console.log(num3)
+               //  }
+                   //***************************************** problem **********************************
+                    let  num=5
 
 
      
