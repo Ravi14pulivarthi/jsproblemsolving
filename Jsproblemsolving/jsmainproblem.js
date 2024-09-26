@@ -1247,23 +1247,34 @@
                //  }
                    //*************************************** problem **********************************
 
-                   let string="ravi kumar is good boy ok na"
+                  //  let string="ravi kumar is good boy ok na"
 
-                   let str2=string.split(" ")
+                  //  let str2=string.split(" ")
 
-                    let str3=" "
-                     for(  let i=0;i<str2.length;i++){
-                          str3+=str2[i].replace(str2[i][0],str2[i][0].toLocaleUpperCase())+" "
-                     }
+                  //   let str3=" "
+                  //    for(  let i=0;i<str2.length;i++){
+                  //         str3+=str2[i].replace(str2[i][0],str2[i][0].toLocaleUpperCase())+" "
+                  //    }
 
-                      console.log(str3)
+                  //     console.log(str3)
 
-
-
-
-
-        
-                       //***************************************** problem *************************************
+             //***************************************** problem *************************************
 
 
-     
+                               let array=[9,8,7,6,5,4,3,2,1]
+
+
+                                 let arra2=""
+                                              let swap=""
+                                  for( i=0;i<array.length;i++){
+                              
+                                      for( let j=0;j<array.length;j++){
+                                         if( array[i] < array[j]){
+                                          swap=array[i]
+                                          array[i]=array[j]
+                                          array[j]=swap
+                                         }
+                                      }
+                                  }
+                                   console.log(array)
+         //***************************************** problem *************************************                             
