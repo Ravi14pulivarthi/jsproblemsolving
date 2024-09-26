@@ -1261,20 +1261,32 @@
              //***************************************** problem *************************************
 
 
-                               let array=[9,8,7,6,5,4,3,2,1]
+                              //  let array=[9,8,7,6,5,4,3,2,1]
 
 
-                                 let arra2=""
-                                              let swap=""
-                                  for( i=0;i<array.length;i++){
+                              //    let arra2=""
+                              //                 let swap=""
+                              //     for( i=0;i<array.length;i++){
                               
-                                      for( let j=0;j<array.length;j++){
-                                         if( array[i] > array[j]){
-                                          swap=array[i]
-                                          array[i]=array[j]
-                                          array[j]=swap
-                                         }
-                                      }
-                                  }
-                                   console.log(array)
-         //***************************************** problem *************************************                             
+                              //         for( let j=0;j<array.length;j++){
+                              //            if( array[i] > array[j]){
+                              //             swap=array[i]
+                              //             array[i]=array[j]
+                              //             array[j]=swap
+                              //            }
+                              //         }
+                              //     }
+                              //      console.log(array)
+         //***************************************** problem ************************************* 
+         
+         
+          let array=[10,2,1,3,4,5,6,7,8,9]
+
+             let  largestnum=array[0]
+
+              for( let i=0;i<array.length;i++){
+                 if(array[i] > largestnum){
+                   largestnum = array[i]
+                 }
+              }
+ console.log(largestnum)
