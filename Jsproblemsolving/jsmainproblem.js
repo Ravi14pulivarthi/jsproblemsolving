@@ -1284,12 +1284,17 @@
           let array=[10,2,1,3,4,5,6,7,8,9]
 
              let  largestnum=array[0]
+             let  smallestnum=array[0]
 
               for( let i=0;i<array.length;i++){
-                 if(array[i] < largestnum){
+                 if(array[i] > largestnum){
                    largestnum = array[i]
                  }
+                 if(array[i] <  smallestnum){
+                   smallestnum = array[i]
+                }
               }
-         console.log(largestnum)
+         console.log(" the number is  largest = "+largestnum)
+         console.log(" the number is  =  "+smallestnum)
 
    //***************************************** problem ************************************* 
