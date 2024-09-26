@@ -1219,7 +1219,7 @@
       //  const total=()=>{console.log(a-b)}
          //***************************************** problem *************************************
 
-         //  let num=4
+         //  let num=2
          //    let count=1
          //   for( let i=0;i<num;i++){
          //     if( num%i ==0){
@@ -1245,8 +1245,25 @@
                //    }
                //      console.log(num3)
                //  }
-                   //***************************************** problem **********************************
-                    let  num=5
+                   //*************************************** problem **********************************
+
+                   let string="ravi kumar is good boy ok na"
+
+                   let str2=string.split(" ")
+
+                    let str3=" "
+                     for(  let i=0;i<str2.length;i++){
+                          str3+=str2[i].replace(str2[i][0],str2[i][0].toLocaleUpperCase())+" "
+                     }
+
+                      console.log(str3)
+
+
+
+
+
+        
+                       //***************************************** problem *************************************
 
 
      
