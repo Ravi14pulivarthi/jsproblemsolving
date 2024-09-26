@@ -1277,6 +1277,7 @@
                               //         }
                               //     }
                               //      console.log(array)
+
          //***************************************** problem ************************************* 
          
          
@@ -1285,8 +1286,10 @@
              let  largestnum=array[0]
 
               for( let i=0;i<array.length;i++){
-                 if(array[i] > largestnum){
+                 if(array[i] < largestnum){
                    largestnum = array[i]
                  }
               }
- console.log(largestnum)
+         console.log(largestnum)
+
+   //***************************************** problem ************************************* 
