@@ -1328,19 +1328,38 @@
 
  //***************************************** problem ************************************* 
 
- let num=[10,9,8,7,6,5,4,3,2,1,0]
+//  let num=[10,9,8,7,6,5,4,3,2,1,0]
 
-   let swap=" "
-    for( let i=0;i<num.length;i++){
-       for( let j=0;j<num.length;j++){
-                if( num[i] < num[j]){
-                    swap=num[i]
-                    num[i]=num[j]
-                     num[j]=swap
-                }
+//    let swap=" "
+//     for( let i=0;i<num.length;i++){
+//        for( let j=0;j<num.length;j++){
+//                 if( num[i] < num[j]){
+//                     swap=num[i]
+//                     num[i]=num[j]
+//                      num[j]=swap
+//                 }
+//        }
+//     }
+
+//      console.log(num)
+
+  //***************************************** problem ************************************* 
+
+     
+     let string="Ravi Kumar PULIVARTHI pulivarthi"
+      let str3=""
+     for( let i=0;i<string.length;i++){
+      if( string[i] === string[i].toUpperCase()){
+          str3+=string[i].toLocaleLowerCase()
+      }
+       else{
+          str3+=string[i].toLocaleUpperCase()
        }
-    }
+     }
+      console.log(str3)
 
-     console.log(num)
+       
+    
+
 
 
