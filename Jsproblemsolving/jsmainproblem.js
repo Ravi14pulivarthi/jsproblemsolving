@@ -1314,17 +1314,33 @@
      //***************************************** problem ************************************* 
 
 
-      let num=[5,4,3,2,1,5,4,3,2,1,5,4,3,2,1]
-    num.sort()
-     console.log(num)
-         let num2=0
-       for( let i=0;i<num.length;i++){
-          if( num[i]!==num[i+1]){
-                 num2+=(num[i])
-          }
-       }
-        console.log(num2)
+   //    let num=[5,4,3,2,1,5,4,3,2,1,5,4,3,2,1]
+   //  num.sort()
+   //   console.log(num)
+   //       let num2=0
+   //     for( let i=0;i<num.length;i++){
+   //        if( num[i]!==num[i+1]){
+   //               num2+=(num[i])
+   //        }
+   //     }
+   //      console.log(num2)
 
 
  //***************************************** problem ************************************* 
+
+ let num=[10,9,8,7,6,5,4,3,2,1,0]
+
+   let swap=" "
+    for( let i=0;i<num.length;i++){
+       for( let j=0;j<num.length;j++){
+                if( num[i] < num[j]){
+                    swap=num[i]
+                    num[i]=num[j]
+                     num[j]=swap
+                }
+       }
+    }
+
+     console.log(swap)
+
 
