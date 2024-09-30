@@ -1317,12 +1317,14 @@
       let num=[5,4,3,2,1,5,4,3,2,1,5,4,3,2,1]
     num.sort()
      console.log(num)
-         let num2=[]
+         let num2=0
        for( let i=0;i<num.length;i++){
           if( num[i]!==num[i+1]){
-                 num2.push(num[i])
+                 num2+=(num[i])
           }
        }
         console.log(num2)
 
+
+ //***************************************** problem ************************************* 
 
