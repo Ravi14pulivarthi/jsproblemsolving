@@ -1300,13 +1300,29 @@
    //***************************************** problem ************************************* 
 
 
-    let string ="ravi kumar is a good boy"
+//     let string ="ravi kumar is a good boy"
   
-    let string2= string.split(" ")
+//     let string2= string.split(" ")
 
-      let str=" "
+//       let str=" "
 
-       for( let i=0;i<string2.length;i++){
-          str+=string2[i].replace(string2[i][0],string2[i][0].toUpperCase())+" "
+//        for( let i=0;i<string2.length;i++){
+//           str+=string2[i].replace(string2[i][0],string2[i][0].toUpperCase())+" "
+//        }
+//  console.log(str)
+
+     //***************************************** problem ************************************* 
+
+
+      let num=[5,4,3,2,1,5,4,3,2,1,5,4,3,2,1]
+    num.sort()
+     console.log(num)
+         let num2=[]
+       for( let i=0;i<num.length;i++){
+          if( num[i]!==num[i+1]){
+                 num2.push(num[i])
+          }
        }
- console.log(str)
+        console.log(num2)
+
+
