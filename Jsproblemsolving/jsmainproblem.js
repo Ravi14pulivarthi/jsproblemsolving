@@ -1281,20 +1281,32 @@
          //***************************************** problem ************************************* 
          
          
-          let array=[10,2,1,3,4,5,6,7,8,9]
+         //  let array=[10,2,1,3,4,5,6,7,8,9]
 
-             let  largestnum=array[0]
-             let  smallestnum=array[0]
+         //     let  largestnum=array[0]
+         //     let  smallestnum=array[0]
 
-              for( let i=0;i<array.length;i++){
-                 if(array[i] > largestnum){
-                   largestnum = array[i]
-                 }
-                 if(array[i] <  smallestnum){
-                   smallestnum = array[i]
-                }
-              }
-         console.log(" the number is  largest = "+largestnum)
-         console.log(" the number is  =  "+smallestnum)
+         //      for( let i=0;i<array.length;i++){
+         //         if(array[i] > largestnum){
+         //           largestnum = array[i]
+         //         }
+         //         if(array[i] <  smallestnum){
+         //           smallestnum = array[i]
+         //        }
+         //      }
+         // console.log(" the number is  largest = "+largestnum)
+         // console.log(" the number is  =  "+smallestnum)
 
    //***************************************** problem ************************************* 
+
+
+    let string ="ravi kumar is a good boy"
+  
+    let string2= string.split(" ")
+
+      let str=" "
+
+       for( let i=0;i<string2.length;i++){
+          str+=string2[i].replace(string2[i][0],string2[i][0].toUpperCase())+" "
+       }
+ console.log(str)
