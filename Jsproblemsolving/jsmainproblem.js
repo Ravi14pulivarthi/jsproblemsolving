@@ -1341,6 +1341,6 @@
        }
     }
 
-     console.log(swap)
+     console.log(num)
 
 
