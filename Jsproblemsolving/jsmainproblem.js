@@ -1398,9 +1398,15 @@
   //***************************************** problem ***********************************
    
      console.log("Ravi")
-     setInterval(() => {
+     const data= setInterval(() => {
       console.log("Ravikumar");
   }, 1000);
+
+   setTimeout(() => {
+       clearInterval(data)
+   }, 2000);
+   //***************************************** problem ***********************************
+
 
 
 
