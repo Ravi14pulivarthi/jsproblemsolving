@@ -1397,16 +1397,21 @@
            
   //***************************************** problem ***********************************
    
-     console.log("Ravi")
-     const data= setInterval(() => {
-      console.log("Ravikumar");
-  }, 1000);
+//      console.log("Ravi")
+//      const data= setInterval(() => {
+//       console.log("Ravikumar");
+//   }, 1000);
 
-   setTimeout(() => {
-       clearInterval(data)
-   }, 2000);
+//    setTimeout(() => {
+//        clearInterval(data)
+//    }, 2000);
    //***************************************** problem ***********************************
 
 
-
+ let num=5
+  let num2=1
+  for( let i=num;i>=1;i--){
+    num2*=i
+  }
+   console.log(num2)
 
