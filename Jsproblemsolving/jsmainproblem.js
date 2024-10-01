@@ -1373,20 +1373,27 @@
    //  }
 
   //***************************************** problem ************************************* 
-  let string="raviKUMAR"
-   let str2=""
-   for( let i=0;i<string.length;i++){
+//   let string="raviKUMAR"
+//    let str2=""
+//    for( let i=0;i<string.length;i++){
 
-          if( string[i] === string[i].toUpperCase()){
-             str2+=string[i].toLowerCase()
-          }
-           else{
-             str2+=string[i].toUpperCase()
-           }
-       }
+//           if( string[i] === string[i].toUpperCase()){
+//              str2+=string[i].toLowerCase()
+//           }
+//            else{
+//              str2+=string[i].toUpperCase()
+//            }
+//        }
    
-    console.log(str2)
-       
+//     console.log(str2)
+
+
+  //***************************************** problem ************************************* 
+         console.log("Ravi")
+          setTimeout(()=>{
+            console.log("Ravikumar")
+          },2000)
+   
     
 
 
