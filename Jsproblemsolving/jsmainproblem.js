@@ -1389,12 +1389,18 @@
 
 
   //***************************************** problem ************************************* 
-         console.log("Ravi")
-          setTimeout(()=>{
-            console.log("Ravikumar")
-          },2000)
+         // console.log("Ravi")
+         //  setTimeout(()=>{
+         //    console.log("Ravikumar")
+         //  },2000)
+
+           
+  //***************************************** problem ***********************************
    
-    
+     console.log("Ravi")
+     setInterval(() => {
+      console.log("Ravikumar");
+  }, 1000);
 
 
 
