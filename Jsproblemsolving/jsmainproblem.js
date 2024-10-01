@@ -1360,18 +1360,32 @@
 
     
   //***************************************** problem ************************************* 
-   let num=5
-    for( let i=0;i<=num;i++){
-       let parteen=" "
-        for( let j=0;j<num-1-i;j++){
-          parteen+=" "
-        }
-        for( let j=0;j<i;j++){
-         parteen+="* "
-        }
-         console.log(parteen)
-    }
+   // let num=5
+   //  for( let i=0;i<=num;i++){
+   //     let parteen=" "
+   //      for( let j=0;j<num-1-i;j++){
+   //        parteen+=" "
+   //      }
+   //      for( let j=0;j<i;j++){
+   //       parteen+="* "
+   //      }
+   //       console.log(parteen)
+   //  }
 
+  //***************************************** problem ************************************* 
+  let string="raviKUMAR"
+   let str2=""
+   for( let i=0;i<string.length;i++){
+
+          if( string[i] === string[i].toUpperCase()){
+             str2+=string[i].toLowerCase()
+          }
+           else{
+             str2+=string[i].toUpperCase()
+           }
+       }
+   
+    console.log(str2)
        
     
 
