@@ -1434,20 +1434,27 @@
   //***************************************** problem *******************************************
 
 
- let nums=[9,8,7,6,5,4,3,2,1]
+//  let nums=[9,8,7,6,5,4,3,2,1]
 
-    let swap=" "
-     for( let i=0;i<nums.length;i++){
-       for( let j=0;j<nums.length;j++){
-           if( nums[i] > nums[j]){
-            swap = nums[i]
-            nums[i]=nums[j]
-            nums[j]=swap
+//     let swap=" "
+//      for( let i=0;i<nums.length;i++){
+//        for( let j=0;j<nums.length;j++){
+//            if( nums[i] > nums[j]){
+//             swap = nums[i]
+//             nums[i]=nums[j]
+//             nums[j]=swap
             
-           }
-       }
-     }
- console.log(nums)
+//            }
+//        }
+//      }
+//  console.log(nums)
 
+   //***************************************** problem *******************************************
+
+   let nums = [1, 2, 3, 4, 5];
+
+let [one, two] = nums;
+
+console.log(one); // 1
 
 
