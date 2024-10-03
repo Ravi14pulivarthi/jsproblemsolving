@@ -1451,10 +1451,18 @@
 
    //***************************************** problem *******************************************
 
-   let nums = [1, 2, 3, 4, 5];
+//    let nums = [1, 2, 3, 4, 5];
 
-let [one, two] = nums;
+// let [one, two] = nums;
 
-console.log(one); // 1
+// console.log(one); // 1
+ 
+   //***************************************** problem *******************************************
+    
+   let nums = {name:'Mani',age:25};
+
+let { name,age} = nums;
+
+console.log(age); // 1
 
 
