@@ -1408,10 +1408,30 @@
    //***************************************** problem ***********************************
 
 
- let num=5
-  let num2=1
-  for( let i=num;i>=1;i--){
-    num2*=i
-  }
-   console.log(num2)
+//  let num=5
+//   let num2=1
+//   for( let i=num;i>=1;i--){
+//     num2*=i
+//   }
+//    console.log(num2)
+
+    //***************************************** problem *******************************************
+ let num=4
+  let count=1
+   for( let i=0;i<num;i++){
+       if( num%i ==0){
+          count+=1
+       }
+   }
+
+    if( count === 2){
+       console.log("Prime number")
+    }
+     else{
+       console.log("Not Prime")
+     }
+
+
+
+
 
