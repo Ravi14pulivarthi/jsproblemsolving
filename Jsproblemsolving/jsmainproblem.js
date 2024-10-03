@@ -1416,22 +1416,38 @@
 //    console.log(num2)
 
     //***************************************** problem *******************************************
- let num=4
-  let count=1
-   for( let i=0;i<num;i++){
-       if( num%i ==0){
-          count+=1
+//  let num=4
+//   let count=1
+//    for( let i=0;i<num;i++){
+//        if( num%i ==0){
+//           count+=1
+//        }
+//    }
+
+//     if( count === 2){
+//        console.log("Prime number")
+//     }
+//      else{
+//        console.log("Not Prime")
+//      }
+
+  //***************************************** problem *******************************************
+
+
+ let nums=[9,8,7,6,5,4,3,2,1]
+
+    let swap=" "
+     for( let i=0;i<nums.length;i++){
+       for( let j=0;j<nums.length;j++){
+           if( nums[i] < nums[j]){
+            swap = nums[i]
+            nums[i]=nums[j]
+            nums[j]=" "
+            
+           }
        }
-   }
-
-    if( count === 2){
-       console.log("Prime number")
-    }
-     else{
-       console.log("Not Prime")
      }
-
-
+ console.log(swap)
 
 
 
