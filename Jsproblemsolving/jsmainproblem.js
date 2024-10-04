@@ -1469,7 +1469,7 @@
      
    //   array methods
 
-    let array="Ravikumar"
-     console.log(array.toLowerCase())
+    let array="                    Ravikumar"
+     console.log(array.trim())
 
 
