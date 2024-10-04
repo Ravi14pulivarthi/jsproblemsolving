@@ -1470,6 +1470,6 @@
    //   array methods
 
     let array="Ravikumar"
-     console.log(array.split(" "))
+     console.log(array.slice(1,3))
 
 
