@@ -1470,6 +1470,6 @@
    //   array methods
 
     let array="Ravikumar"
-     console.log(array.slice(1,3))
+     console.log(array.replace("Ravikumar","RavikumarPulivarthi"))
 
 
