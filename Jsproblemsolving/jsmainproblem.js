@@ -1470,7 +1470,7 @@
    //   array methods
 
     let array="Ravikumar"
-     let char=array.charCodeAt(1)
+     let char=array.charAt(1)
       console.log(char)
 
 
