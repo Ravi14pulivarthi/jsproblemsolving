@@ -1470,6 +1470,7 @@
    //   array methods
 
     let array="Ravikumar"
-     console.log(array.replace("Ravikumar","RavikumarPulivarthi"))
+     let char=array.charCodeAt(1)
+      console.log(char)
 
 
