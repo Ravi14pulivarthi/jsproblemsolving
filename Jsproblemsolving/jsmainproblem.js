@@ -1459,10 +1459,17 @@
  
    //***************************************** problem *******************************************
     
-   let nums = {name:'Mani',age:25};
+//    let nums = {name:'Mani',age:25};
 
-let { name,age} = nums;
+// let { name,age} = nums;
 
-console.log(age); // 1
+// console.log(age); // 1
+    //***************************************** problem *******************************************
+
+     
+   //   array methods
+
+    let array="Ravikumar"
+     console.log(array.length)
 
 
