@@ -1470,6 +1470,6 @@
    //   array methods
 
     let array="Ravikumar"
-     console.log(array.length)
+     console.log(array.toUpperCase())
 
 
