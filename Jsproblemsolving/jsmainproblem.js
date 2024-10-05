@@ -1478,7 +1478,7 @@
 
       let array=[1,2,3,4,5,6,7,"ravi",'kumar']
 
-      let arr2=array.splice(0,1,10)
+      let arr2=array.shift()
        console.log(array)
 
 
