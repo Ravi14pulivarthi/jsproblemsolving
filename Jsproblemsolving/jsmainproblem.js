@@ -1477,9 +1477,11 @@
       //  array methods
 
       let array=["ravi",'kumar']
+      let array2=["pulivarthi","nani"]
 
       
-       console.log(array.toString())
+    let arr3=array.concat(array2)
+     console.log(arr3)
 
 
 
