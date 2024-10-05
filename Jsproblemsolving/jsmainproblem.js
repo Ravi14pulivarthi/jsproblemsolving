@@ -1467,10 +1467,17 @@
     //***************************************** problem *******************************************
 
      
-   //   array methods
+   
 
-    let array="Ravikumar"
+   //  let array="Ravikumar"
 
-      console.log(array.at(0))
+   //    console.log(array.at(0))
+      //***************************************** problem *******************************************
+
+      //  array methods
+
+       let array=[1,2,3,4,5,6,7,"ravi",'kumar']
+          console.log(array)
+
 
 
