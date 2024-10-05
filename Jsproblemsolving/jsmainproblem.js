@@ -1478,7 +1478,7 @@
 
        let array=[1,2,3,4,5,6,7,"ravi",'kumar']
 
-          let arr2=array.splice(7,0,"ravikuamr")
+          let arr2=array.splice(7,1,"ravikuamr")
            console.log(array)
 
 
