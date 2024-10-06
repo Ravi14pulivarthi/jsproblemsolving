@@ -1489,8 +1489,8 @@
 //  Object methods
 
   let details={name:"Ravikumar",age:25,study:"Mca",city:"Gudivada"}
-
-   console.log(Object.values(details))
+  details.college="VRESEC"
+   console.log(details)
 
 
 
