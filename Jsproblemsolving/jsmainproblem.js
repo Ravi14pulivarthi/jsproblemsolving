@@ -1490,7 +1490,7 @@
 
   let details={name:"Ravikumar",age:25,study:"Mca",city:"Gudivada"}
 
-   console.log(details)
+   console.log(Object.keys(details))
 
 
 
