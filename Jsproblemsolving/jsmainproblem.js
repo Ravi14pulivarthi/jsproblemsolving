@@ -1476,12 +1476,21 @@
 
       //  array methods
 
-      let array=["ravi",'kumar']
-      let array2=["pulivarthi","nani"]
+   //    let array=["ravi",'kumar']
+   //    let array2=["pulivarthi","nani"]
 
       
-    let arr3=array.concat(array2)
-     console.log(arr3)
+   //  let arr3=array.concat(array2)
+   //   console.log(arr3)
+
+ //***************************************** problem *******************************************
+
+
+//  Object methods
+
+  let details={name:"Ravikumar",age:25,study:"Mca",city:"Gudivada"}
+
+   console.log(details)
 
 
 
