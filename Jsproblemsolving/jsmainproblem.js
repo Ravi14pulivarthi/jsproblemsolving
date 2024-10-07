@@ -1515,7 +1515,9 @@
 
  let  person={name:"sai",age:25, study:"mca",pin:234}
 
-  console.log(person.name)
+
+  Object.keys(person)
+  console.log(Object.keys(person))
 
  
 
