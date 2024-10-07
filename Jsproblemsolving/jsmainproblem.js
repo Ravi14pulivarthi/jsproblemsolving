@@ -1495,17 +1495,29 @@
 // **************************************** problem  ********************************************
 
 
- let num=5
-  for( let i=0;i<num;i++){
-    let num2=" "
-     for( let j=0; j<num -1-i;j++){
-       num2+=" "
-     }
-    for( let j=0;j<i;j++){
-       num2+=" *"
-    }
-     console.log(num2)
-  }
+//  let num=5
+//   for( let i=0;i<num;i++){
+//     let num2=" "
+//      for( let j=0; j<num -1-i;j++){
+//        num2+=" "
+//      }
+//     for( let j=0;j<i;j++){
+//        num2+=" *"
+//     }
+//      console.log(num2)
+//   }
+
+// **************************************** problem  ********************************************
+
+
+//  object methods
+
+
+ let  person={name:"sai",age:25, study:"mca",pin:234}
+
+  console.log(person.name)
+
+ 
 
 
 
