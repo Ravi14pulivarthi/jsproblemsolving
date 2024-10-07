@@ -1488,9 +1488,26 @@
 
 //  Object methods
 
-  let details={name:"Ravikumar",age:25,study:"Mca",city:"Gudivada"}
-  details.college="VRESEC"
-   console.log(details)
+//   let details={name:"Ravikumar",age:25,study:"Mca",city:"Gudivada"}
+//   details.college="VRESEC"
+//    console.log(details)
+
+// **************************************** problem  ********************************************
+
+
+ let num=5
+  for( let i=0;i<num;i++){
+    let num2=" "
+     for( let j=0; j<num -1-i;j++){
+       num2+=" "
+     }
+    for( let j=0;j<i;j++){
+       num2+=" *"
+    }
+     console.log(num2)
+  }
+
+
 
 
 
