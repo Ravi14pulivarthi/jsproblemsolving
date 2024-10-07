@@ -1517,7 +1517,7 @@
 
 
   person.city="vijayawada"
-  console.log(person)
+  console.log(Object.entries(person))
 
  
 
