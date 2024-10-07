@@ -1516,8 +1516,11 @@
  let  person={name:"sai",age:25, study:"mca",pin:234}
 
 
-  person.city="vijayawada"
-  console.log(Object.entries(person))
+ let person2={pho:123,email:"sai@email",gender:'male'}
+
+  let concet=Object.assign({},person,person2)
+   console.log(concet)
+
 
  
 
