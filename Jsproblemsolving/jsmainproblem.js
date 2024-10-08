@@ -1580,11 +1580,11 @@
 
  // **************************************** problem  ********************************************
 
-   let array=[1,2,3,4]
+   let object={name:"ravi",study:"mca"}
 
-    let[one,two]=array
+    let{name,study}=object
 
-     console.log(one)
+     console.log(object)
  
 
 
