@@ -1513,13 +1513,31 @@
 //  object methods
 
 
- let  person={name:"sai",age:25, study:"mca",pin:234}
+//  let  person={name:"sai",age:25, study:"mca",pin:234}
 
 
- let person2={pho:123,email:"sai@email",gender:'male'}
+//  let person2={pho:123,email:"sai@email",gender:'male'}
 
-  let concet=Object.assign({},person,person2)
-   console.log(concet)
+//   let concet=Object.assign({},person,person2)
+//    console.log(concet)
+
+
+// **************************************** problem  ********************************************
+
+
+ let string="raviKUMAR"
+
+
+   let str2=""
+     for( let i=0;i<string.length;i++){
+        if( string[i] === string[i].toUpperCase()){
+          str2+=string[i].toLowerCase()
+        }
+         else{
+             str2+=string[i].toUpperCase()
+         }
+     }
+     console.log(str2)
 
 
  
