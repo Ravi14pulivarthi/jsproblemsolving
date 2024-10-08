@@ -1566,17 +1566,25 @@
 // **************************************** problem  ********************************************
 
 
- let string="ravikumar"
- let str2=" "
- for(let i=0;i<string.length;i++){
-    if( i%2 ==0){
-       str2+=string[i].toUpperCase()
-    }
-     else{
-       str2+=string[i].toLowerCase()
-     }
- }
-  console.log(str2)
+//  let string="ravikumar"
+//  let str2=" "
+//  for(let i=0;i<string.length;i++){
+//     if( i%2 ==0){
+//        str2+=string[i].toUpperCase()
+//     }
+//      else{
+//        str2+=string[i].toLowerCase()
+//      }
+//  }
+//   console.log(str2)
+
+ // **************************************** problem  ********************************************
+
+   let array=[1,2,3,4]
+
+    let[one,two]=array
+
+     console.log(one)
  
 
 
