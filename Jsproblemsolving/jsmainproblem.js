@@ -1525,19 +1525,32 @@
 // **************************************** problem  ********************************************
 
 
- let string="raviKUMAR"
+//  let string="raviKUMAR"
 
 
-   let str2=""
-     for( let i=0;i<string.length;i++){
-        if( string[i] === string[i].toUpperCase()){
-          str2+=string[i].toLowerCase()
-        }
-         else{
-             str2+=string[i].toUpperCase()
-         }
-     }
-     console.log(str2)
+   // let str2=""
+   //   for( let i=0;i<string.length;i++){
+   //      if( string[i] === string[i].toUpperCase()){
+   //        str2+=string[i].toLowerCase()
+   //      }
+   //       else{
+   //           str2+=string[i].toUpperCase()
+   //       }
+   //   }
+   //   console.log(str2)
+
+
+
+   
+// **************************************** problem  ********************************************
+
+
+ let num=5
+  let num2=1
+  for( let i=num;i>1;i--){
+    num2*=i
+  }
+  console.log(num2)
 
 
  
