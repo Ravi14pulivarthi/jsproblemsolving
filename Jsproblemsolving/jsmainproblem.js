@@ -1545,12 +1545,22 @@
 // **************************************** problem  ********************************************
 
 
- let num=5
-  let num2=1
-  for( let i=num;i>1;i--){
-    num2*=i
-  }
-  console.log(num2)
+//  let num=5
+//   let num2=1
+//   for( let i=num;i>1;i--){
+//     num2*=i
+//   }
+//   console.log(num2)
+   
+// **************************************** problem  ********************************************
+
+let names="hii how are you"
+let name2=" "
+ for( let i=names.length-1;i>1;i--){
+     name2+=names[i]
+ }
+
+ console.log(name2)
 
 
  
