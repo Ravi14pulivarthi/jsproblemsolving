@@ -1554,15 +1554,29 @@
    
 // **************************************** problem  ********************************************
 
-let names="hii how are you"
-let name2=" "
- for( let i=names.length-1;i>1;i--){
-     name2+=names[i]
+// let names="hii how are you"
+// let name2=" "
+//  for( let i=names.length-1;i>1;i--){
+//      name2+=names[i]
+//  }
+
+//  console.log(name2)
+
+
+// **************************************** problem  ********************************************
+
+
+ let string="ravikumar"
+ let str2=" "
+ for(let i=0;i<string.length;i++){
+    if( i%2 ==0){
+       str2+=string[i].toUpperCase()
+    }
+     else{
+       str2+=string[i].toLowerCase()
+     }
  }
-
- console.log(name2)
-
-
+  console.log(str2)
  
 
 
