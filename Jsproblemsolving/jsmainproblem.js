@@ -1604,7 +1604,7 @@
 //           console.log("Non Prime")
 //         }
  // **************************************** problem  ********************************************
-  let number=8
+  let number={name:'ravi'}
    console.log(typeof number)
 
 
