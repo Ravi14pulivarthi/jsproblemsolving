@@ -1589,20 +1589,23 @@
    // **************************************** problem  ********************************************
 
 
-    let num=5
- let count=0
-     for( let i=0;i<num;i++){
+//     let num=5
+//  let count=0
+//      for( let i=0;i<num;i++){
 
-        if(num%i == 0){
-          count+=1
-        }
-     }
-       if(count== 1){
-          console.log("Prime number")
-       }
-        else{
-          console.log("Non Prime")
-        }
+//         if(num%i == 0){
+//           count+=1
+//         }
+//      }
+//        if(count== 1){
+//           console.log("Prime number")
+//        }
+//         else{
+//           console.log("Non Prime")
+//         }
+ // **************************************** problem  ********************************************
+  let string="Ravikumar"
+   console.log(string)
 
 
    
