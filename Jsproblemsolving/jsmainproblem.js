@@ -1605,7 +1605,7 @@
 //         }
  // **************************************** problem  ********************************************
   let string="Ravikumar"
-   console.log(string)
+   console.log(typeof string)
 
 
    
