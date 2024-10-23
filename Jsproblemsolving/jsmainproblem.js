@@ -1580,12 +1580,37 @@
 
  // **************************************** problem  ********************************************
 
-   let object={name:"ravi",study:"mca"}
+   // let object={name:"ravi",study:"mca"}
 
-    let{name,study}=object
+   //  let{name,study}=object
 
-     console.log(object)
+   //   console.log(object)
  
+   // **************************************** problem  ********************************************
+
+
+    let num=5
+ let count=0
+     for( let i=0;i<num;i++){
+
+        if(num%i == 0){
+          count+=1
+        }
+     }
+       if(count== 1){
+          console.log("Prime number")
+       }
+        else{
+          console.log("Non Prime")
+        }
+
+
+   
+
+
+    
+
+
 
 
 
