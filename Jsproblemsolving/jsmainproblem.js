@@ -1636,12 +1636,12 @@
 
 // **************************************** problem  ********************************************
 
- let num=[9,8,7,6,5,4,3,,2,1]
+ let num=[1,9,8,2,4,3,5,6,7]
 let swap=" "
   for( let i=0;i<num.length;i++){
     
     for( let j=0;j<num.length;j++){
-       if(num[i] < num[j]){
+       if(num[i] > num[j]){
          swap=num[i]
          num[i]=num[j]
          num[j]=swap
