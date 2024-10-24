@@ -1604,10 +1604,25 @@
 //           console.log("Non Prime")
 //         }
  // **************************************** problem  ********************************************
-  let number={name:'ravi'}
-   console.log(typeof number)
+//   let number={name:'ravi'}
+//    console.log(typeof number)
 
+// **************************************** problem  ********************************************
 
+ let num=20
+ 
+
+  for( let i=0;i<num;i++){
+   let count=0
+    for( let j=0;j<num;j++){
+      if(i%j ==0){
+          count+=1
+      }
+    }
+     if( count === 2){
+       console.log(i)
+     }
+  }
    
 
 
