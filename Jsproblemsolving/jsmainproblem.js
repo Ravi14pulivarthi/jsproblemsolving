@@ -1609,21 +1609,31 @@
 
 // **************************************** problem  ********************************************
 
- let num=20
+//  let num=20
  
 
-  for( let i=0;i<num;i++){
-   let count=0
-    for( let j=0;j<num;j++){
-      if(i%j ==0){
-          count+=1
-      }
-    }
-     if( count === 2){
-       console.log(i)
-     }
-  }
+//   for( let i=0;i<num;i++){
+//    let count=0
+//     for( let j=0;j<num;j++){
+//       if(i%j ==0){
+//           count+=1
+//       }
+//     }
+//      if( count === 2){
+//        console.log(i)
+//      }
+//   }
    
+// **************************************** problem  ********************************************
+
+
+ let str="ravikumar pulivarthi"
+  let str2=""
+  for( let i=str.length-1;i>0;i--){
+       str2+=str[i]
+  }
+   console.log(str2)
+
 
 
     
