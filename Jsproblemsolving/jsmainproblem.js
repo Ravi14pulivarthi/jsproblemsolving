@@ -1627,12 +1627,31 @@
 // **************************************** problem  ********************************************
 
 
- let str="ravikumar pulivarthi"
-  let str2=""
-  for( let i=str.length-1;i>0;i--){
-       str2+=str[i]
+//  let str="ravikumar pulivarthi"
+//   let str2=""
+//   for( let i=str.length-1;i>0;i--){
+//        str2+=str[i]
+//   }
+//    console.log(str2)
+
+// **************************************** problem  ********************************************
+
+ let num=[9,8,7,6,5,4,3,,2,1]
+let swap=" "
+  for( let i=0;i<num.length;i++){
+    
+    for( let j=0;j<num.length;j++){
+       if(num[i] < num[j]){
+         swap=num[i]
+         num[i]=num[j]
+         num[j]=swap
+       }
+    }
+   
   }
-   console.log(str2)
+  console.log(swap)
+
+
 
 
 
