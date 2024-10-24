@@ -1667,15 +1667,6 @@
 //    }
 // console.log(str4)
 
- let string="ravi kumar mca is good"
-  
-  let string2=string.split(" ")
-
-   let str4=" "
-    for( let i=0;i<string2.length;i++){
-       str4+=string2[i].replace(string2[i][0],string2[i][0].toUpperCase())+" "
-    }
-     console.log(str4)
 
 
 //  let str="ravi kumar pulivarthi mca iam back in  to hyderabad"
@@ -1692,7 +1683,18 @@
 // console.log(str3)
 
 
+// **************************************** problem  ********************************************
 
+
+ let num=[1,1,2,2,3,3,4,4,5,6,7,8,9,1,2,3,4,5,6,7,8,9,1,2,3,4,5,8]
+ num.sort()
+  let num2=[]
+  for( let i=0;i<num.length;i++){
+    if(num[i] !=num[i+1]){
+  num2.push(num[i])
+    }
+  }
+ console.log(num2)
 
 
 
