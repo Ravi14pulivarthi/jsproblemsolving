@@ -1636,22 +1636,61 @@
 
 // **************************************** problem  ********************************************
 
- let num=[1,9,8,2,4,3,5,6,7]
-let swap=" "
-  for( let i=0;i<num.length;i++){
+//  let num=[1,9,8,2,4,3,5,6,7]
+// let swap=" "
+//   for( let i=0;i<num.length;i++){
     
-    for( let j=0;j<num.length;j++){
-       if(num[i] > num[j]){
-         swap=num[i]
-         num[i]=num[j]
-         num[j]=swap
-       }
-    }
+//     for( let j=0;j<num.length;j++){
+//        if(num[i] > num[j]){
+//          swap=num[i]
+//          num[i]=num[j]
+//          num[j]=swap
+//        }
+//     }
    
-  }
-  console.log(num)
+//   }
+//   console.log(num)
   
 // **************************************** problem  ********************************************
+
+
+
+
+// let string ="ravi kumar is a good boy"
+  
+// let string2= string.split(" ")
+
+//   let str4=" "
+
+//    for( let i=0;i<string2.length;i++){
+//       str4+=string2[i].replace(string2[i][0],string2[i][0].toUpperCase())+" "
+//    }
+// console.log(str4)
+
+ let string="ravi kumar mca is good"
+  
+  let string2=string.split(" ")
+
+   let str4=" "
+    for( let i=0;i<string2.length;i++){
+       str4+=string2[i].replace(string2[i][0],string2[i][0].toUpperCase())+" "
+    }
+     console.log(str4)
+
+
+//  let str="ravi kumar pulivarthi mca iam back in  to hyderabad"
+   
+
+//  let str2=str.split(" ")
+
+//   let str3=" "
+
+
+//  for( let i=0;i<str2.length;i++){
+//  str3+=str2[i].replace(str2[i][0],str2[i][0].toUpperCase())+" "
+//  }
+// console.log(str3)
+
 
 
 
