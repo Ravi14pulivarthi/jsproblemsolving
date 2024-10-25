@@ -1730,17 +1730,7 @@
 
 // **************************************** problem  ********************************************
 
-//  let num = 5; // Number of rows
 
-//  for (let i = 0; i < num; i++) {
-//      let pattern = ""; 
-//      // Add alphabets
-//      for (let j = 0; j <= i; j++) {
-//          pattern += String.fromCharCode(65 + j) + " ";
-//      }
-     
-//      console.log(pattern);
-//  }
 
  let num=6
 
