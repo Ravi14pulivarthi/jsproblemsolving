@@ -1734,8 +1734,11 @@
 
   for( let i=1;i<=num;i++){
    let num3=""
+    for( let j=0;j< num-i-1 ;j++){
+   num3+=" "
+    }
     for( let j=1;j<=i;j++){
-       num3+=j
+       num3+=" *"
     }
      console.log(num3)
   }
