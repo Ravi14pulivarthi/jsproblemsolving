@@ -1686,16 +1686,32 @@
 // **************************************** problem  ********************************************
 
 
- let num=[1,1,2,2,3,3,4,4,5,6,7,8,9,1,2,3,4,5,6,7,8,9,1,2,3,4,5,8]
- num.sort()
-  let num2=[]
-  for( let i=0;i<num.length;i++){
-    if(num[i] !=num[i+1]){
-  num2.push(num[i])
-    }
-  }
- console.log(num2)
+//  let num=[1,1,2,2,3,3,4,4,5,6,7,8,9,1,2,3,4,5,6,7,8,9,1,2,3,4,5,8]
+//  num.sort()
+//   let num2=[]
+//   for( let i=0;i<num.length;i++){
+//     if(num[i] !=num[i+1]){
+//   num2.push(num[i])
+//     }
+//   }
+//  console.log(num2)
 
+ 
+// **************************************** problem  ********************************************
+ let nums=[0,1,2,2,3,3,4,4,5]
+ let nums2=[]
+  for( let i=0;i<nums.length;i++){
+    let count=0
+    for( let j=0;j<nums.length;j++){
+       if( nums[i]===nums[j]){
+          count++
+       }
+    }
+     if( count === 1){
+       nums2.push(nums[i])
+     }
+  }
+   console.log(nums2)
 
 
 
