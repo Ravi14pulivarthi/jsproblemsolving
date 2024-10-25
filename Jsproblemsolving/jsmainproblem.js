@@ -1717,16 +1717,28 @@
 // **************************************** problem  ********************************************
 
 
- let num=[1,2,3,4,5,6,7,8,10] 
+//  let num=[1,2,3,4,5,6,7,8,10] 
 
- let num2=num[0]
+//  let num2=num[0]
 
-  for( let i=0;i<num.length;i++){
-   if(num[i] <  num2){
-       num2 = num[i]
-   }
+//   for( let i=0;i<num.length;i++){
+//    if(num[i] <  num2){
+//        num2 = num[i]
+//    }
+//   }
+//    console.log(num2)
+
+// **************************************** problem  ********************************************
+ let num=5 
+
+
+  for( let i=1;i<=num;i++){
+   let num3=""
+    for( let j=1;j<=i;j++){
+       num3+=j
+    }
+     console.log(num3)
   }
-   console.log(num2)
 
 
 
