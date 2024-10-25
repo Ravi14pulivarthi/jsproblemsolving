@@ -1698,20 +1698,35 @@
 
  
 // **************************************** problem  ********************************************
- let nums=[0,1,2,2,3,3,4,4,5]
- let nums2=[]
-  for( let i=0;i<nums.length;i++){
-    let count=0
-    for( let j=0;j<nums.length;j++){
-       if( nums[i]===nums[j]){
-          count++
-       }
-    }
-     if( count === 1){
-       nums2.push(nums[i])
-     }
+//  let nums=[0,1,2,2,3,3,4,4,5]
+//  let nums2=[]
+//   for( let i=0;i<nums.length;i++){
+//     let count=0
+//     for( let j=0;j<nums.length;j++){
+//        if( nums[i]===nums[j]){
+//           count++
+//        }
+//     }
+//      if( count === 1){
+//        nums2.push(nums[i])
+//      }
+//   }
+//    console.log(nums2)
+
+ 
+// **************************************** problem  ********************************************
+
+
+ let num=[1,2,3,4,5,6,7,8,10] 
+
+ let num2=num[0]
+
+  for( let i=0;i<num.length;i++){
+   if(num[i] > num2){
+       num2 = num[i]
+   }
   }
-   console.log(nums2)
+   console.log(num2)
 
 
 
