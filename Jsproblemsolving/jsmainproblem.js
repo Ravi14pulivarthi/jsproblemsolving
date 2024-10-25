@@ -1732,18 +1732,26 @@
 
 
 
- let num=6
+//  let num=6
 
 
-  for( let i=0;i<num;i++){
-    let num2=""
+//   for( let i=0;i<num;i++){
+//     let num2=""
 
-     for( let j=0;j<i;j++){
-       num2+=String.fromCharCode(65 +j)+" "
-     }
-      console.log(num2)
-  }
+//      for( let j=0;j<i;j++){
+//        num2+=String.fromCharCode(65 +j)+" "
+//      }
+//       console.log(num2)
+//   }
  
+// **************************************** problem  ********************************************
+
+ let num=5
+  let num2=1
+  for( let i=num;i>=1;i--){
+    num2*=i
+  }
+   console.log(num2)
 
 
 
