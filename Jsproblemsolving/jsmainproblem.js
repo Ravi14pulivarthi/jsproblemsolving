@@ -1729,19 +1729,31 @@
 //    console.log(num2)
 
 // **************************************** problem  ********************************************
- let num=5 
+
+//  let num = 5; // Number of rows
+
+//  for (let i = 0; i < num; i++) {
+//      let pattern = ""; 
+//      // Add alphabets
+//      for (let j = 0; j <= i; j++) {
+//          pattern += String.fromCharCode(65 + j) + " ";
+//      }
+     
+//      console.log(pattern);
+//  }
+
+ let num=6
 
 
-  for( let i=1;i<=num;i++){
-   let num3=""
-    for( let j=0;j< num-i-1 ;j++){
-   num3+=" "
-    }
-    for( let j=1;j<=i;j++){
-       num3+=" *"
-    }
-     console.log(num3)
+  for( let i=0;i<num;i++){
+    let num2=""
+
+     for( let j=0;j<i;j++){
+       num2+=String.fromCharCode(65 +j)+" "
+     }
+      console.log(num2)
   }
+ 
 
 
 
