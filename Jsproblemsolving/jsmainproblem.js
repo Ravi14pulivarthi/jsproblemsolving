@@ -1722,7 +1722,7 @@
  let num2=num[0]
 
   for( let i=0;i<num.length;i++){
-   if(num[i] > num2){
+   if(num[i] <  num2){
        num2 = num[i]
    }
   }
