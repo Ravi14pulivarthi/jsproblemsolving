@@ -1820,18 +1820,38 @@
    
 // **************************************** problem  ******************************************
    
- let nums=[2,3,4,5,6,7,8,0,9,10]
+//  let nums=[2,3,4,5,6,7,8,0,9,10]
  
- let num2=nums[0]
+//  let num2=nums[0]
  
-  for( let i=0;i<nums.length;i++){
+//   for( let i=0;i<nums.length;i++){
     
-    if( nums[i] < num2){
-      num2 = nums[i]
-    }
+//     if( nums[i] > num2){
+//       num2 = nums[i]
+//     }
     
-  }
-   console.log(num2)
+//   }
+//    console.log(num2)
+   
+// **************************************** problem  ******************************************
+
+ let nums=[2,5,3,8,7,6,9,10,12,15,0,1,2,3]
+
+
+  let swap= " "
+   for( let i=0;i<nums.length;i++){
+
+       for( let j=0;j<nums.length;j++){
+          if(nums[i] <nums [j]){
+            swap = nums[i]
+            nums[i]=nums[j]
+             nums[j]= swap
+          }
+       }
+
+   }
+    console.log( swap)
+
 
 
 
