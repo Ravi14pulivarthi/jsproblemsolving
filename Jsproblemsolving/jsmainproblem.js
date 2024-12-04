@@ -1789,23 +1789,49 @@
 
    
 // **************************************** problem  ********************************************
+ // depulactes
+// let num=[1,1,2,3,2,3,4,4,5]
 
-// depulactes
-let num=[1,1,2,3,2,3,4,4,5]
+// num.sort()
 
-num.sort()
-
- let num2=[]
+//  let num2=[]
  
- for( let i=0;i<num.length;i++){
+//  for( let i=0;i<num.length;i++){
    
-   if(num[i] != num[i+1]){
-       num2.push(num[i])
-   }
- }
-  console.log(num2)
+//    if(num[i] != num[i+1]){
+//        num2.push(num[i])
+//    }
+//  }
+//   console.log(num2)
+
+   
+// **************************************** problem  ********************************************
 
 
+//  let nums=[1,2,3,4,5,6,7,8,9,10]
+//  let num2=nums[0]
+//   for( let i=0;i<nums.length;i++){
+//     if( nums[i] < num2){
+//       num2 == nums[i]
+//     }
+//   }
+//    console.log(num2)
+
+   
+// **************************************** problem  ******************************************
+   
+ let nums=[2,3,4,5,6,7,8,0,9,10]
+ 
+ let num2=nums[0]
+ 
+  for( let i=0;i<nums.length;i++){
+    
+    if( nums[i] > num2){
+      num2 = nums[i]
+    }
+    
+  }
+   console.log(num2)
 
 
 
