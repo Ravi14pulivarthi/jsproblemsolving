@@ -1756,20 +1756,36 @@
 
 // **************************************** problem  ********************************************
 
- let num=2
-  let count =0
+//  let num=2
+//   let count =0
   
-  for( let i=0;i<num;i++){
-    if(i%num ===0){
-       count+=1
-    }
-  }
-   if( count === 1){
-       console.log("prime number")
-   }
-    else{
-       console.log("not Prime number")
-    }
+//   for( let i=0;i<num;i++){
+//     if(i%num ===0){
+//        count+=1
+//     }
+//   }
+//    if( count === 1){
+//        console.log("prime number")
+//    }
+//     else{
+//        console.log("not Prime number")
+//     }
+     // **************************************** problem  ********************************************
+
+
+     let num=10
+
+     for( let i=0;i<num;i++){
+        let count=0
+       for( let j=0;j<num;j++){
+          if( i%j ===0){
+             count+=1
+          }
+       }
+        if( count === 2){
+          console.log(i)
+        }
+     }
 
 
 
