@@ -1746,12 +1746,32 @@
  
 // **************************************** problem  ********************************************
 
- let num=5
-  let num2=1
-  for( let i=num;i>=1;i--){
-    num2*=i
+//  let num=5
+//   let num2=1
+//   for( let i=num;i>=1;i--){
+//     num2*=i
+//   }
+//    console.log(num2)
+
+
+// **************************************** problem  ********************************************
+
+ let num=2
+  let count =0
+  
+  for( let i=0;i<num;i++){
+    if(i%num ===0){
+       count+=1
+    }
   }
-   console.log(num2)
+   if( count === 1){
+       console.log("prime number")
+   }
+    else{
+       console.log("not Prime number")
+    }
+
+
 
 
 
