@@ -1773,21 +1773,37 @@
      // **************************************** problem  ********************************************
 
 
-     let num=10
+   //   let num=10
 
-     for( let i=0;i<num;i++){
-        let count=0
-       for( let j=0;j<num;j++){
-          if( i%j ===0){
-             count+=1
-          }
-       }
-        if( count === 2){
-          console.log(i)
-        }
-     }
+   //   for( let i=0;i<num;i++){
+   //      let count=0
+   //     for( let j=0;j<num;j++){
+   //        if( i%j ===0){
+   //           count+=1
+   //        }
+   //     }
+   //      if( count === 2){
+   //        console.log(i)
+   //      }
+   //   }
 
+   
+// **************************************** problem  ********************************************
 
+// depulactes
+let num=[1,1,2,3,2,3,4,4,5]
+
+num.sort()
+
+ let num2=[]
+ 
+ for( let i=0;i<num.length;i++){
+   
+   if(num[i] != num[i+1]){
+       num2.push(num[i])
+   }
+ }
+  console.log(num2)
 
 
 
