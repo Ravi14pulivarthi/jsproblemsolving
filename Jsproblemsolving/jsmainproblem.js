@@ -1870,8 +1870,8 @@
 
     // ***************************************************************************************
 
- let object={name:"ravi",age:25}
-  console.log(object)
+ let array=[1,2,3,"ravi"]
+  console.log(oarray)
 
     
 
