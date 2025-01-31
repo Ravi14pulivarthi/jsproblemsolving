@@ -1873,7 +1873,7 @@
 //  settimeout
 
 
- let nn =setInterval(
+setTimeout(
    function names(){
       console.log("Ravikumar Pulivarthi")
    },3000
@@ -1881,9 +1881,9 @@
  )
  
 
-  console.log(nn)
+  console.log(names)
 
-   clearInterval(nn)
+   // clearInterval(nn)
 
   // ***************************************************************************************
 
