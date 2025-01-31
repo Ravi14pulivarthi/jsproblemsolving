@@ -1908,15 +1908,24 @@
     
       // ***************************************************************************************
 
+   // let numbers=[1,2,3,4,5,6,7,8,9]
+
+   //  let num2=numbers.reduce((value,value2)=>{
+   //   return(value+value2)
+   //  })
+   //   console.log(num2)
+
+      // ***************************************************************************************
+
+
+      
    let numbers=[1,2,3,4,5,6,7,8,9]
 
-    let num2=numbers.reduce((value,value2)=>{
-     return(value+value2)
+
+    let num2=numbers.find((value)=>{
+         return(value%2==0)
     })
      console.log(num2)
-
-
-
 
 
 
