@@ -1873,19 +1873,28 @@
 //  settimeout
 
 
-setTimeout(
-   function names(){
-      console.log("Ravikumar Pulivarthi")
-   },3000
+// setTimeout(
+//    function names(){
+//       console.log("Ravikumar Pulivarthi")
+//    },3000
   
- )
+//  )
  
 
-  console.log(names)
+//   console.log(names)
 
    // clearInterval(nn)
 
   // ***************************************************************************************
+
+
+   let numbers=[1,2,3,4,5,6,7,8,9]
+
+
+    let num2=numbers.map((values)=>{
+             return(values*2)
+    })
+     console.log(num2)
 
     
 
