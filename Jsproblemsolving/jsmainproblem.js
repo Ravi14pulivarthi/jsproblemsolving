@@ -1835,22 +1835,22 @@
    
 // **************************************** problem  ******************************************
 
- let nums=[2,5,3,8,7,6,9,10,12,15,0,1,2,3]
+//  let nums=[2,5,3,8,7,6,9,10,12,15,0,1,2,3]
 
 
-  let swap= " "
-   for( let i=0;i<nums.length;i++){
+//   let swap= " "
+//    for( let i=0;i<nums.length;i++){
 
-       for( let j=0;j<nums.length;j++){
-          if(nums[i] > nums [j]){
-            swap = nums[i]
-            nums[i]=nums[j]
-             nums[j]= swap
-          }
-       }
+//        for( let j=0;j<nums.length;j++){
+//           if(nums[i] > nums [j]){
+//             swap = nums[i]
+//             nums[i]=nums[j]
+//              nums[j]= swap
+//           }
+//        }
 
-   }
-    console.log( swap)
+//    }
+//     console.log( swap)
 
 
     // *********************************************** febinosises seriez*************************
@@ -1870,8 +1870,22 @@
 
     // ***************************************************************************************
 
- let array=[1,2,3,"ravi"]
-  console.log(oarray)
+//  settimeout
+
+
+ let nn =setInterval(
+   function names(){
+      console.log("Ravikumar Pulivarthi")
+   },3000
+  
+ )
+ 
+
+  console.log(nn)
+
+
+
+  // ***************************************************************************************
 
     
 
