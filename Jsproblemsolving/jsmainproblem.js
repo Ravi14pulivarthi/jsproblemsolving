@@ -1940,11 +1940,29 @@
    //  }
 
        // ***************************************************************************************
-     let num1=[1,2,3,4]
+//      let num1=[1,2,3,4]
 
-      let num2=[5,6,7,8,9,10]
- let num3=[...num1,...num2]
-      console.log(num3)
+//       let num2=[5,6,7,8,9,10]
+//  let num3=[...num1,...num2]
+//       console.log(num3)
+// ***************************************************************************************
+
+
+ function add( val1,val2){
+   console.log(val1+val2)
+ }
+
+ function sub( val1,val2){
+   console.log(val1-val2)
+ }
+ function mul( val1,val2){
+   console.log(val1*val2)
+ }
+
+ function cal( val1,val2,operator){
+    operator(val1,val2)
+ }
+  cal(10,20,add)
 
 
 
