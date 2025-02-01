@@ -1962,7 +1962,7 @@
  function cal( val1,val2,operator){
     operator(val1,val2)
  }
-  cal(10,20,add)
+  cal(10,20,sub)
 
 
 
