@@ -1966,14 +1966,18 @@
 
  // ************************************************************************
 
-  function names(){
-    return ("Ravikumar Pulivarthi")
+  function names(name){
+    return ("this is name:"+ name)
   }
    
-   function highordarfun(callback){
-       console.log(callback())
-   }
 
-   highordarfun(names)
+  console.log(names("Ravi"))
+
+
+   // function highordarfun(callback){
+   //     console.log(callback("Ravikumar Pulivarthi"))
+   // }
+
+   // highordarfun(names)
 
 
