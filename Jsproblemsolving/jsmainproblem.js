@@ -1948,21 +1948,32 @@
 // ***************************************************************************************
 
 
- function add( val1,val2){
-   console.log(val1+val2)
- }
+//  function add( val1,val2){
+//    console.log(val1+val2)
+//  }
 
- function sub( val1,val2){
-   console.log(val1-val2)
- }
- function mul( val1,val2){
-   console.log(val1*val2)
- }
+//  function sub( val1,val2){
+//    console.log(val1-val2)
+//  }
+//  function mul( val1,val2){
+//    console.log(val1*val2)
+//  }
 
- function cal( val1,val2,operator){
-    operator(val1,val2)
- }
-  cal(10,20,sub)
+//  function cal( val1,val2,operator){
+//     operator(val1,val2)
+//  }
+//   cal(10,20,sub)
 
+ // ************************************************************************
+
+  function names(){
+    return ("Ravikumar Pulivarthi")
+  }
+   
+   function highordarfun(callback){
+       console.log(callback())
+   }
+
+   highordarfun(names)
 
 
