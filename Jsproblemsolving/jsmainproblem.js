@@ -1999,20 +1999,41 @@
  // ************************************************************************
  
 //  call
- let mainname={
-    names :"RavikumarPulivarthi"
- }
+//  let mainname={
+//     names :"RavikumarPulivarthi"
+//  }
   
 
-  let mainfun={
-    names:{
-      names:"Raghu"
-    },
-     extrafun:function(age){
-       console.log(this.names + "  : " +age)
-     }
-  }
+//   let mainfun={
+//     names:{
+//       names:"Raghu"
+//     },
+//      extrafun:function(age){
+//        console.log(this.names + "  : " +age)
+//      }
+//   }
 
-  let ex=  mainfun.extrafun.bind(mainname,[25])
-     ex()
+//   let ex=  mainfun.extrafun.bind(mainname,[25])
+//      ex()
    
+
+  // ************************************************************************
+     
+//      let mainfun={names:"Raghu", email:"ravi@123",
+//       persionainfo:{
+//          name2:'pandu',age:23,
+//          perperinfo:{
+//              vilage:"miryalaguda",living:"Gudivada"
+//          }
+//       }
+//      }
+    
+  
+
+//  console.log(mainfun.persionainfo.name2)
+
+  // ************************************************************************
+
+    let date=new Date()
+
+     console.log(date)
