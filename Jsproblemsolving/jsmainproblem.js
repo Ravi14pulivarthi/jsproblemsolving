@@ -1985,9 +1985,11 @@
    
  // ************************************************************************
 
- function name1(text1){
-    return function name2(text2){
-       console.log(text1+text2)
-    }
+ var  mainname ={
+     names : "Ravikumar",
+      getfunction: function(){
+         console.log(this.names)
+      }
+   
  }
-  name1("ravi")("kumar")
+  mainname.getfunction()
