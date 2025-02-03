@@ -2013,4 +2013,6 @@
      }
   }
 
-   mainfun.extrafun.apply(mainname,[25])
+  let ex=  mainfun.extrafun.bind(mainname,[25])
+     ex()
+   
