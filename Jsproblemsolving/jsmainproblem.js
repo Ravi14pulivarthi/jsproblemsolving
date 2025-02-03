@@ -1966,12 +1966,13 @@
 
  // ************************************************************************
 
-  function names(name){
-    return ("this is name:"+ name)
-  }
+//   function names(name){
+//     return ("this is name:"+ name)
+//   }
    
+  
 
-  console.log(names("Ravi"))
+//   console.log(names("Ravi"))
 
 
    // function highordarfun(callback){
@@ -1981,3 +1982,11 @@
    // highordarfun(names)
 
 
+   
+ // ************************************************************************
+
+//  function names(){
+//     var a="name"
+//  }
+ var a="ravi"
+  console.log(a)
