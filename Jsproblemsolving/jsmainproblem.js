@@ -1985,8 +1985,9 @@
    
  // ************************************************************************
 
-//  function names(){
-//     var a="name"
-//  }
- var a="ravi"
-  console.log(a)
+ function name1(text1){
+    return function name2(text2){
+       console.log(text1+text2)
+    }
+ }
+  name1("ravi")("kumar")
