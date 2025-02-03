@@ -1985,11 +1985,32 @@
    
  // ************************************************************************
 
- var  mainname ={
-     names : "Ravikumar",
-      getfunction: function(){
-         console.log(this.names)
-      }
+//  var  mainname ={
+//      names : "Ravikumar",
+//       getfunction: function(){
+//          console.log(this.names)
+//           console.log(this)
+//       }
    
+//  }
+//   mainname.getfunction()
+
+  
+ // ************************************************************************
+ 
+//  call
+ let mainname={
+    names :"RavikumarPulivarthi"
  }
-  mainname.getfunction()
+  
+
+  let mainfun={
+    names:{
+      names:"Raghu"
+    },
+     extrafun:function(age){
+       console.log(this.names + "  : " +age)
+     }
+  }
+
+   mainfun.extrafun.call(mainname,26)
