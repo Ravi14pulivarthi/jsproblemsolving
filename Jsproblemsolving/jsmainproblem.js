@@ -2046,6 +2046,6 @@
   // ************************************************************************
 //  math objects
 
- let a=123456
+ let a=-1
 
-  console.log(Math.sign(a))
+  console.log(Math.abs(a))
