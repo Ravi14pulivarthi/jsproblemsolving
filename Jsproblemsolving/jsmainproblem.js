@@ -2059,4 +2059,4 @@
 
     let string2="Pulivarthi"
 
-      console.log(string.slice(5))
+      console.log(string.includes("kumar"))
