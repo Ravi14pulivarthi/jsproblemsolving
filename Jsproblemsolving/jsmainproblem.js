@@ -2059,4 +2059,4 @@
 
     let string2="Pulivarthi"
 
-      console.log(string.split())
+      console.log(string.slice(5))
