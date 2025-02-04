@@ -2059,4 +2059,5 @@
 
     let string2="Pulivarthi"
 
-     console.log(string.concat(string2))
+   //   console.log(string.concat(string2))
+      console.log(string.length)
