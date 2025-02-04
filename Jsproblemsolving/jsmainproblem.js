@@ -2034,6 +2034,18 @@
 
   // ************************************************************************
 
-    let date=new Date()
+   //  let date=new Date()
 
-     console.log(date)
+   //   console.log(date.getDay())
+
+   //   console.log(date.getHours())
+   //   console.log(date.getFullYear())
+   //   console.log(date.getTime())
+
+   
+  // ************************************************************************
+//  math objects
+
+ let a=123456
+
+  console.log(Math.sign(a))
