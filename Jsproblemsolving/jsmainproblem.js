@@ -2058,4 +2058,4 @@
     let string="ravikumar"
 
 
-     console.log(string.lastIndexOf("r"))
+     console.log(string.toUpperCase())
