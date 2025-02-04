@@ -2046,6 +2046,16 @@
   // ************************************************************************
 //  math objects
 
- let a=12.10234
+//  let a=12.10234
 
-  console.log(Math.floor(a))
+//   console.log(Math.floor(a))
+
+   // ************************************************************************
+
+
+   //  stringmethod
+
+    let string="ravikumar"
+
+
+     console.log(string.charAt(2))
