@@ -2046,6 +2046,6 @@
   // ************************************************************************
 //  math objects
 
- let a=-1
+ let a=12.10234
 
-  console.log(Math.abs(a))
+  console.log(Math.floor(a))
