@@ -2058,4 +2058,4 @@
     let string="ravikumar"
 
 
-     console.log(string.charAt(2))
+     console.log(string.lastIndexOf("r"))
