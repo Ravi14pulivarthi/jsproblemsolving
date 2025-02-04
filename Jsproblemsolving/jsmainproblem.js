@@ -2057,5 +2057,6 @@
 
     let string="ravikumar"
 
+    let string2="Pulivarthi"
 
-     console.log(string.toUpperCase())
+     console.log(string.concat(string2))
