@@ -2055,8 +2055,8 @@
 
    //  stringmethod
 
-    let string="ravikumar"
+    let string="ravi kumar"
 
     let string2="Pulivarthi"
 
-      console.log(string.startsWith('R'))
+      console.log(string.split())
