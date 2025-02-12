@@ -2109,12 +2109,16 @@
  
        // ************************************************************************
 
-   let nums=[1,2,3,4,5,6]
+  //  let nums=[1,2,3,4,5,6]
 
 
     
-    let num2=nums.forEach((index,item)=>{
-    console.log(index , "." ,item+1)
-   })
+  //   let num2=nums.forEach((index,item)=>{
+  //   console.log(index , "." ,item+1)
+  //  })
 
-   console.log(num2)
+  //  console.log(num2)
+   
+       // ************************************************************************
+        let array=[[1][2],[3],[4],[5],[6],[7]]
+       document.write(array[0][0])
