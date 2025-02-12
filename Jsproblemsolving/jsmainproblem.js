@@ -2079,29 +2079,39 @@
 //  let p=prompt("ok")
 
 
- let num=70
+//  let num=70
 
-  switch(true){
-    case(num>=90):{
-      document.write("You got A+")
-    }
-    break;
-    case(num>=80):{
-      document.write("You got A")
-    }
-    break;
-    case(num>=70):{
-      document.write("You got B+")
-    }
-    case(num>=70):{
-      document.write("You got B")
-    }
-    case(num>=60):{
-      document.write("You got C")
-    }
-     default:{
-       document.write('yOU Are fail')
-     }
+//   switch(true){
+//     case(num>=90):{
+//       document.write("You got A+")
+//     }
+//     break;
+//     case(num>=80):{
+//       document.write("You got A")
+//     }
+//     break;
+//     case(num>=70):{
+//       document.write("You got B+")
+//     }
+//     case(num>=70):{
+//       document.write("You got B")
+//     }
+//     case(num>=60):{
+//       document.write("You got C")
+//     }
+//      default:{
+//        document.write('yOU Are fail')
+//      }
      
     
-  }
+//   }
+
+ 
+       // ************************************************************************
+
+        let num1=[1,2,3,4]
+
+         let names=["ravi",'kumar','mani']
+          
+         let n=num1.concat(names)
+          console.log(n)
