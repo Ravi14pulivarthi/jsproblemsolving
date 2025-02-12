@@ -2055,8 +2055,13 @@
 
    //  stringmethod
 
-    let string="ravi kumar"
+   //  let string="ravi kumar"
 
-    let string2="Pulivarthi"
+   //  let string2="Pulivarthi"
 
-      console.log(string.includes("kumar"))
+   //    console.log(string.includes("kumar"))
+
+       // ************************************************************************
+
+
+ let ladie=confirm("Are you women")
