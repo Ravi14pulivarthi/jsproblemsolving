@@ -2075,4 +2075,5 @@
 //   document.write("welcome Men"+ name)
 // }
 
- let  a=alert(" are you ok")
+//  let  a=alert(" are you ok")
+ let p=prompt("ok")
