@@ -2064,13 +2064,15 @@
        // ************************************************************************
 
 
- let ladie=confirm("Are you women")
+//  let ladie=confirm("Are you women")
   
- if(ladie){
-   let  name=prompt(" enter your name")
-   document.write("welcome womemn"+ name)
-}
-else{
-  let  name=prompt(" enter your name")
-  document.write("welcome Men"+ name)
-}
+//  if(ladie){
+//    let  name=prompt(" enter your name")
+//    document.write("welcome womemn"+ name)
+// }
+// else{
+//   let  name=prompt(" enter your name")
+//   document.write("welcome Men"+ name)
+// }
+
+ let  a=alert(" are you ok")
