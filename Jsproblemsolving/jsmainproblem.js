@@ -2111,7 +2111,6 @@
 
         let num1=[1,2,3,4]
 
-         let names=["ravi",'kumar','mani']
-          
-         let n=num1.concat(names)
-          console.log(n)
+         let num2=num1.slice(1,3)
+          console.log(num2)
+     
