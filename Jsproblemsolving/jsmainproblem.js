@@ -2109,13 +2109,12 @@
  
        // ************************************************************************
 
-        let num1=['ravi','kumar']
-
-         let num2=num1.indexOf('pulivarthi')
+   let nums=[1,2,3,4,5,6]
 
 
-      if( num2 ==-1){
-         num1.push("Plivarthi")
-      }
+    
+    let num2=nums.forEach((index,item)=>{
+    console.log(index , "." ,item+1)
+   })
 
-       console.log(num1)
+   console.log(num2)
