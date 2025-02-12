@@ -2109,8 +2109,13 @@
  
        // ************************************************************************
 
-        let num1=[1,2,3,4,5,6,7,8,9]
+        let num1=['ravi','kumar']
 
-      let num2=num1.splice(2,0,"*")
-          console.log(num1)
-     
+         let num2=num1.indexOf('pulivarthi')
+
+
+      if( num2 ==-1){
+         num1.push("Plivarthi")
+      }
+
+       console.log(num1)
