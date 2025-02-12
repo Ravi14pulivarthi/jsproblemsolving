@@ -2076,4 +2076,32 @@
 // }
 
 //  let  a=alert(" are you ok")
- let p=prompt("ok")
+//  let p=prompt("ok")
+
+
+ let num=70
+
+  switch(true){
+    case(num>=90):{
+      document.write("You got A+")
+    }
+    break;
+    case(num>=80):{
+      document.write("You got A")
+    }
+    break;
+    case(num>=70):{
+      document.write("You got B+")
+    }
+    case(num>=70):{
+      document.write("You got B")
+    }
+    case(num>=60):{
+      document.write("You got C")
+    }
+     default:{
+       document.write('yOU Are fail')
+     }
+     
+    
+  }
