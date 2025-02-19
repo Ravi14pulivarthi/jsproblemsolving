@@ -2193,4 +2193,4 @@
           }
           
        }
-         console.log(swap)
+         console.log(nums)
