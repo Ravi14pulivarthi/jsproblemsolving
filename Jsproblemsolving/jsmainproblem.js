@@ -2135,13 +2135,44 @@
 // ************************************************************************
 
 
- let amount=100
-  let days=30
-   let intrest=4
+//  let amount=100
+//   let days=30
+//    let intrest=4
 
-    for( let i=1;i<days;i++){
-       if(  i%4 ===0){
-          amount+=intrest
-       }
-       console.log("Amount  with intrest is ="+amount)
-    }
+//     for( let i=1;i<days;i++){
+//        if(  i%4 ===0){
+//           amount+=intrest
+//        }
+//        console.log("Amount  with intrest is ="+amount)
+//     }
+// ************************************************************************
+
+   //  let a=document.getElementById("chname")
+
+
+   //   a.innerText="ok na";
+   //    console.log(a)
+  
+      //  let a = document.getElementById("chname");
+      //  a.innerHTML="okm=na"
+      //  console.log(a);
+
+      debugger; 
+      let nums=[1,2,1,2,3,4,3,4,5]
+ 
+      nums.sort()
+      
+       console.log(nums)
+      
+       let num2=[]
+       
+      for( let i=0;i<nums.length;i++){
+        
+         if(nums[i]  != nums[i+1]){
+            num2.push(nums[i])
+          
+         }
+           
+           
+      }
+      console.log(num2)
