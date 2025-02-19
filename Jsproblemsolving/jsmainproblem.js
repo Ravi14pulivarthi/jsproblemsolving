@@ -2157,22 +2157,40 @@
       //  a.innerHTML="okm=na"
       //  console.log(a);
 
-      debugger; 
-      let nums=[1,2,1,2,3,4,3,4,5]
+      // debugger; 
+      // let nums=[1,2,1,2,3,4,3,4,5]
  
-      nums.sort()
+      // nums.sort()
       
-       console.log(nums)
+      //  console.log(nums)
       
-       let num2=[]
+      //  let num2=[]
        
-      for( let i=0;i<nums.length;i++){
+      // for( let i=0;i<nums.length;i++){
         
-         if(nums[i]  != nums[i+1]){
-            num2.push(nums[i])
+      //    if(nums[i]  != nums[i+1]){
+      //       num2.push(nums[i])
           
-         }
+      //    }
            
            
-      }
-      console.log(num2)
+      // }
+      // console.log(num2)
+
+      let nums=[9,4,0,,15,1,2,6,4,7,3]
+  
+  
+      let swap=""
+      
+      
+       for( let i=0;i<nums.length;i++){
+          for(let j=0;j<nums.length;j++){
+            if(nums[i] < nums[j]){
+                swap=nums[i]
+                nums[i]=nums[j]
+                nums[j]=swap
+            }
+          }
+          
+       }
+         console.log(swap)
