@@ -2120,5 +2120,28 @@
   //  console.log(num2)
    
        // ************************************************************************
-        let array=[[1][2],[3],[4],[5],[6],[7]]
-       document.write(array[0][0])
+      //   let array=[[1][2],[3],[4],[5],[6],[7]]
+      //  document.write(array[0][0])
+//               // ************************************************************************
+
+
+//   let num=0
+
+//   do{
+//  console.log("Ravikumar")
+//  num++
+// }while(num  < 20)
+
+// ************************************************************************
+
+
+ let amount=100
+  let days=30
+   let intrest=4
+
+    for( let i=1;i<days;i++){
+       if(  i%4 ===0){
+          amount+=intrest
+       }
+       console.log("Amount  with intrest is ="+amount)
+    }
