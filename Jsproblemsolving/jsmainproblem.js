@@ -2207,10 +2207,15 @@
 //     })
 
         // ************************************************************************
-         let nums=[1,2,3,4]
-         let nums2=[5,6,7,8,9,10]
+         // let nums=[1,2,3,4]
+         // let nums2=[5,6,7,8,9,10]
+         //   console.log(...nums,...nums2)
+  // ************************************************************************
 
 
-    
+   console.log("Ravikumar1")
+   console.log("Ravikumar2")
 
-           console.log(...nums,...nums2)
+   console.log("Ravikumar4")
+   console.log("Ravikumar5")
+ 
