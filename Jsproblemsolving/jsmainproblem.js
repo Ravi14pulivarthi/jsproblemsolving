@@ -2176,21 +2176,33 @@
            
       // }
       // console.log(num2)
-
-      let nums=[9,4,0,,15,1,2,6,4,7,3]
+// ************************************************************************
+      // let nums=[9,4,0,,15,1,2,6,4,7,3]
   
   
-      let swap=""
+      // let swap=""
       
       
-       for( let i=0;i<nums.length;i++){
-          for(let j=0;j<nums.length;j++){
-            if(nums[i] > nums[j]){
-                swap=nums[i]
-                nums[i]=nums[j]
-                nums[j]=swap
-            }
-          }
+      //  for( let i=0;i<nums.length;i++){
+      //     for(let j=0;j<nums.length;j++){
+      //       if(nums[i] > nums[j]){
+      //           swap=nums[i]
+      //           nums[i]=nums[j]
+      //           nums[j]=swap
+      //       }
+      //     }
           
-       }
-         console.log(nums)
+      //  }
+      //    console.log(nums)
+
+
+       // ************************************************************************
+
+
+        let nums=[1,2,3,4,5]
+
+
+    nums.forEach((a)=>{
+  console.log(a*2)
+    })
+
