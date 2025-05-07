@@ -2175,20 +2175,39 @@
 //  }
  // ************************************************************************
 
-   let nums= [1, 2, 3, 1, 2, 3, 4, 4, 5];
-    let count=[]
+   // let nums= [1, 2, 3, 1, 2, 3, 4, 4, 5];
+   //  let count=[]
+
+   //   for( let i=0;i<nums.length;i++){
+   //     let newcount=0 
+   //     for( let j=0;j<nums.length;j++){
+   //        if( nums[i]== nums[j]){
+   //          newcount++
+   //        }
+
+   //     }
+   //      if( newcount ==1){
+   //       count.push(nums[i])
+          
+   //      }
+   //   }
+   //    console.log(count)
+   
+ // ************************************************************************
+   let nums=[9,8,7,6,5,4,3,2,1]
+let swap=""
 
      for( let i=0;i<nums.length;i++){
-       let newcount=0 
+         
        for( let j=0;j<nums.length;j++){
-          if( nums[i]== nums[j]){
-            newcount++
-          }
 
+         if( nums[i] < nums[j]){
+
+            swap=nums[i]
+            nums[i]=nums[j]
+            nums[j]=swap
+
+         }
        }
-        if( newcount ==1){
-         count.push(nums[i])
-          
-        }
      }
-      console.log(count)
+      console.log(nums)
