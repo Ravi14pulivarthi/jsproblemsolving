@@ -2195,13 +2195,14 @@
    
  // ************************************************************************
    let nums=[9,8,7,6,5,4,3,2,1]
-let swap=""
+
+   let swap=""
 
      for( let i=0;i<nums.length;i++){
          
        for( let j=0;j<nums.length;j++){
 
-         if( nums[i] < nums[j]){
+         if( nums[i] > nums[j]){
 
             swap=nums[i]
             nums[i]=nums[j]
