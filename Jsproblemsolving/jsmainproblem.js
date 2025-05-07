@@ -2150,13 +2150,45 @@
  
 // ************************************************************************
 
- let  nums=[1,1,1,1,1,2,2,2,2,3,3,3,4,4,5]
- let newobj={}
+//  let  nums=[1,1,1,1,1,2,2,2,2,3,3,3,4,4,5]
+//  let newobj={}
 
 
-  for( let i=0;i<nums.length;i++){
-     let  numscount=nums[i]
+//   for( let i=0;i<nums.length;i++){
+//      let  numscount=nums[i]
 
-      newobj[numscount]=(newobj[numscount] ||0)+1
-  }
-   console.log(newobj)
+//       newobj[numscount]=(newobj[numscount] ||0)+1
+//   }
+//    console.log(newobj)
+ 
+// ************************************************************************
+//   let  nums=[1,1,1,1,1,2,2,2,2,3,3,3,4,4,5]
+
+//     let newobj={}
+//      for( let i=0;i<nums.length;i++){
+//        let newnums=nums[i]
+//         newobj[newnums]=(newobj[newnums]|| 0)+1;
+//      }
+      
+// for (const num in counts) {
+//    console.log(`${num} repeated ${counts[num]} times`);
+//  }
+ // ************************************************************************
+
+   let nums= [1, 2, 3, 1, 2, 3, 4, 4, 5];
+    let count=[]
+
+     for( let i=0;i<nums.length;i++){
+       let newcount=0 
+       for( let j=0;j<nums.length;j++){
+          if( nums[i]== nums[j]){
+            newcount++
+          }
+
+       }
+        if( newcount ==1){
+         count.push(nums[i])
+          
+        }
+     }
+      console.log(count)
