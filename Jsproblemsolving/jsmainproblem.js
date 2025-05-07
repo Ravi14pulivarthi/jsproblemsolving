@@ -2206,18 +2206,36 @@
 //   console.log(a*2)
 //     })
 
-        // ************************************************************************
+ // ************************************************************************
          // let nums=[1,2,3,4]
          // let nums2=[5,6,7,8,9,10]
          //   console.log(...nums,...nums2)
   // ************************************************************************
 
 
-   console.log("Ravikumar1")
-   console.log("Ravikumar2")
-   setTimeout(()=>{
-      console.log("Ravikumar3")
-   },3000)
-   console.log("Ravikumar4")
-   console.log("Ravikumar5")
+   // console.log("Ravikumar1")
+   // console.log("Ravikumar2")
+   // setTimeout(()=>{
+   //    console.log("Ravikumar3")
+   // },3000)
+   // console.log("Ravikumar4")
+   // console.log("Ravikumar5")
+ // ************************************************************************
+
+ let nums=[1,2,1,2,3,4,5]
+
+
+  nums.sort()
+   let count=[]
+
+   for( let i=0;i<nums.length;i++){
+       if( nums[i]!= nums[i+1]){
+          count.push(nums[i])
+       }
+
+   }
+    console.log(count)
+
+    
  
+
